@@ -1,0 +1,36 @@
+v 20121123 2
+T 410 850 8 10 0 0 0 0 1
+device=Dual_Two_Way_Switch
+P 300 100 0 100 1 0 1
+{
+T 160 150 5 10 0 0 0 0 1
+pinseq=1
+T 300 100 5 10 0 1 0 0 1
+pinnumber=3
+T 300 200 5 10 1 1 0 6 1
+pinlabel=3
+T 300 100 5 10 0 1 0 0 1
+pintype=pas
+}
+P 700 100 1000 100 1 0 1
+{
+T 860 150 5 10 0 0 0 0 1
+pinseq=2
+T 710 100 5 10 0 1 0 0 1
+pinnumber=4
+T 710 200 5 10 1 1 0 0 1
+pinlabel=4
+T 860 150 5 10 0 1 0 0 1
+pintype=pas
+}
+T 510 800 8 10 1 1 0 3 1
+refdes=CONN?
+T 700 1700 8 10 0 0 0 0 1
+symversion=1.0
+T 495 650 8 10 1 1 0 3 1
+model-name=AMPHENOL_BNC_31-5431
+T 495 450 8 10 1 1 0 3 1
+footprint=AMPHENOL_BNC_31-5431.fp
+B 300 0 400 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T -737 0 8 10 0 1 0 0 1
+device=BNC_CONNECTOR

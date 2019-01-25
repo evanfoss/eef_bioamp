@@ -1,0 +1,102 @@
+v 20091004 2
+P 0 800 300 800 1 0 0
+{
+T 200 850 5 8 1 1 0 6 1
+pinnumber=2
+T 200 750 5 8 0 1 0 8 1
+pinseq=2
+T 350 800 9 8 1 1 0 0 1
+pinlabel=Ref. Current
+T 350 800 5 8 0 1 0 2 1
+pintype=pas
+}
+P 0 200 300 200 1 0 0
+{
+T 200 250 5 8 1 1 0 6 1
+pinnumber=4
+T 200 150 5 8 0 1 0 8 1
+pinseq=4
+T 350 200 9 8 1 1 0 0 1
+pinlabel=GND
+T 350 200 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 2300 500 2000 500 1 0 0
+{
+T 2095 545 5 8 1 1 0 0 1
+pinnumber=6
+T 2100 450 5 8 0 1 0 2 1
+pinseq=6
+T 1945 495 9 8 1 1 0 6 1
+pinlabel=Threshold
+T 1950 500 5 8 0 1 0 8 1
+pintype=out
+}
+P 2300 1100 2000 1100 1 0 0
+{
+T 2095 1145 5 8 1 1 0 0 1
+pinnumber=8
+T 2100 1050 5 8 0 1 0 2 1
+pinseq=8
+T 1945 1095 9 8 1 1 0 6 1
+pinlabel=Vs
+T 1950 1100 5 8 0 1 0 8 1
+pintype=pas
+}
+P 300 1100 0 1100 1 0 1
+{
+T 205 1145 5 8 1 1 0 6 1
+pinnumber=1
+T 200 1050 5 8 0 1 270 2 1
+pinseq=1
+T 355 1095 9 8 1 1 0 0 1
+pinlabel=Current Out
+T 550 1100 5 8 0 1 270 3 1
+pintype=in
+}
+P 2000 800 2300 800 1 0 1
+{
+T 2100 850 5 8 1 1 0 0 1
+pinnumber=7
+T 2100 750 5 8 0 1 0 2 1
+pinseq=7
+T 1950 800 9 8 1 1 0 6 1
+pinlabel=Comp. In
+T 1950 800 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2000 200 2300 200 1 0 1
+{
+T 2095 245 5 8 1 1 0 0 1
+pinnumber=5
+T 2100 150 5 8 0 1 0 2 1
+pinseq=5
+T 1945 195 9 8 1 1 0 6 1
+pinlabel=R/C
+T 1950 200 5 8 0 1 0 8 1
+pintype=in
+}
+P 300 500 0 500 1 0 1
+{
+T 205 545 5 8 1 1 0 6 1
+pinnumber=3
+T 200 450 5 8 0 1 0 8 1
+pinseq=3
+T 355 495 9 8 1 1 0 0 1
+pinlabel=Freq. Out
+T 350 500 5 8 0 1 0 2 1
+pintype=pas
+}
+T 300 3150 5 10 0 0 0 0 1
+device=LM331
+T 2000 1400 8 10 1 1 0 6 1
+refdes=U?
+T 300 3350 5 10 0 0 0 0 1
+footprint=DIP8
+T 300 3550 5 10 0 0 0 0 1
+description=Voltage to Frequency Converter
+T 300 4150 5 10 0 0 0 0 1
+numslots=0
+T 300 1350 9 10 1 0 0 0 1
+LM331
+B 300 0 1700 1300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
