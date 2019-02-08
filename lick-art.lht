@@ -5290,6 +5290,14 @@ ha:pcb-rnd-board-v6 {
         }
         rot = 0.000000
        }
+       ha:text.10027 {
+        string=The damn footprint for the twinax has no mask clearance.; x=41.021mm; y=37.465mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+         selected=1
+        }
+        rot = 0.000000
+       }
       }
       color = {#8b2323}
     }
