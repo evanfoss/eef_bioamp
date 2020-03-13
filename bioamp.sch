@@ -62,7 +62,7 @@ refdes=C40
 T 44700 48700 5 10 0 0 0 0 1
 symversion=0.1
 T 45000 48700 5 10 1 1 0 3 1
-value=33pF
+value=2.2nF
 T 45000 48300 5 10 1 1 0 3 1
 footprint=acy(300)
 T 45000 48500 5 10 1 1 0 3 1
@@ -77,7 +77,7 @@ refdes=C41
 T 44100 47200 5 10 0 0 0 0 1
 symversion=0.1
 T 44300 47200 5 10 1 1 0 3 1
-value=33pF
+value=2.2nF
 T 44300 46800 5 10 1 1 0 3 1
 footprint=acy(300)
 T 44300 47000 5 10 1 1 0 3 1
@@ -85,10 +85,11 @@ comment=Metal Film
 }
 N 46500 47700 46500 48000 4
 N 46500 46800 46500 45700 4
-T 42600 41300 9 12 1 0 0 2 3
-Note: INA129 is actually like 121 or something.
-It must be in a socket as it is the most likely 
-component to be popped by user generated ESD.
+T 52700 50100 9 12 1 0 0 2 4
+Note: INA129 is actually an INA128. 
+The INA128 has lower noise and the 
+ability to operate at higher gains with 
+out giving up as much bw.
 C 41600 46800 1 0 0 twinax.sym
 {
 T 42000 48495 5 10 1 1 0 3 1
@@ -100,8 +101,11 @@ N 44500 48000 43000 48000 4
 N 43000 47600 43500 47600 4
 N 43500 47600 43500 46500 4
 N 43500 46500 43900 46500 4
-C 41900 45900 1 0 0 gnd-1.sym
 N 42000 46200 42000 46800 4
+{
+T 42000 45300 5 10 0 1 0 0 1
+netname=CHASSIS:1
+}
 C 50300 48800 1 0 0 capacitor-1.sym
 {
 T 50500 49500 5 10 0 0 0 0 1
@@ -157,23 +161,23 @@ comment=Metal Film
 }
 N 44500 43400 44500 43800 4
 N 44500 42500 44500 42200 4
-C 47300 43400 1 270 0 capacitor-1.sym
+C 46800 43400 1 270 0 capacitor-1.sym
 {
-T 48000 43200 5 10 0 0 270 0 1
+T 47500 43200 5 10 0 0 270 0 1
 device=CAPACITOR
-T 48200 43200 5 10 0 0 270 0 1
+T 47700 43200 5 10 0 0 270 0 1
 symversion=0.1
-T 47200 43200 5 10 1 1 0 6 1
+T 46700 43200 5 10 1 1 0 6 1
 refdes=C48
-T 47200 43000 5 10 1 1 0 6 1
+T 46700 43000 5 10 1 1 0 6 1
 value=10.0uF
-T 47200 42600 5 10 1 1 0 6 1
+T 46700 42600 5 10 1 1 0 6 1
 footprint=rcy(100, bar-sign)
-T 47200 42800 5 10 1 1 0 6 1
+T 46700 42800 5 10 1 1 0 6 1
 comment=Al-Poly
 }
-N 47500 43400 47500 43800 4
-N 47500 42500 47500 42200 4
+N 47000 43400 47000 43800 4
+N 47000 42500 47000 42200 4
 C 42300 43400 1 270 0 capacitor-1.sym
 {
 T 43000 43200 5 10 0 0 270 0 1
@@ -300,9 +304,9 @@ C 49600 49300 1 0 0 generic-power.sym
 T 49800 49550 5 10 1 1 0 3 1
 net=P15V:1
 }
-C 47300 43800 1 0 0 generic-power.sym
+C 46800 43800 1 0 0 generic-power.sym
 {
-T 47500 44050 5 10 1 1 0 3 1
+T 47000 44050 5 10 1 1 0 3 1
 net=P15V:1
 }
 C 44300 43800 1 0 0 generic-power.sym
@@ -315,9 +319,9 @@ C 42300 43800 1 0 0 generic-power.sym
 T 42500 44050 5 10 1 1 0 3 1
 net=P15V:1
 }
-C 47700 42200 1 180 0 generic-power.sym
+C 47200 42200 1 180 0 generic-power.sym
 {
-T 47500 41950 5 10 1 1 180 3 1
+T 47000 41950 5 10 1 1 180 3 1
 net=N15V:1
 }
 C 44700 42200 1 180 0 generic-power.sym
@@ -342,7 +346,7 @@ device=RESISTOR
 T 46300 47400 5 10 1 1 0 6 1
 refdes=R20
 T 46300 47200 5 10 1 1 0 6 1
-value=10M
+value=1M
 T 46300 47000 5 10 1 1 0 6 1
 footprint=acy(400, zigzag)
 }
@@ -353,7 +357,7 @@ device=RESISTOR
 T 45300 45800 5 10 1 1 0 6 1
 refdes=R21
 T 45300 45600 5 10 1 1 0 6 1
-value=10M
+value=1M
 T 45300 45400 5 10 1 1 0 6 1
 footprint=acy(400, zigzag)
 }
@@ -364,52 +368,14 @@ device=RESISTOR
 T 47800 47500 5 10 1 1 0 3 1
 refdes=R22
 T 47800 47300 5 10 1 1 0 3 1
-value=10M
+value=49.9
 T 47800 47100 5 10 1 1 0 3 1
 footprint=acy(400, zigzag)
 }
-C 53100 42300 1 0 1 BNC-1.sym
+C 42200 45900 1 0 1 chassis.sym
 {
-T 52700 43400 5 10 1 1 0 0 1
-device=BNC Connector
-T 52700 43600 5 10 1 1 0 0 1
-refdes=CONN12
-T 52700 43000 5 10 1 1 0 0 1
-footprint=AMPHENOL_BNC_31-5431-ver2
-T 52700 43200 5 10 1 1 0 0 1
-comment=31-5431
-T 52700 43200 5 10 0 1 0 0 1
-description=MFG: Amphenol ; Part#: 31-5431
-T 53100 42300 5 10 0 0 0 0 1
-symversion=1.0
-T 53100 42300 5 10 0 1 0 0 1
-value=31-5431
-}
-C 52900 41700 1 0 0 gnd-1.sym
-N 53000 42000 53000 42300 4
-C 51300 42700 1 0 0 resistor-1.sym
-{
-T 51600 43100 5 10 0 0 0 0 1
-device=RESISTOR
-T 51800 43400 5 10 1 1 0 3 1
-refdes=R24
-T 51800 43200 5 10 1 1 0 3 1
-value=10M
-T 51800 43000 5 10 1 1 0 3 1
-footprint=acy(400, zigzag)
-}
-N 52200 42800 52600 42800 4
-N 51300 42800 50400 42800 4
-{
-T 51900 42800 5 10 0 1 0 0 1
-netname=SMALL:1
-}
-C 49000 42900 1 180 1 input-2.sym
-{
-T 49600 42200 5 10 0 0 180 6 1
-device=none
-T 49500 42800 5 10 0 1 180 1 1
-value=INPUT
-T 49500 42800 5 10 1 1 180 1 1
-net=SMALL:1
+T 41900 46100 5 10 0 1 0 6 1
+netname=CHASSIS:1
+T 42200 45900 5 10 0 1 0 6 1
+net=CHASSIS:1
 }
