@@ -489,9 +489,9 @@ refdes=C14
 T 43200 42400 5 10 0 0 270 0 1
 symversion=0.1
 T 42200 41900 5 10 1 1 0 6 1
-footprint=RCY100P
+footprint=rcy(100, bar-sign)
 T 42200 42100 5 10 1 1 0 6 1
-description=Electrolytic
+description=Al-Poly
 T 42200 42300 5 10 1 1 0 6 1
 value=22uF
 T 42200 41700 5 10 1 1 0 6 1
@@ -506,9 +506,9 @@ refdes=C13
 T 45200 42400 5 10 0 0 270 0 1
 symversion=0.1
 T 44200 41900 5 10 1 1 0 6 1
-footprint=RCY100P
+footprint=rcy(100, bar-sign)
 T 44200 42100 5 10 1 1 0 6 1
-description=Electrolytic
+description=Al-Poly
 T 44200 42300 5 10 1 1 0 6 1
 value=22uF
 T 44200 41700 5 10 1 1 0 6 1
@@ -680,12 +680,5 @@ footprint=0805
 }
 N 46200 45300 46500 45300 4
 N 45000 45300 45300 45300 4
-C 53600 46500 1 0 0 LME49710.sym
-{
-T 54300 47300 5 10 0 0 0 0 1
-device=OPAMP
-T 54600 47500 5 10 1 1 0 0 1
-refdes=U?
-T 54595 47295 5 10 1 1 0 0 1
-device=LME49710
-}
+T 44400 46700 9 30 1 0 0 0 1
+I really only need an optional gain of 10 from here on.
