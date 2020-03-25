@@ -14,7 +14,7 @@
 #Project Name
 NAME = bioamp
 #Project Schematics
-SCHEMATICS = bioamp.sch
+SCHEMATICS = bioamp.sch output.sch
 #Project Netlists
 NETLISTS = $(NAME).net
 #Project SPICE Simulation Data
@@ -30,7 +30,7 @@ GRAPHCMDFILE_GNUPLOT = plot.gnu
 #Project Schematics to PCB File
 SCH2PCB = project.lht
 #Project Printed Circuit Boards
-PCBS = lick-art.lht
+PCBS = bioamp-art.lht
 #Project Gerbers
 GERBERS = $(NAME)-art.fab.gbr $(NAME)-art.plated-drill.cnc $(NAME)-art.frontsilk.gbr $(NAME)-art.front.gbr $(NAME)-art.frontmask.gbr $(NAME)-art.back.gbr  $(NAME)-art.backmask.gbr
 

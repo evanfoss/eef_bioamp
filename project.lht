@@ -3,9 +3,10 @@ ha:geda-project-v1 {
   ha:overwrite {
    ha:utils {
     ha:gsch2pcb_rnd {
-     sch_basename = bioamp
+     sch_basename = bioamp-art.lht
      li:schematics {
       bioamp.sch
+      output.sch
      }
     }
    }
