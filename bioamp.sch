@@ -326,3 +326,15 @@ netname=CHASSIS:1
 T 42200 45900 5 10 0 1 0 6 1
 net=CHASSIS:1
 }
+T 50000 40700 9 8 1 0 0 0 1
+Biological Amplifier Input Stage
+T 53900 40100 9 8 1 0 0 0 1
+Evan Foss
+T 53800 40400 9 8 1 0 0 0 1
+2020.03.25
+T 49900 40400 9 8 1 0 0 0 1
+bioamp.sch
+T 51500 40100 9 8 1 0 0 0 1
+2
+T 50000 40100 9 8 1 0 0 0 1
+1

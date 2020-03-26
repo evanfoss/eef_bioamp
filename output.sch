@@ -106,15 +106,15 @@ N 51800 41300 51800 41700 4
 C 51700 41000 1 0 0 gnd-1.sym
 N 50500 41700 49800 41700 4
 T 55000 40700 9 8 1 0 0 0 1
-Transimpedance Cable Driver
+Biological Amplifier Output Stage and Cable Driver
 T 58900 40100 9 8 1 0 0 0 1
 Evan Foss
 T 58800 40400 9 8 1 0 0 0 1
-2015.09.31
+2020.03.25
 T 54900 40400 9 8 1 0 0 0 1
-cabledrive.sch
+output.sch
 T 56500 40100 9 8 1 0 0 0 1
-6
+2
 T 55000 40100 9 8 1 0 0 0 1
 2
 C 41000 54200 1 0 0 input-2.sym
@@ -659,3 +659,6 @@ T 42100 48800 9 12 1 0 0 0 3
 Note: For most users I will not be stuffing S1 
 and will short jumper S1's footprint pins 2 and 
 1 so that the gain is fixed.
+T 55000 46900 9 12 1 0 0 0 2
+Note: The servo stage should be selected to remove
+response under 300Hz.
