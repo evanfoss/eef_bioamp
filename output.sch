@@ -662,3 +662,5 @@ and will short jumper S1's footprint pins 2 and
 T 55000 46900 9 12 1 0 0 0 2
 Note: The servo stage should be selected to remove
 response under 300Hz.
+T 41500 46200 9 30 1 0 0 0 1
+LOOK AT INA128 data sheet page 15. Alt. integrator feeback point.
