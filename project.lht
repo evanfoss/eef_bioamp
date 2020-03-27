@@ -6,7 +6,6 @@ ha:geda-project-v1 {
      sch_basename = bioamp-art.lht
      li:schematics {
       bioamp.sch
-      output.sch
      }
     }
    }
