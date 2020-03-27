@@ -35,7 +35,7 @@ symversion=1.0
 T 49600 52200 5 10 0 1 0 0 1
 value=INA121
 T 50800 53600 5 10 1 1 0 0 1
-refdes=U10
+refdes=U40
 T 50782 53395 5 10 1 1 0 0 1
 footprint=dip(8)
 }
@@ -84,7 +84,7 @@ N 47000 52800 47000 51700 4
 C 42100 52800 1 0 0 twinax.sym
 {
 T 42500 54495 5 10 1 1 0 3 1
-refdes=CONN10
+refdes=CONN40
 T 42500 54300 5 10 1 1 0 3 1
 footprint=TE_Connectivity_5228686-1-twinax.lht
 }
@@ -282,7 +282,7 @@ C 47100 52800 1 90 0 resistor-1.sym
 T 46700 53100 5 10 0 0 90 0 1
 device=RESISTOR
 T 46800 53400 5 10 1 1 0 6 1
-refdes=R20
+refdes=R42
 T 46800 53200 5 10 1 1 0 6 1
 value=1M
 T 46800 53000 5 10 1 1 0 6 1
@@ -293,7 +293,7 @@ C 45900 52100 1 270 0 resistor-1.sym
 T 46300 51800 5 10 0 0 270 0 1
 device=RESISTOR
 T 45800 51800 5 10 1 1 0 6 1
-refdes=R21
+refdes=R43
 T 45800 51600 5 10 1 1 0 6 1
 value=1M
 T 45800 51400 5 10 1 1 0 6 1
@@ -304,7 +304,7 @@ C 47900 52700 1 0 0 resistor-1.sym
 T 48200 53100 5 10 0 0 0 0 1
 device=RESISTOR
 T 48300 53500 5 10 1 1 0 3 1
-refdes=R22
+refdes=R41
 T 48300 53300 5 10 1 1 0 3 1
 value=49.9
 T 48300 53100 5 10 1 1 0 3 1
@@ -354,7 +354,7 @@ device=CAPACITOR
 T 60200 47200 5 10 0 0 270 0 1
 symversion=0.1
 T 59200 47200 5 10 1 1 0 6 1
-refdes=C10
+refdes=C23
 T 59200 47000 5 10 1 1 0 6 1
 value=100nF
 T 59200 46800 5 10 1 1 0 6 1
@@ -371,7 +371,7 @@ device=OPAMP
 T 56600 45900 5 10 0 0 0 0 1
 symversion=0.1
 T 56900 45700 5 10 1 1 0 0 1
-refdes=U5
+refdes=U20
 T 56895 45495 5 10 1 1 0 0 1
 model-name=OPA130
 T 56900 45300 5 10 1 1 0 0 1
@@ -409,7 +409,7 @@ device=CAPACITOR
 T 57300 47700 5 10 0 0 0 6 1
 symversion=0.1
 T 57100 48100 5 10 1 1 0 3 1
-refdes=C17
+refdes=C20
 T 57100 47900 5 10 1 1 0 3 1
 value=FIX_MEuF
 T 57100 47700 5 10 1 1 0 3 1
@@ -437,7 +437,7 @@ symversion=0.1
 T 54100 46700 5 10 0 1 0 3 1
 comment=C315C104M5U5TA
 T 54100 46900 5 10 1 1 0 3 1
-refdes=C20
+refdes=C21
 T 54100 46700 5 10 1 1 0 3 1
 value=100nF
 T 54100 46500 5 10 1 1 0 3 1
@@ -454,7 +454,7 @@ C 53800 44700 1 0 0 resistor-1.sym
 T 54100 45100 5 10 0 0 0 0 1
 device=RESISTOR
 T 54300 45400 5 10 1 1 0 3 1
-refdes=R12
+refdes=R20
 T 54300 45200 5 10 1 1 0 3 1
 value=5M
 T 54300 45000 5 10 1 1 0 3 1
@@ -469,7 +469,7 @@ symversion=0.1
 T 57600 44200 5 10 0 1 0 3 1
 comment=C315C104M5U5TA
 T 57600 44400 5 10 1 1 0 3 1
-refdes=C25
+refdes=C22
 T 57600 44200 5 10 1 1 0 3 1
 value=100nF
 T 57600 44000 5 10 1 1 0 3 1
@@ -494,10 +494,6 @@ N 53500 44800 53800 44800 4
 T 53900 42100 9 12 1 0 0 0 2
 Note: The servo stage should be selected to remove
 response under 300Hz.
-T 54700 49500 9 10 1 0 0 2 3
-Note: U5 another is the OPA602 but it can not handle as large capacitive
-loads so C17 would need to shrink and R12 would need to grow. It is 
-however, lower noise.
 C 54900 52200 1 0 1 input-2.sym
 {
 T 54300 52900 5 10 0 0 0 6 1
