@@ -25,6 +25,8 @@ T 53000 54100 5 10 1 1 0 3 1
 refdes=TP1
 T 53000 53900 5 10 1 1 0 3 1
 comment=PreAmplified
+T 52900 53400 5 10 1 1 0 0 1
+footprint=S1751-46R.fp
 }
 C 49600 52200 1 0 0 INA128.sym
 {
@@ -530,10 +532,12 @@ C 45800 42200 1 0 0 LF356.sym
 {
 T 46500 43000 5 10 0 0 0 0 1
 device=OPAMP
-T 46800 43200 5 10 1 1 0 0 1
+T 46800 43300 5 10 1 1 0 0 1
 refdes=U10
-T 46795 42995 5 10 1 1 0 0 1
+T 46795 43095 5 10 1 1 0 0 1
 device=LF356
+T 46800 42900 5 10 1 1 0 0 1
+footprint=so(8)
 }
 N 47200 42700 49400 42700 4
 N 46400 43200 46400 44200 4
@@ -648,11 +652,6 @@ footprint=1206
 }
 N 46900 46000 49100 46000 4
 N 46000 46000 44500 46000 4
-T 41500 40800 9 12 1 0 0 0 4
-Note: refdes=R10 and R11 are 
-reserved for the option of having the 
-servo loop around U60 for improved 
-CMRR. If used it they would be 1K.
 C 58700 51700 1 180 0 generic-power.sym
 {
 T 58500 51450 5 10 1 1 180 3 1

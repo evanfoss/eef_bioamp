@@ -1,0 +1,16 @@
+type=footprint
+software=gEDA/pcb
+license/dist=GPL
+license/use=unlimited
+author=Evan Foss
+copyright=(C) 2017 Evan Foss
+description=Testpoint, Harwin, S1751-46R
+documentation=https://cdn.harwin.com/pdfs/S1751R.pdf
+class=testpoint
+manufacturer=Harwin
+footprint/mounting=SMT
+height=2mm
+spacing=N.A.
+companion=testpt-1.sym
+pins=1
+tested=yes
