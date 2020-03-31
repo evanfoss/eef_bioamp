@@ -378,7 +378,7 @@ refdes=U20
 T 57395 46995 5 10 1 1 0 0 1
 model-name=OPA130
 T 57400 46800 5 10 1 1 0 0 1
-footprint=so(8)
+footprint=SO8
 }
 C 59800 46400 1 0 0 output-2.sym
 {
