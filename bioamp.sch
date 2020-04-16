@@ -157,21 +157,6 @@ comment=Ceramic
 }
 N 49000 48900 49000 49300 4
 N 49000 48000 49000 47700 4
-C 51300 48900 1 270 0 capacitor-1.sym
-{
-T 52000 48700 5 10 0 0 270 0 1
-device=CAPACITOR
-T 52200 48700 5 10 0 0 270 0 1
-symversion=0.1
-T 51200 48700 5 10 1 1 0 6 1
-refdes=C48
-T 51200 48500 5 10 1 1 0 6 1
-value=10.0uF
-T 51200 48100 5 10 1 1 0 6 1
-footprint=rcy(100, bar-sign)
-T 51200 48300 5 10 1 1 0 6 1
-comment=Al-Poly
-}
 N 51500 48900 51500 49300 4
 N 51500 48000 51500 47700 4
 C 47200 48000 1 90 0 capacitor-1.sym
@@ -691,7 +676,7 @@ symversion=0.1
 T 58200 55000 5 10 1 1 0 6 1
 refdes=C13
 T 58200 54400 5 10 1 1 0 6 1
-footprint=rcy(98, bar-sign)
+footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
 T 58200 54600 5 10 1 1 0 6 1
 description=Al-Poly
 T 58200 54800 5 10 1 1 0 6 1
@@ -708,7 +693,7 @@ symversion=0.1
 T 60700 55000 5 10 1 1 0 6 1
 refdes=C14
 T 60700 54400 5 10 1 1 0 6 1
-footprint=rcy(98\, bar-sign)
+footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
 T 60700 54600 5 10 1 1 0 6 1
 description=Al-Poly
 T 60700 54800 5 10 1 1 0 6 1
@@ -1000,3 +985,20 @@ footprint=te_2512.subc.lht
 }
 N 45500 48200 45800 48200 4
 N 44600 48200 43200 48200 4
+C 51300 48900 1 270 0 capacitor-2.sym
+{
+T 52000 48700 5 10 0 0 270 0 1
+device=POLARIZED_CAPACITOR
+T 52200 48700 5 10 0 0 270 0 1
+symversion=0.1
+T 51200 48800 5 10 1 1 0 6 1
+refdes=C48
+T 51200 48200 5 10 1 1 0 6 1
+footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
+T 51200 48400 5 10 1 1 0 6 1
+description=Al-Poly
+T 51200 48600 5 10 1 1 0 6 1
+value=22uF
+T 51200 48000 5 10 1 1 0 6 1
+model-name=35SEPF22M+TSS
+}
