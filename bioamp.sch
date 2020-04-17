@@ -300,13 +300,6 @@ value=49.9
 T 50300 53100 5 10 1 1 0 3 1
 footprint=1206
 }
-C 42200 51900 1 0 1 chassis.sym
-{
-T 41900 52100 5 10 0 1 0 6 1
-netname=CHASSIS:1
-T 42200 51900 5 10 0 1 0 6 1
-net=CHASSIS:1
-}
 T 49500 55500 9 10 1 0 0 0 2
 Input Amplifier
 (gain of 1000)
@@ -712,7 +705,7 @@ device=BNC
 T 56100 43200 5 10 1 1 0 6 1
 refdes=CONN10
 T 56100 43200 5 10 0 1 0 6 1
-footprint=AMPHENOL_BNC_31-5431-ver2.fp
+footprint=AMPHENOL_BNC_31-5431.subc.lht
 }
 C 55900 41800 1 0 0 gnd-1.sym
 N 56000 42100 56000 42500 4
@@ -828,36 +821,6 @@ net=P15V:1
 T 43800 51300 5 10 1 1 0 3 1
 comment=+15V
 }
-C 40500 46500 1 0 0 connector5-1.sym
-{
-T 42300 48000 5 10 0 0 0 0 1
-device=CONNECTOR_5
-T 40500 46500 5 10 0 1 0 0 1
-value=126-220
-T 40500 48800 5 10 1 1 0 0 1
-refdes=CONN4
-T 40500 48400 5 10 1 1 0 0 1
-description=Wired to MiniHEX9 (Male)
-T 40500 48200 5 10 1 1 0 0 1
-footprint=molex-22-05-3051-mini_5_ra.fp
-T 40500 48600 5 10 1 1 0 0 1
-comment=126-220
-}
-C 40500 49200 1 0 0 connector5-1.sym
-{
-T 42300 50700 5 10 0 0 0 0 1
-device=CONNECTOR_5
-T 40500 49200 5 10 0 1 0 0 1
-value=126-221
-T 40500 51500 5 10 1 1 0 0 1
-refdes=CONN1
-T 40500 51100 5 10 1 1 0 0 1
-description=Wired to MiniHEX9 (Female)
-T 40500 50900 5 10 1 1 0 0 1
-footprint=molex-22-05-3051-mini_5_ra.fp
-T 40500 51300 5 10 1 1 0 0 1
-comment=126-221
-}
 N 42200 50600 43800 50600 4
 N 42200 49700 43500 49700 4
 N 42200 50000 44100 50000 4
@@ -873,13 +836,6 @@ N 43500 45600 43500 49700 4
 {
 T 43600 46400 5 10 0 1 0 0 1
 netname=N15V
-}
-C 43400 44800 1 0 1 chassis.sym
-{
-T 43100 45000 5 10 0 1 0 6 1
-netname=CHASSIS:1
-T 43400 44800 5 10 0 1 0 6 1
-net=CHASSIS:1
 }
 T 43100 53700 9 12 1 0 0 0 1
 Sig+
@@ -1037,3 +993,31 @@ T 43200 51700 5 10 1 1 0 3 1
 footprint=connector(1, 1)
 }
 N 43200 51200 43200 49400 4
+C 40500 49200 1 0 0 connector5-1.sym
+{
+T 42300 50700 5 10 0 0 0 0 1
+device=CONNECTOR_5
+T 40500 51100 5 10 1 1 0 0 1
+refdes=CONN1
+T 40500 50900 5 10 1 1 0 0 1
+footprint=molex-22-05-3051-mini_5_ra.fp
+}
+C 40500 46500 1 0 0 connector5-1.sym
+{
+T 42300 48000 5 10 0 0 0 0 1
+device=CONNECTOR_5
+T 40500 48400 5 10 1 1 0 0 1
+refdes=CONN4
+T 40500 48200 5 10 1 1 0 0 1
+footprint=molex-22-05-3051-mini_5_ra.fp
+}
+C 43000 44800 1 0 0 chassis.sym
+{
+T 43000 44800 5 10 0 1 0 0 1
+graphical=1
+}
+C 41800 51900 1 0 0 chassis.sym
+{
+T 41800 51900 5 10 0 1 0 0 1
+graphical=1
+}
