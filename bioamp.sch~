@@ -1017,11 +1017,11 @@ symversion=0.1
 T 45000 47400 5 10 1 1 0 3 1
 refdes=C50
 T 45000 47200 5 10 1 1 0 3 1
-value=2.2uF
+value=0.1uF
 T 45000 46800 5 10 0 1 0 3 1
 footprint=1206
 T 45000 47000 5 10 1 1 0 3 1
-comment=Metal Film
+comment=Ceramic
 }
 N 44600 46500 43200 46500 4
 N 45500 46500 45800 46500 4
@@ -1029,15 +1029,11 @@ C 43100 51200 1 0 0 testpt-1.sym
 {
 T 43500 52100 5 10 0 0 0 0 1
 device=TESTPOINT
-T 43500 51900 5 10 0 0 0 0 1
-footprint=S1751-46R.fp
-T 43100 51200 5 10 0 1 0 0 1
-value=S1751-46R
 T 43200 52100 5 10 1 1 0 3 1
 refdes=TP10
 T 43200 51900 5 10 1 1 0 3 1
 comment=CHASSIS
 T 43200 51700 5 10 1 1 0 3 1
-footprint=S1751-46R.fp
+footprint=connector(1, 1)
 }
 N 43200 51200 43200 49400 4
