@@ -41,7 +41,7 @@ symversion=0.1
 T 43000 51000 5 10 0 1 270 3 1
 comment=C315C104M5U5TA
 T 42000 51200 5 10 1 1 0 6 1
-refdes=C9
+refdes=C65
 T 42000 51000 5 10 1 1 0 6 1
 value=100nF
 T 42000 50800 5 10 1 1 0 6 1
@@ -56,7 +56,7 @@ C 60800 43700 1 0 1 BNC-1.sym
 T 60450 44350 5 10 0 0 0 6 1
 device=BNC
 T 60800 44600 5 10 1 1 0 6 1
-refdes=CONN3
+refdes=CONN10
 T 60800 44400 5 10 1 1 0 6 1
 footprint=AMPHENOL_BNC_31-5431-ver2.fp
 }
@@ -95,7 +95,7 @@ C 48900 54000 1 0 0 LME49710.sym
 T 49600 54800 5 10 0 0 0 0 1
 device=OPAMP
 T 49900 55200 5 10 1 1 0 0 1
-refdes=U4
+refdes=U60
 T 49895 54995 5 10 1 1 0 0 1
 device=LT1037
 T 49900 54800 5 10 1 1 0 0 1
@@ -106,14 +106,14 @@ N 48500 54700 48900 54700 4
 N 48900 54300 44400 54300 4
 {
 T 45500 54355 5 10 1 1 0 3 1
-netname=U4SUM:1
+netname=U60SUM:1
 }
 C 43500 54200 1 0 0 resistor-1.sym
 {
 T 43800 54600 5 10 0 0 0 0 1
 device=RESISTOR
 T 44000 54900 5 10 1 1 0 3 1
-refdes=R9
+refdes=R61
 T 44000 54700 5 10 1 1 0 3 1
 value=500
 T 44000 54500 5 10 1 1 0 3 1
@@ -140,7 +140,7 @@ symversion=0.1
 T 50500 53900 5 10 0 1 0 3 1
 comment=C315C104M5U5TA
 T 50600 54100 5 10 1 1 0 3 1
-refdes=C19
+refdes=C64
 T 50600 53900 5 10 1 1 0 3 1
 value=100nF
 T 50600 53700 5 10 1 1 0 3 1
@@ -157,7 +157,7 @@ symversion=0.1
 T 50800 56200 5 10 0 1 0 3 1
 comment=C315C104M5U5TA
 T 50700 56400 5 10 1 1 0 3 1
-refdes=C18
+refdes=C63
 T 50700 56200 5 10 1 1 0 3 1
 value=100nF
 T 50700 56000 5 10 1 1 0 3 1
@@ -176,7 +176,7 @@ C 49400 50900 1 0 0 resistor-1.sym
 T 49700 51300 5 10 0 0 0 0 1
 device=RESISTOR
 T 49900 51600 5 10 1 1 0 3 1
-refdes=R11
+refdes=R63
 T 49900 51400 5 10 1 1 0 3 1
 value=5K
 T 49900 51200 5 10 1 1 0 3 1
@@ -201,7 +201,7 @@ C 42300 42600 1 270 0 capacitor-2.sym
 T 43000 42400 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 42200 42500 5 10 1 1 0 6 1
-refdes=C14
+refdes=C13
 T 43200 42400 5 10 0 0 270 0 1
 symversion=0.1
 T 42200 41900 5 10 1 1 0 6 1
@@ -218,7 +218,7 @@ C 44300 42600 1 270 0 capacitor-2.sym
 T 45000 42400 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 44200 42500 5 10 1 1 0 6 1
-refdes=C13
+refdes=C14
 T 45200 42400 5 10 0 0 270 0 1
 symversion=0.1
 T 44200 41900 5 10 1 1 0 6 1
@@ -238,7 +238,7 @@ C 48200 51800 1 0 0 capacitor-1.sym
 T 48400 52500 5 10 0 0 0 0 1
 device=CAPACITOR
 T 48600 52900 5 10 1 1 0 3 1
-refdes=C28
+refdes=C61
 T 48400 52700 5 10 0 0 0 0 1
 symversion=0.1
 T 48600 52700 5 10 1 1 0 3 1
@@ -252,7 +252,7 @@ N 48200 52000 47700 52000 4
 C 47100 50400 1 0 1 T101MHAVxx.sym
 {
 T 46205 51695 5 10 1 1 0 3 1
-refdes=S1
+refdes=S60
 T 46205 51495 5 10 1 1 0 3 1
 model-name=T101MHAVxx
 T 46200 51300 5 10 1 1 0 3 1
@@ -283,7 +283,7 @@ C 49400 48600 1 0 0 resistor-1.sym
 T 49700 49000 5 10 0 0 0 0 1
 device=RESISTOR
 T 49900 49300 5 10 1 1 0 3 1
-refdes=R11
+refdes=R64
 T 49900 49100 5 10 1 1 0 3 1
 value=10K
 T 49900 48900 5 10 1 1 0 3 1
@@ -294,7 +294,7 @@ C 50800 49500 1 0 0 capacitor-1.sym
 T 51000 50200 5 10 0 0 0 0 1
 device=CAPACITOR
 T 51200 50600 5 10 1 1 0 3 1
-refdes=C28
+refdes=C62
 T 51000 50400 5 10 0 0 0 0 1
 symversion=0.1
 T 51200 50400 5 10 1 1 0 3 1
@@ -316,19 +316,19 @@ N 52000 48700 50300 48700 4
 N 47100 50600 47700 50600 4
 T 42100 47800 9 12 1 0 0 0 4
 Note: As the upper frequency limit is 3KHz it's 
-important to limit the feedback path of U4 to 
+important to limit the feedback path of U60 to 
 that. This is how the capacitors in that path were 
 selected.
 T 42100 48800 9 12 1 0 0 0 3
-Note: For most users I will not be stuffing S1 
-and will short jumper S1's footprint pins 2 and 
+Note: For most users I will not be stuffing S60 
+and will short jumper S60's footprint pins 2 and 
 1 so that the gain is fixed.
 C 49800 44500 1 0 0 LF356.sym
 {
 T 50500 45300 5 10 0 0 0 0 1
 device=OPAMP
 T 50800 45500 5 10 1 1 0 0 1
-refdes=U5
+refdes=U10
 T 50795 45295 5 10 1 1 0 0 1
 device=LF356
 }
@@ -354,7 +354,7 @@ symversion=0.1
 T 51400 44400 5 10 0 1 0 3 1
 comment=C315C104M5U5TA
 T 51500 44600 5 10 1 1 0 3 1
-refdes=C19
+refdes=C12
 T 51500 44400 5 10 1 1 0 3 1
 value=100nF
 T 51500 44200 5 10 1 1 0 3 1
@@ -371,7 +371,7 @@ symversion=0.1
 T 51700 46700 5 10 0 1 0 3 1
 comment=C315C104M5U5TA
 T 51600 46900 5 10 1 1 0 3 1
-refdes=C18
+refdes=C11
 T 51600 46700 5 10 1 1 0 3 1
 value=100nF
 T 51600 46500 5 10 1 1 0 3 1
@@ -410,8 +410,7 @@ T 47100 45200 5 10 1 1 0 7 1
 net=LARGER:1
 }
 N 49800 45200 48000 45200 4
-T 62000 56500 9 30 1 0 0 8 6
-* Fix Refdes!
+T 62000 56500 9 30 1 0 0 8 5
 * The LT1037 is overkill here. I 
 should find something cheaper.
 * For fixed gain consider 
@@ -422,10 +421,20 @@ C 56400 44100 1 0 0 resistor-1.sym
 T 56700 44500 5 10 0 0 0 0 1
 device=RESISTOR
 T 56900 44800 5 10 1 1 0 3 1
-refdes=R11
+refdes=R12
 T 56900 44600 5 10 1 1 0 3 1
 value=50
 T 56900 44400 5 10 1 1 0 3 1
 footprint=0805
 }
 N 56400 44200 55900 44200 4
+T 40700 52700 9 12 1 0 0 0 4
+Note: refdes=R62 is reserved for the 
+option of having the servo loop around 
+U60 for improved CMRR. If used it 
+would be 500K.
+T 45500 43100 9 12 1 0 0 0 4
+Note: refdes=R10 and R11 are 
+reserved for the option of having the 
+servo loop around U60 for improved 
+CMRR. If used it they would be 1K.
