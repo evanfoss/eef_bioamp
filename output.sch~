@@ -21,7 +21,7 @@ value=INPUT
 T 41500 54300 5 10 1 1 0 7 1
 net=SMALL:1
 }
-N 43500 54300 42400 54300 4
+N 43000 54300 42400 54300 4
 C 42100 51700 1 0 0 generic-power.sym
 {
 T 42300 51950 5 10 1 1 0 3 1
@@ -64,21 +64,21 @@ footprint=SO8
 }
 N 50300 54500 52500 54500 4
 N 48500 54700 48900 54700 4
-N 48900 54300 44400 54300 4
+N 48900 54300 43900 54300 4
 {
 T 45500 54355 5 10 1 1 0 3 1
 netname=U60SUM:1
 }
-C 43500 54200 1 0 0 resistor-1.sym
+C 43000 54200 1 0 0 resistor-1.sym
 {
-T 43800 54600 5 10 0 0 0 0 1
+T 43300 54600 5 10 0 0 0 0 1
 device=RESISTOR
-T 44000 54900 5 10 1 1 0 3 1
+T 43500 54900 5 10 1 1 0 3 1
 refdes=R61
-T 44000 54700 5 10 1 1 0 3 1
-value=500
-T 44000 54500 5 10 1 1 0 3 1
-footprint=1206
+T 43500 54700 5 10 1 1 0 3 1
+value=499
+T 43500 54500 5 10 1 1 0 3 1
+footprint=0805
 }
 N 49500 55000 49500 56000 4
 N 49500 54000 49500 53000 4
@@ -201,7 +201,7 @@ N 47700 52000 47700 51000 4
 N 47100 51000 49400 51000 4
 {
 T 48550 51055 5 10 1 1 0 3 1
-netname=U4GAIN10:1
+netname=U60GAIN10:1
 }
 N 45400 50800 45000 50800 4
 N 45400 50400 45000 50400 4
@@ -236,36 +236,28 @@ N 47700 48700 47700 50600 4
 N 47700 48700 49400 48700 4
 {
 T 48550 48755 5 10 1 1 0 3 1
-netname=U4GAIN20:1
+netname=U60GAIN20:1
 }
 N 51700 49700 52000 49700 4
 N 52000 48700 50300 48700 4
 N 47100 50600 47700 50600 4
-T 42100 47800 9 12 1 0 0 0 4
+T 52700 52200 9 12 1 0 0 0 4
 Note: As the upper frequency limit is 3KHz it's 
 important to limit the feedback path of U60 to 
 that. This is how the capacitors in that path were 
 selected.
-T 42100 48800 9 12 1 0 0 0 3
-Note: For most users I will not be stuffing S60 
-and will short jumper S60's footprint pins 2 and 
-1 so that the gain is fixed.
-T 62000 56500 9 30 1 0 0 8 5
+T 62000 56900 9 30 1 0 0 8 6
 * The LT1037 is overkill here. I 
 should find something cheaper.
-* For fixed gain consider 
-removal of LT1037 stage and 
-addition of gain to LF356
+* People want 2 classes of stuff
+1 - frequency responses (3KHz 
+and 10KHz)
+2 - gain (10,000 and 1,000)
 T 40700 52700 9 12 1 0 0 0 4
 Note: refdes=R62 is reserved for the 
 option of having the servo loop around 
 U60 for improved CMRR. If used it 
 would be 500K.
-T 40200 45400 9 12 1 0 0 0 4
-Note: refdes=R10 and R11 are 
-reserved for the option of having the 
-servo loop around U60 for improved 
-CMRR. If used it they would be 1K.
 N 57800 48800 59400 48800 4
 {
 T 58600 48800 5 10 0 1 0 0 1
@@ -533,7 +525,7 @@ device=none
 T 46100 43300 5 10 0 1 0 7 1
 value=INPUT
 T 46100 43300 5 10 1 1 0 7 1
-net=SMALL:1
+net=LARGER:1
 }
 N 47500 43300 47000 43300 4
 C 61000 43200 1 0 1 BNC-1.sym
