@@ -264,7 +264,7 @@ C 41600 52900 1 0 0 twinax.sym
 T 42000 54595 5 10 1 1 0 3 1
 refdes=CONN40
 T 42000 54400 5 10 1 1 0 3 1
-footprint=TE_Connectivity_5228686-1-twinax.lht
+footprint=TE_Connectivity_5228686-1-twinax.subc.lht
 }
 N 44500 54100 47000 54100 4
 N 43000 53700 43500 53700 4
