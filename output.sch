@@ -58,7 +58,7 @@ device=OPAMP
 T 51400 55200 5 10 1 1 0 0 1
 refdes=U60
 T 51395 54995 5 10 1 1 0 0 1
-device=LF411
+device=LF356
 T 51400 54800 5 10 1 1 0 0 1
 footprint=so(8)
 }
@@ -607,6 +607,6 @@ footprint=0805
 N 49800 47300 49200 47300 4
 N 50700 47300 51300 47300 4
 T 42000 47800 9 12 1 0 0 0 3
-Operation: S60 selects gain (10,000 / 
-100,000) and S10 selects the high 
+Operation: S60 selects gain (1,000 / 
+10,000) and S10 selects the high 
 frequency -3db point (3KHz/10KHz).
