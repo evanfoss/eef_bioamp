@@ -5,7 +5,7 @@ Biological Amplifier Input Stage
 T 58900 40100 9 8 1 0 0 0 1
 Evan Foss
 T 58800 40400 9 8 1 0 0 0 1
-2020.03.26
+2020.06.02
 T 54900 40400 9 8 1 0 0 0 1
 bioamp.sch
 T 56500 40100 9 8 1 0 0 0 1
@@ -345,62 +345,6 @@ T 50300 53200 5 10 1 1 0 3 1
 footprint=1206
 }
 N 55500 52400 53000 52400 4
-C 58700 53800 1 180 0 generic-power.sym
-{
-T 58500 53550 5 10 1 1 180 3 1
-net=N15V:1
-}
-N 58500 55200 58500 56100 4
-N 58500 54300 58500 53800 4
-C 60800 55900 1 0 0 generic-power.sym
-{
-T 61000 56150 5 10 1 1 0 3 1
-net=P15V:1
-}
-N 61000 55200 61000 55900 4
-N 61000 53800 61000 54300 4
-C 57600 55500 1 0 1 gnd-1.sym
-N 58500 56100 57500 56100 4
-N 57500 56100 57500 55800 4
-C 61100 53500 1 0 1 gnd-1.sym
-C 58300 55200 1 270 0 capacitor-2.sym
-{
-T 59000 55000 5 10 0 0 270 0 1
-device=POLARIZED_CAPACITOR
-T 59200 55000 5 10 0 0 270 0 1
-symversion=0.1
-T 58200 54500 5 10 0 1 0 6 1
-footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
-T 58300 55200 5 10 0 1 0 0 1
-comment=Panasonic SEPF series Case size C6
-T 58200 55100 5 10 1 1 0 6 1
-refdes=C13
-T 58200 54700 5 10 1 1 0 6 1
-description=Al-Poly
-T 58200 54900 5 10 1 1 0 6 1
-value=22uF
-T 58200 54300 5 10 1 1 0 6 1
-model-name=35SEPF22M+TSS
-}
-C 60800 55200 1 270 0 capacitor-2.sym
-{
-T 61500 55000 5 10 0 0 270 0 1
-device=POLARIZED_CAPACITOR
-T 61700 55000 5 10 0 0 270 0 1
-symversion=0.1
-T 60700 54500 5 10 0 1 0 6 1
-footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
-T 60800 55200 5 10 0 1 0 0 1
-footprint=Panasonic SEPF series Case size C6
-T 60700 55100 5 10 1 1 0 6 1
-refdes=C14
-T 60700 54700 5 10 1 1 0 6 1
-description=Al-Poly
-T 60700 54900 5 10 1 1 0 6 1
-value=22uF
-T 60700 54300 5 10 1 1 0 6 1
-model-name=35SEPF22M+TSS
-}
 C 45400 52900 1 0 0 testpt-1.sym
 {
 T 45800 53800 5 10 0 0 0 0 1
@@ -533,8 +477,6 @@ comment=Ceramic
 }
 N 49000 49000 49000 49400 4
 N 49000 48100 49000 47800 4
-N 51500 49000 51500 49400 4
-N 51500 48100 51500 47800 4
 C 47200 48100 1 90 0 capacitor-1.sym
 {
 T 46500 48300 5 10 0 0 90 0 1
@@ -552,11 +494,6 @@ comment=Ceramic
 }
 N 47000 49000 47000 49400 4
 N 47000 48100 47000 47800 4
-C 51300 49400 1 0 0 generic-power.sym
-{
-T 51500 49650 5 10 1 1 0 3 1
-net=P15V:1
-}
 C 48800 49400 1 0 0 generic-power.sym
 {
 T 49000 49650 5 10 1 1 0 3 1
@@ -566,11 +503,6 @@ C 46800 49400 1 0 0 generic-power.sym
 {
 T 47000 49650 5 10 1 1 0 3 1
 net=P15V:1
-}
-C 51700 47800 1 180 0 generic-power.sym
-{
-T 51500 47550 5 10 1 1 180 3 1
-net=N15V:1
 }
 C 49200 47800 1 180 0 generic-power.sym
 {
@@ -582,113 +514,33 @@ C 47200 47800 1 180 0 generic-power.sym
 T 47000 47550 5 10 1 1 180 3 1
 net=N15V:1
 }
-C 51300 49000 1 270 0 capacitor-2.sym
+C 53800 46200 1 0 0 generic-power.sym
 {
-T 52000 48800 5 10 0 0 270 0 1
-device=POLARIZED_CAPACITOR
-T 52200 48800 5 10 0 0 270 0 1
-symversion=0.1
-T 51200 48300 5 10 0 1 0 6 1
-footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
-T 51300 49000 5 10 0 1 0 0 1
-footprint=Panasonic SEPF series Case size C6
-T 51200 48900 5 10 1 1 0 6 1
-refdes=C48
-T 51200 48500 5 10 1 1 0 6 1
-description=Al-Poly
-T 51200 48700 5 10 1 1 0 6 1
-value=22uF
-T 51200 48100 5 10 1 1 0 6 1
-model-name=35SEPF22M+TSS
-}
-C 60700 50400 1 0 0 generic-power.sym
-{
-T 60900 50650 5 10 1 1 0 3 1
+T 54000 46450 5 10 1 1 0 3 1
 net=P15V:1
 }
-C 61100 48800 1 180 0 generic-power.sym
+C 54200 44600 1 180 0 generic-power.sym
 {
-T 60900 48550 5 10 1 1 180 3 1
+T 54000 44350 5 10 1 1 180 3 1
 net=N15V:1
 }
-C 61100 49100 1 90 0 capacitor-1.sym
+C 54200 44900 1 90 0 capacitor-1.sym
 {
-T 60400 49300 5 10 0 0 90 0 1
+T 53500 45100 5 10 0 0 90 0 1
 device=CAPACITOR
-T 60200 49300 5 10 0 0 90 0 1
+T 53300 45100 5 10 0 0 90 0 1
 symversion=0.1
-T 60600 49800 5 10 1 1 0 6 1
+T 53700 45600 5 10 1 1 0 6 1
 refdes=C23
-T 60600 49600 5 10 1 1 0 6 1
+T 53700 45400 5 10 1 1 0 6 1
 value=100nF
-T 60600 49400 5 10 1 1 0 6 1
+T 53700 45200 5 10 1 1 0 6 1
 description=ceramic
-T 60600 49200 5 10 1 1 0 6 1
+T 53700 45000 5 10 1 1 0 6 1
 footprint=1206
 }
-N 60900 50000 60900 50400 4
-N 60900 49100 60900 48800 4
-C 60500 44700 1 0 0 testpt-1.sym
-{
-T 60900 45600 5 10 0 0 0 0 1
-device=TESTPOINT
-T 60900 45400 5 10 0 0 0 0 1
-footprint=S1751-46R.fp
-T 60500 44700 5 10 0 1 0 0 1
-value=S1751-46R
-T 60600 45600 5 10 1 1 0 3 1
-refdes=TP8
-T 60600 45400 5 10 1 1 0 3 1
-comment=-15V
-T 60600 45200 5 10 1 1 0 3 1
-footprint=S1751-46R.fp
-}
-C 60800 44400 1 180 0 generic-power.sym
-{
-T 60600 44150 5 10 1 1 180 3 1
-net=N15V:1
-}
-N 60600 44700 60600 44400 4
-C 60700 42000 1 0 1 gnd-1.sym
-C 60500 42600 1 0 0 testpt-1.sym
-{
-T 60900 43500 5 10 0 0 0 0 1
-device=TESTPOINT
-T 60900 43300 5 10 0 0 0 0 1
-footprint=S1751-46R.fp
-T 60500 42600 5 10 0 1 0 0 1
-value=S1751-46R
-T 60600 43500 5 10 1 1 0 3 1
-refdes=TP7
-T 60600 43300 5 10 1 1 0 3 1
-comment=GND
-T 60600 43100 5 10 1 1 0 3 1
-footprint=S1751-46R.fp
-}
-N 60600 42600 60600 42300 4
-C 59300 42400 1 0 0 generic-power.sym
-{
-T 59500 42650 5 10 1 1 0 3 1
-net=P15V:1
-}
-C 58400 42400 1 0 0 testpt-1.sym
-{
-T 58800 43300 5 10 0 0 0 0 1
-device=TESTPOINT
-T 58800 43100 5 10 0 0 0 0 1
-footprint=S1751-46R.fp
-T 58400 42400 5 10 0 1 0 0 1
-value=S1751-46R
-T 58500 43300 5 10 1 1 0 3 1
-refdes=TP6
-T 58500 43100 5 10 1 1 0 3 1
-comment=+15V
-T 58500 42900 5 10 1 1 0 3 1
-footprint=S1751-46R.fp
-}
-N 58500 42400 58500 42100 4
-N 58500 42100 59500 42100 4
-N 59500 42100 59500 42400 4
+N 54000 45800 54000 46200 4
+N 54000 44900 54000 44600 4
 T 49500 55600 9 10 1 0 0 0 2
 Input Amplifier
 (gain of 1000)
