@@ -794,6 +794,44 @@ T 55000 50200 5 10 0 1 0 6 1
 footprint=connector(2, 1, spacing=100.0mil, silkmark=external)
 }
 N 53300 49900 52500 49900 4
-C 52900 49000 1 0 0 gnd-1.sym
-N 53000 49300 53000 49600 4
 N 53000 49600 53300 49600 4
+C 53500 46700 1 0 1 connector2-1.sym
+{
+T 53300 47700 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 53500 47500 5 10 1 1 0 6 1
+refdes=CONN62
+T 53500 47500 5 10 0 1 0 6 1
+footprint=connector(2, 1, spacing=100.0mil, silkmark=external)
+}
+C 53500 45600 1 0 1 connector2-1.sym
+{
+T 53300 46600 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 53500 46400 5 10 1 1 0 6 1
+refdes=CONN63
+T 53500 46400 5 10 0 1 0 6 1
+footprint=connector(2, 1, spacing=100.0mil, silkmark=external)
+}
+C 50800 47700 1 0 0 generic-power.sym
+{
+T 51000 47950 5 10 1 1 0 3 1
+net=P15V:1
+}
+N 51800 46900 51000 46900 4
+N 51000 46900 51000 47700 4
+N 51800 47200 51000 47200 4
+C 51200 45400 1 180 0 generic-power.sym
+{
+T 51000 45150 5 10 1 1 180 3 1
+net=N15V:1
+}
+N 51800 46100 51000 46100 4
+N 51000 46100 51000 45400 4
+N 51800 45800 51000 45800 4
+C 52800 50100 1 0 0 generic-power.sym
+{
+T 53000 50350 5 10 1 1 0 3 1
+net=P15V:1
+}
+N 53000 50100 53000 49600 4
