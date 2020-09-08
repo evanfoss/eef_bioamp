@@ -17422,6 +17422,24 @@ ha:pcb-rnd-board-v6 {
      ha:combining { sub=1; auto=1;     }
 
       li:objects {
+       ha:polygon.218493 { clearance=20.0mil;
+        li:geometry {
+          ta:contour {
+           { 3.46in; 2.1in }
+           { 3.47in; 53.086mm }
+           { 3.66in; 53.086mm }
+           { 93.218mm; 2.1in }
+           { 93.218mm; 54.737mm }
+           { 3.66in; 2.165in }
+           { 3.47in; 2.165in }
+           { 3.46in; 54.737mm }
+          }
+        }
+
+        ha:flags {
+         clearpoly=1
+        }
+       }
       }
       color = {#ff0000}
     }
@@ -17472,24 +17490,6 @@ ha:pcb-rnd-board-v6 {
       ha:combining { sub=1;      }
 
        li:objects {
-        ha:polygon.189574 { clearance=40.0mil;
-         li:geometry {
-           ta:contour {
-            { 88.011mm; 1.92in }
-            { 3.45in; 49.149mm }
-            { 3.45in; 1.99in }
-            { 88.011mm; 50.927mm }
-            { 92.837mm; 50.927mm }
-            { 93.218mm; 1.99in }
-            { 93.218mm; 49.149mm }
-            { 92.837mm; 1.92in }
-           }
-         }
-
-         ha:flags {
-          clearpoly=1
-         }
-        }
        }
        color = {#ff0000}
      }
@@ -19447,75 +19447,75 @@ ha:pcb-rnd-board-v6 {
 
  ha:netlists {
    li:input {
+                    {ha:U60GAIN100:1} {
+                    li:conn { R64-1; C62-1; S60-3;                    }
+                    }
+                    ha:P15V {
+                    li:conn { CONN62-1; CONN62-2; TP6-1; C48-1; C14-1; C11-1; U10-7; CONN4-1; CONN1-1; C63-1; U60-7; C65-2; C23-2; C46-2; C47-2; C42-1; C44-1; U40-7; C21-1; U20-7;                    }
+                    }
+                    {ha:U20IN:1} {
+                    li:conn { R21-2; R20-1;                    }
+                    }
+                    {ha:U60SUM:1} {
+                    li:conn { R65-2; S60-2; R61-2; U60-2;                    }
+                    }
+                    ha:N15V {
+                    li:conn { CONN63-1; CONN63-2; TP8-1; C48-2; C13-2; C12-2; U10-4; CONN4-4; CONN1-4; C64-1; U60-4; C65-1; C23-1; C46-1; C47-1; C45-2; C43-2; U40-4; U20-4; C22-2;                    }
+                    }
+                    ha:OUT {
+                    li:conn { R12-1; CONN61-1; C15-2; C10-2; R10-2; U10-6;                    }
+                    }
+                    ha:SMALL {
+                    li:conn { R61-1; U40-6; TP1-1; R21-1;                    }
+                    }
+                    ha:GND {
+                    li:conn { CONN61-2; CONN60-2; TP7-1; C14-2; C13-1; CONN10-2; C11-2; C12-1; U10-3; C50-2; R44-1; CONN1-2; CONN1-3; CONN4-3; CONN4-2; C49-1; C63-2; C64-2; U60-3; C45-1; C43-1; R43-1; R42-1; C42-2; C44-2; C21-2; U20-3; C22-1;                    }
+                    }
+                    ha:unnamed_net1 {
+                    li:conn { R41-1; U40-1;                    }
+                    }
+                    ha:unnamed_net2 {
+                    li:conn { R41-2; U40-8;                    }
+                    }
+                    ha:LARGER {
+                    li:conn { R11-1; R64-2; C62-2; C61-1; R63-1; U60-6;                    }
+                    }
+                    ha:unnamed_net4 {
+                    li:conn { CONN40-2; TP5-1; C41-2;                    }
+                    }
+                    ha:unnamed_net5 {
+                    li:conn { TP9-1; R12-2; CONN10-1;                    }
+                    }
+                    ha:unnamed_net6 {
+                    li:conn { C15-1; S10-3;                    }
+                    }
+                    ha:unnamed_net7 {
+                    li:conn { R65-1; CONN60-1;                    }
+                    }
+                    {ha:CHASSIS:1} {
+                    li:conn { S10-4; CONN1-5; CONN5-1; C50-1; R44-2; CONN4-5; C49-2; S60-4; U?-?; CONN40-3;                    }
+                    }
+                    {ha:U20SUM:1} {
+                    li:conn { C20-1; R20-2; U20-2;                    }
+                    }
+                    {ha:NVIN:1} {
+                    li:conn { R42-2; C40-1; U40-2;                    }
+                    }
+                    ha:OFFSET {
+                    li:conn { U40-5; C20-2; TP2-1; U20-6;                    }
+                    }
+                    ha:unnamed_net3 {
+                    li:conn { TP4-1; CONN40-1; C40-2;                    }
+                    }
+                    ha:U10SUM {
+                    li:conn { R11-2; S10-2; C10-1; R10-1; U10-2;                    }
+                    }
+                    {ha:PVIN:1} {
+                    li:conn { R43-2; C41-1; U40-3;                    }
+                    }
                    {ha:U60GAIN10:1} {
                    li:conn { S60-1; C61-2; R63-2;                   }
                    }
-                   ha:P15V {
-                   li:conn { CONN62-1; CONN62-2; TP6-1; C48-1; C14-1; C11-1; U10-7; CONN4-1; CONN1-1; C63-1; U60-7; C65-2; C23-2; C46-2; C47-2; C42-1; C44-1; U40-7; C21-1; U20-7;                   }
-                   }
-                   {ha:U20IN:1} {
-                   li:conn { R21-2; R20-1;                   }
-                   }
-                   {ha:U20SUM:1} {
-                   li:conn { C20-1; R20-2; U20-2;                   }
-                   }
-                   ha:N15V {
-                   li:conn { CONN63-1; CONN63-2; TP8-1; C48-2; C13-2; C12-2; U10-4; CONN4-4; CONN1-4; C64-1; U60-4; C65-1; C23-1; C46-1; C47-1; C45-2; C43-2; U40-4; U20-4; C22-2;                   }
-                   }
-                   ha:OUT {
-                   li:conn { R12-1; CONN61-1; C15-2; C10-2; R10-2; U10-6;                   }
-                   }
-                   ha:SMALL {
-                   li:conn { R61-1; U40-6; TP1-1; R21-1;                   }
-                   }
-                   ha:GND {
-                   li:conn { CONN61-2; CONN60-2; TP7-1; C14-2; C13-1; CONN10-2; C11-2; C12-1; U10-3; C50-2; R44-1; CONN1-2; CONN1-3; CONN4-3; CONN4-2; C49-1; C63-2; C64-2; U60-3; C45-1; C43-1; R43-1; R42-1; C42-2; C44-2; C21-2; U20-3; C22-1;                   }
-                   }
-                   ha:unnamed_net1 {
-                   li:conn { R41-1; U40-1;                   }
-                   }
-                   ha:unnamed_net2 {
-                   li:conn { R41-2; U40-8;                   }
-                   }
-                   ha:LARGER {
-                   li:conn { R11-1; R64-2; C62-2; C61-1; R63-1; U60-6;                   }
-                   }
-                   ha:unnamed_net4 {
-                   li:conn { CONN40-2; TP5-1; C41-2;                   }
-                   }
-                   ha:unnamed_net5 {
-                   li:conn { TP9-1; R12-2; CONN10-1;                   }
-                   }
-                   ha:unnamed_net6 {
-                   li:conn { C15-1; S10-3;                   }
-                   }
-                   ha:unnamed_net7 {
-                   li:conn { R65-1; CONN60-1;                   }
-                   }
-                   {ha:CHASSIS:1} {
-                   li:conn { S10-4; CONN1-5; CONN5-1; C50-1; R44-2; CONN4-5; C49-2; S60-4; U?-?; CONN40-3;                   }
-                   }
-                   ha:unnamed_net3 {
-                   li:conn { TP4-1; CONN40-1; C40-2;                   }
-                   }
-                   {ha:NVIN:1} {
-                   li:conn { R42-2; C40-1; U40-2;                   }
-                   }
-                   ha:OFFSET {
-                   li:conn { U40-5; C20-2; TP2-1; U20-6;                   }
-                   }
-                   ha:U10SUM {
-                   li:conn { R11-2; S10-2; C10-1; R10-1; U10-2;                   }
-                   }
-                   {ha:U60SUM:1} {
-                   li:conn { R65-2; S60-2; R61-2; U60-2;                   }
-                   }
-                   {ha:PVIN:1} {
-                   li:conn { R43-2; C41-1; U40-3;                   }
-                   }
-                  {ha:U60GAIN100:1} {
-                  li:conn { R64-1; C62-1; S60-3;                  }
-                  }
    }
  }
  ha:layer_stack {
@@ -19626,6 +19626,7 @@ ha:pcb-rnd-board-v6 {
     }
     show_solder_side = 0
      wireframe_draw = false
+      fullscreen = 0
    }
   }
  }
