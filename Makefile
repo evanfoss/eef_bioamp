@@ -43,7 +43,7 @@ MATHTOOL = sage
 MATHFLAGS = 
 #
 ## Schematic Capture
-SCHTOOL = gschem
+SCHTOOL = lepton-schematic
 SCHFLAGS = -q
 #
 ## Schematic Library
@@ -55,7 +55,7 @@ SIMTOOL = ngspice
 SIMFLAGS = -n -b
 #
 ## Netlist Generator
-NETTOOL = gnetlist
+NETTOOL = lepton-netlist
 NETFLAGS = -g spice-sdb -o 
 NETDRC = -g drc2 -o drcerrors-tmp.text
 #
