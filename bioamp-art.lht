@@ -1035,9 +1035,9 @@ ha:pcb-rnd-board-v6 {
              refdes=U40
              vendor_part_number=unknown
              manufacturer_part_number=unknown
-             value=INA121
+             value=unknown
              vendor=unknown
-             device=INA121
+             device=INA129
             }
            ha:data {
                       li:padstack_prototypes {
@@ -1254,7 +1254,7 @@ ha:pcb-rnd-board-v6 {
 
               ha:attributes {
                 term=7
-                name=-Vs
+                name=+Vs
               }
              }
              ha:padstack_ref.29253 {
@@ -1296,7 +1296,7 @@ ha:pcb-rnd-board-v6 {
 
               ha:attributes {
                 term=4
-                name=Inull
+                name=-Vs
               }
              }
              ha:padstack_ref.29256 {
@@ -15174,13 +15174,13 @@ ha:pcb-rnd-board-v6 {
  ha:netlists {
    li:input {
     ha:P15V {
-    li:conn { CONN4-1; CONN1-1; C48-1; TP6-1; C14-1; C11-1; U10-7; C21-1; U20-7; C23-2; C46-2; C47-2; C42-1; C44-1; U40-7;    }
+    li:conn { CONN4-1; CONN1-1; C48-1; TP6-1; C14-1; C11-1; U10-7; C21-1; U20-7; C23-2; C46-2; C47-2; U40-7; C42-1; C44-1;    }
     }
      {ha:U20IN:1} {
      li:conn { R21-2; R20-1;     }
      }
     ha:N15V {
-    li:conn { CONN4-4; CONN1-4; C48-2; TP8-1; C13-2; C12-2; U10-4; C22-2; U20-4; C23-1; C46-1; C47-1; C45-2; C43-2; U40-4;    }
+    li:conn { CONN4-4; CONN1-4; C48-2; TP8-1; C13-2; C12-2; U10-4; C22-2; U20-4; C23-1; C46-1; C47-1; U40-4; C45-2; C43-2;    }
     }
                    ha:OUT {
                    li:conn { R12-1; C10-2; R10-2; U10-6;                   }
@@ -15192,16 +15192,16 @@ ha:pcb-rnd-board-v6 {
                    li:conn { C50-2; R44-1; CONN1-2; CONN1-3; CONN4-3; CONN4-2; C49-1; TP7-1; CONN10-2; C14-2; C13-1; C11-2; C12-1; U10-3; C22-1; C21-2; U20-3; R43-1; R42-1; C45-1; C42-2; C43-1; C44-2;                   }
                    }
                    ha:unnamed_net1 {
-                   li:conn { R41-1; U40-1;                   }
-                   }
-                   ha:unnamed_net2 {
-                   li:conn { R41-2; U40-8;                   }
-                   }
-                   ha:unnamed_net3 {
                    li:conn { CONN40-2; TP4-1; C40-2;                   }
                    }
-                   ha:unnamed_net4 {
+                   ha:unnamed_net2 {
                    li:conn { TP5-1; CONN40-1; C41-2;                   }
+                   }
+                   ha:unnamed_net3 {
+                   li:conn { U40-8; R41-2;                   }
+                   }
+                   ha:unnamed_net4 {
+                   li:conn { U40-1; R41-1;                   }
                    }
                    ha:unnamed_net5 {
                    li:conn { TP9-1; R12-2; CONN10-1;                   }
@@ -15209,20 +15209,20 @@ ha:pcb-rnd-board-v6 {
                    {ha:CHASSIS:1} {
                    li:conn { CONN1-5; CONN5-1; C50-1; R44-2; CONN4-5; C49-2; U?-?; CONN40-3;                   }
                    }
+                    ha:OFFSET {
+                    li:conn { U40-5; TP2-1; C20-2; U20-6;                    }
+                    }
                    {ha:U20SUM:1} {
                    li:conn { R20-2; C20-1; U20-2;                   }
                    }
+                   ha:U10SUM {
+                   li:conn { R11-2; C10-1; R10-1; U10-2;                   }
+                   }
                   {ha:NVIN:1} {
-                  li:conn { R43-2; C41-1; U40-3;                  }
+                  li:conn { U40-3; R43-2; C41-1;                  }
                   }
-     ha:OFFSET {
-     li:conn { TP2-1; C20-2; U20-6; U40-5;     }
-     }
-      ha:U10SUM {
-      li:conn { R11-2; C10-1; R10-1; U10-2;      }
-      }
       {ha:PVIN:1} {
-      li:conn { R42-2; C40-1; U40-2;      }
+      li:conn { R42-2; U40-2; C40-1;      }
       }
    }
  }

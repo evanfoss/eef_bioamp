@@ -290,12 +290,6 @@ footprint=1206
 T 49500 55500 9 10 1 0 0 0 2
 Input Amplifier
 (gain of 1000)
-T 54200 52000 9 12 1 0 0 2 5
-Note: INA129 is actually an 
-INA128. The INA128 has 
-lower noise and the ability to 
-operate at higher gains with 
-out giving up as much bw.
 T 55000 40700 9 8 1 0 0 0 1
 Biological Amplifier Input Stage
 T 58900 40100 9 8 1 0 0 0 1
@@ -1011,16 +1005,14 @@ graphical=1
 N 43000 54000 44000 54000 4
 N 44000 54000 44500 53600 4
 N 44500 54000 44000 53600 4
-C 51600 52200 1 0 0 AD8221.sym
+C 51600 52200 1 0 0 INA128.sym
 {
 T 52400 53200 5 10 0 0 0 0 1
 device=INA129
-T 52800 53500 5 10 1 1 0 0 1
+T 51600 53900 5 10 1 1 0 0 1
 refdes=U40
 T 52400 53400 5 10 0 0 0 0 1
 symversion=1.0
-T 52582 52895 5 10 0 1 0 0 1
-footprint=DIP8
-T 52792 53292 5 10 1 1 0 0 1
-footprint=SO8
+T 51600 53700 5 10 1 1 0 0 1
+footprint=dip(8)
 }
