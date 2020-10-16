@@ -105,4 +105,4 @@ T 250 300 5 8 0 1 0 2 1
 pintype=out
 }
 T 1192 1092 8 10 1 1 0 0 1
-footprint=SO8
+footprint=so(8)

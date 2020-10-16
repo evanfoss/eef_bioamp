@@ -87,7 +87,7 @@ T 1400 655 9 8 0 1 90 0 1
 pinlabel=Inull1
 T 1500 850 5 8 0 1 180 5 1
 pintype=in
-T 1400 655 3 8 1 1 90 1 1
+T 1400 655 3 8 1 1 270 7 1
 pinlabel=Ref
 }
 L 200 1500 200 100 3 0 0 0 -1 -1
@@ -104,7 +104,5 @@ pinlabel=+Vin
 T 250 300 5 8 0 1 0 2 1
 pintype=out
 }
-T 982 695 8 10 0 1 0 0 1
-footprint=DIP8
 T 1192 1092 8 10 1 1 0 0 1
 footprint=SO8
