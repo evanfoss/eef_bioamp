@@ -4,20 +4,20 @@ device=INA129
 P 0 1000 200 1000 1 0 0
 {
 T 150 1050 5 8 1 1 0 6 1
-pinnumber=1
+pinnumber=2
 T 200 950 5 8 0 1 0 8 1
-pinseq=9
+pinseq=2
 T 250 1000 9 8 1 1 0 1 1
-pinlabel=RG1
+pinlabel=-RG
 T 250 1000 5 8 0 1 0 2 1
 pintype=in
 }
 P 0 1300 200 1300 1 0 0
 {
 T 150 1350 5 8 1 1 0 6 1
-pinnumber=2
+pinnumber=1
 T 150 1250 5 8 0 1 0 8 1
-pinseq=4
+pinseq=1
 T 250 1300 9 8 1 1 0 1 1
 pinlabel=-Vin
 T 250 1300 5 8 0 1 0 2 1
@@ -26,17 +26,17 @@ pintype=in
 P 200 600 0 600 1 0 1
 {
 T 155 645 5 8 1 1 0 6 1
-pinnumber=8
+pinnumber=3
 T 250 650 5 8 0 1 90 2 1
-pinseq=10
+pinseq=3
 T 255 595 9 8 1 1 0 1 1
-pinlabel=RG2
+pinlabel=+RG
 T 450 600 5 8 0 1 90 5 1
 pintype=pwr
 }
 L 200 100 1900 800 3 0 0 0 -1 -1
 L 1900 800 200 1500 3 0 0 0 -1 -1
-T 0 1700 8 10 1 1 0 0 1
+T 1200 1300 8 10 1 1 0 0 1
 refdes=U?
 T 800 1200 5 10 0 0 0 0 1
 symversion=1.0
@@ -46,43 +46,43 @@ T 800 1400 5 10 0 0 0 0 1
 numslots=0
 P 1900 800 2100 800 1 0 1
 {
-T 1945 845 5 8 1 1 0 0 1
-pinnumber=6
+T 1895 845 5 8 1 1 0 0 1
+pinnumber=7
 T 2000 850 5 8 0 1 90 2 1
-pinseq=5
+pinseq=7
 T 1745 795 9 8 1 1 0 7 1
 pinlabel=Out
 T 1750 800 5 8 0 1 90 3 1
 pintype=out
 }
-P 700 1300 700 1500 1 0 1
-{
-T 750 1305 5 8 1 1 270 6 1
-pinnumber=7
-T 650 1400 5 8 0 1 180 2 1
-pinseq=1
-T 700 1245 9 8 1 1 270 1 1
-pinlabel=+Vs
-T 700 1150 5 8 0 1 180 3 1
-pintype=pwr
-}
 P 700 300 700 100 1 0 1
 {
 T 750 305 5 8 1 1 270 0 1
-pinnumber=4
-T 650 382 5 8 0 1 180 2 1
-pinseq=2
+pinnumber=5
+T 650 200 5 8 0 1 0 8 1
+pinseq=5
 T 700 355 9 8 1 1 270 7 1
 pinlabel=-Vs
-T 700 582 5 8 0 1 180 5 1
+T 700 450 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 700 1300 700 1500 1 0 1
+{
+T 750 1295 5 8 1 1 270 6 1
+pinnumber=8
+T 650 1218 5 8 0 1 0 8 1
+pinseq=8
+T 700 1245 9 8 1 1 270 1 1
+pinlabel=+Vs
+T 700 1018 5 8 0 1 0 5 1
 pintype=in
 }
 P 1400 600 1400 400 1 0 1
 {
 T 1450 595 5 8 1 1 270 0 1
-pinnumber=5
+pinnumber=6
 T 1550 650 5 8 0 1 180 8 1
-pinseq=8
+pinseq=6
 T 1400 655 9 8 0 1 90 0 1
 pinlabel=Inull1
 T 1500 850 5 8 0 1 180 5 1
@@ -92,13 +92,13 @@ pinlabel=Ref
 }
 L 200 1500 200 100 3 0 0 0 -1 -1
 T 800 800 9 10 1 0 0 4 1
-INA128
+AD8221
 P 0 300 200 300 1 0 0
 {
 T 150 350 5 8 1 1 0 6 1
-pinnumber=3
+pinnumber=4
 T 200 250 5 8 0 1 0 8 1
-pinseq=3
+pinseq=4
 T 250 300 9 8 1 1 0 1 1
 pinlabel=+Vin
 T 250 300 5 8 0 1 0 2 1
@@ -106,3 +106,5 @@ pintype=out
 }
 T 982 695 8 10 0 1 0 0 1
 footprint=DIP8
+T 1192 1092 8 10 1 1 0 0 1
+footprint=SO8
