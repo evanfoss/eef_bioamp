@@ -104,7 +104,5 @@ pinlabel=+Vin
 T 250 300 5 8 0 1 0 2 1
 pintype=out
 }
-T 982 695 8 10 0 1 0 0 1
-footprint=DIP8
 T 1192 1092 8 10 1 1 0 0 1
 footprint=SO8
