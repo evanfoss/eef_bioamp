@@ -283,7 +283,7 @@ device=RESISTOR
 T 50700 53400 5 10 1 1 0 3 1
 refdes=R41
 T 50700 53200 5 10 1 1 0 3 1
-value=49.9
+value=12
 T 50700 53000 5 10 1 1 0 3 1
 footprint=0805
 }
@@ -1023,7 +1023,7 @@ device=RESISTOR
 T 49700 53400 5 10 1 1 0 3 1
 refdes=R45
 T 49700 53200 5 10 1 1 0 3 1
-value=49.9
+value=37.4
 T 49700 53000 5 10 1 1 0 3 1
 footprint=0805
 }
