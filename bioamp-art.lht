@@ -13201,7 +13201,7 @@ ha:pcb-rnd-board-v6 {
         rot = 180.000000
        }
        ha:text.115869 {
-        string=2020.08.20; x=2.71in; y=1.255in; scale=100; fid=0;
+        string=2020.10.19; x=2.71in; y=1.255in; scale=100; fid=0;
         ha:flags {
          clearline=1
          onsolder=1
@@ -13290,7 +13290,7 @@ ha:pcb-rnd-board-v6 {
         rot = 0.000000
        }
        ha:text.104638 {
-        string=2020.08.20; x=1.39in; y=2.1in; scale=100; fid=0;
+        string=2020.10.19; x=1.39in; y=2.1in; scale=100; fid=0;
         ha:flags {
          clearline=1
         }
@@ -15494,9 +15494,9 @@ ha:pcb-rnd-board-v6 {
     rubber_band_mode = true
     ha:view {
      flip_x = 0
-     flip_y = 0
+     flip_y = 1
     }
-    show_solder_side = 0
+    show_solder_side = 1
    }
   }
  }

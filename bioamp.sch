@@ -376,13 +376,13 @@ symversion=0.1
 T 57500 49600 5 10 1 1 0 3 1
 refdes=C20
 T 57500 49400 5 10 1 1 0 3 1
-value=1uF
+value=470nF
 T 57500 49200 5 10 1 1 0 3 1
 description=metal film
 T 57500 49000 5 10 1 1 0 3 1
 footprint=KEMET_SMR5xxxxxxJ06xxx.x.subc.lht
 T 57500 48800 5 10 1 1 0 3 1
-model-name=#model-name
+model-name=BC2083-ND
 }
 N 58000 48500 58500 48500 4
 N 58500 48500 58500 46500 4
@@ -421,7 +421,7 @@ device=RESISTOR
 T 54800 46900 5 10 1 1 0 3 1
 refdes=R20
 T 54800 46700 5 10 1 1 0 3 1
-value=330K
+value=1.13K
 T 54800 46500 5 10 1 1 0 3 1
 footprint=0805
 }
@@ -480,7 +480,7 @@ device=RESISTOR
 T 52500 46900 5 10 1 1 0 3 1
 refdes=R21
 T 52500 46700 5 10 1 1 0 3 1
-value=200K
+value=0
 T 52500 46500 5 10 1 1 0 3 1
 footprint=0805
 }
@@ -1028,3 +1028,5 @@ T 49700 53000 5 10 1 1 0 3 1
 footprint=0805
 }
 N 50100 52800 50200 52800 4
+T 53300 49900 9 10 1 0 0 0 1
+Fix C20 footprint later this represents what the prototype is currently configured for.
