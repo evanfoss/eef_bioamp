@@ -1,4 +1,4 @@
-v 20150930 2
+v 20200604 2
 C 40000 40000 0 0 0 title-C.sym
 T 55000 40700 9 8 1 0 0 0 1
 Biological Amplifier Output Stage and Cable Driver
@@ -108,21 +108,21 @@ description=ceramic
 T 51100 53400 5 10 1 1 0 3 1
 footprint=1206
 }
-C 50800 55200 1 0 0 capacitor-1.sym
+C 51700 55200 1 0 1 capacitor-1.sym
 {
-T 51000 55900 5 10 0 0 0 0 1
+T 51500 55900 5 10 0 0 0 6 1
 device=CAPACITOR
-T 51000 56100 5 10 0 0 0 0 1
+T 51500 56100 5 10 0 0 0 6 1
 symversion=0.1
-T 51200 56100 5 10 0 1 0 3 1
+T 51300 56100 5 10 0 1 0 3 1
 comment=C315C104M5U5TA
-T 51300 56300 5 10 1 1 0 3 1
+T 51200 56300 5 10 1 1 0 3 1
 refdes=C63
-T 51300 56100 5 10 1 1 0 3 1
+T 51200 56100 5 10 1 1 0 3 1
 value=100nF
-T 51300 55900 5 10 1 1 0 3 1
+T 51200 55900 5 10 1 1 0 3 1
 description=ceramic
-T 51300 55700 5 10 1 1 0 3 1
+T 51200 55700 5 10 1 1 0 3 1
 footprint=1206
 }
 N 50800 55400 50000 55400 4
