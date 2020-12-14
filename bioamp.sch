@@ -62,7 +62,7 @@ device=RESISTOR
 T 46900 43700 5 10 1 1 0 3 1
 refdes=R20
 T 46900 43500 5 10 1 1 0 3 1
-value=330K
+value=1.13K
 T 46900 43300 5 10 1 1 0 3 1
 footprint=0805
 }
@@ -87,7 +87,7 @@ device=RESISTOR
 T 44600 43700 5 10 1 1 0 3 1
 refdes=R21
 T 44600 43500 5 10 1 1 0 3 1
-value=200K
+value=0
 T 44600 43300 5 10 1 1 0 3 1
 footprint=0805
 }

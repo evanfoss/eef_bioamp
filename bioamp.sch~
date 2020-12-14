@@ -302,9 +302,9 @@ C 54100 55400 1 0 0 generic-power.sym
 T 54300 55650 5 10 1 1 0 3 1
 net=P15V:1
 }
-C 49100 52900 1 90 0 resistor-1.sym
+C 48900 53800 1 270 0 resistor-1.sym
 {
-T 48700 53200 5 10 0 0 90 0 1
+T 49300 53500 5 10 0 0 270 0 1
 device=RESISTOR
 T 48800 53500 5 10 1 1 0 6 1
 refdes=R42
