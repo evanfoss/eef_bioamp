@@ -58,7 +58,7 @@ device=OPAMP
 T 50400 55100 5 10 1 1 0 0 1
 refdes=U60
 T 50395 54895 5 10 1 1 0 0 1
-device=LF356
+device=OPA1611
 T 50400 54700 5 10 1 1 0 0 1
 footprint=so(8)
 }
