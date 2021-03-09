@@ -5,7 +5,7 @@ Biological Amplifier Output Stage and Cable Driver
 T 58900 40100 9 8 1 0 0 0 1
 Evan Foss
 T 58800 40400 9 8 1 0 0 0 1
-2020.06.02
+2021.03.08
 T 54900 40400 9 8 1 0 0 0 1
 output.sch
 T 56500 40100 9 8 1 0 0 0 1

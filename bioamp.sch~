@@ -134,7 +134,7 @@ symversion=0.1
 T 49600 46400 5 10 1 1 0 3 1
 refdes=C20
 T 49600 46200 5 10 1 1 0 3 1
-value=1uF
+value=470nF
 T 49600 46000 5 10 1 1 0 3 1
 description=metal film
 T 49600 45600 5 10 1 1 0 3 1
