@@ -1,4 +1,4 @@
-v 20200604 2
+v 20201211 2
 C 40000 40000 0 0 0 title-C.sym
 T 55000 40700 9 8 1 0 0 0 1
 Biological Amplifier Output Stage and Cable Driver
@@ -180,7 +180,7 @@ refdes=S60
 T 45705 53595 5 10 1 1 0 3 1
 model-name=T101MHAVxx
 T 45700 53400 5 10 1 1 0 3 1
-footprint=T101MHAVxx.fp
+footprint=T101MHAVxx.lht
 }
 N 44700 52500 44700 52300 4
 {
@@ -567,7 +567,7 @@ refdes=S10
 T 46305 48395 5 10 1 1 0 3 1
 model-name=T101MHAVxx
 T 46300 48200 5 10 1 1 0 3 1
-footprint=T101MHAVxx.fp
+footprint=T101MHAVxx.lht
 }
 N 45500 47700 44500 47700 4
 N 45300 47300 45300 47100 4

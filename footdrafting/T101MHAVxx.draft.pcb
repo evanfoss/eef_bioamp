@@ -1,0 +1,890 @@
+# release: pcb-rnd 2.3.0
+
+# To read pcb files, the pcb version (or the git source date) must be >= the file version
+FileVersion[20070407]
+
+PCB["" 6.0in 5.0in]
+
+Grid[1.0mil 0.0 0.0 1]
+Cursor[3.271in 1.741in 1000]
+PolyArea[3100.006203]
+Thermal[0.500000]
+DRC[12.0mil 9.0mil 10.0mil 7.0mil 15.0mil 10.0mil]
+Flags("nameonpcb,uniquename,clearnew,snappin")
+Groups("9:11:1,c:2:3:4:5:7:8:6,s:12:10")
+Styles["Signal,10.0mil,83.0mil,43.0mil,10.0mil:Power,30.0mil,60.0mil,35.0mil,10.0mil:Fat,40.0mil,60.0mil,35.0mil,10.0mil:Skinny,6.0mil,24.02mil,11.81mil,6.0mil"]
+
+Symbol[' ' 18.0mil]
+(
+)
+Symbol['!' 12.0mil]
+(
+	SymbolLine[0.0 45.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 0.0 35.0mil 8.0mil]
+)
+Symbol['"' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 20.0mil 8.0mil]
+	SymbolLine[10.0mil 10.0mil 10.0mil 20.0mil 8.0mil]
+)
+Symbol['#' 12.0mil]
+(
+	SymbolLine[0.0 35.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[0.0 25.0mil 20.0mil 25.0mil 8.0mil]
+	SymbolLine[15.0mil 20.0mil 15.0mil 40.0mil 8.0mil]
+	SymbolLine[5.0mil 20.0mil 5.0mil 40.0mil 8.0mil]
+)
+Symbol['$' 12.0mil]
+(
+	SymbolLine[15.0mil 15.0mil 20.0mil 20.0mil 8.0mil]
+	SymbolLine[5.0mil 15.0mil 15.0mil 15.0mil 8.0mil]
+	SymbolLine[0.0 20.0mil 5.0mil 15.0mil 8.0mil]
+	SymbolLine[0.0 20.0mil 0.0 25.0mil 8.0mil]
+	SymbolLine[0.0 25.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[20.0mil 35.0mil 20.0mil 40.0mil 8.0mil]
+	SymbolLine[15.0mil 45.0mil 20.0mil 40.0mil 8.0mil]
+	SymbolLine[5.0mil 45.0mil 15.0mil 45.0mil 8.0mil]
+	SymbolLine[0.0 40.0mil 5.0mil 45.0mil 8.0mil]
+	SymbolLine[10.0mil 10.0mil 10.0mil 50.0mil 8.0mil]
+)
+Symbol['%' 12.0mil]
+(
+	SymbolLine[0.0 15.0mil 0.0 20.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 10.0mil 10.0mil 8.0mil]
+	SymbolLine[10.0mil 10.0mil 15.0mil 15.0mil 8.0mil]
+	SymbolLine[15.0mil 15.0mil 15.0mil 20.0mil 8.0mil]
+	SymbolLine[10.0mil 25.0mil 15.0mil 20.0mil 8.0mil]
+	SymbolLine[5.0mil 25.0mil 10.0mil 25.0mil 8.0mil]
+	SymbolLine[0.0 20.0mil 5.0mil 25.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 40.0mil 10.0mil 8.0mil]
+	SymbolLine[35.0mil 50.0mil 40.0mil 45.0mil 8.0mil]
+	SymbolLine[40.0mil 40.0mil 40.0mil 45.0mil 8.0mil]
+	SymbolLine[35.0mil 35.0mil 40.0mil 40.0mil 8.0mil]
+	SymbolLine[30.0mil 35.0mil 35.0mil 35.0mil 8.0mil]
+	SymbolLine[25.0mil 40.0mil 30.0mil 35.0mil 8.0mil]
+	SymbolLine[25.0mil 40.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[25.0mil 45.0mil 30.0mil 50.0mil 8.0mil]
+	SymbolLine[30.0mil 50.0mil 35.0mil 50.0mil 8.0mil]
+)
+Symbol['&' 12.0mil]
+(
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 0.0 25.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 15.0mil 20.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 10.0mil 50.0mil 8.0mil]
+	SymbolLine[10.0mil 50.0mil 20.0mil 40.0mil 8.0mil]
+	SymbolLine[0.0 25.0mil 25.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 10.0mil 10.0mil 8.0mil]
+	SymbolLine[10.0mil 10.0mil 15.0mil 15.0mil 8.0mil]
+	SymbolLine[15.0mil 15.0mil 15.0mil 20.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 0.0 45.0mil 8.0mil]
+)
+Symbol[''' 12.0mil]
+(
+	SymbolLine[0.0 20.0mil 10.0mil 10.0mil 8.0mil]
+)
+Symbol['(' 12.0mil]
+(
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 0.0 45.0mil 8.0mil]
+)
+Symbol[')' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 5.0mil 15.0mil 8.0mil]
+	SymbolLine[5.0mil 15.0mil 5.0mil 45.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 5.0mil 45.0mil 8.0mil]
+)
+Symbol['*' 12.0mil]
+(
+	SymbolLine[0.0 20.0mil 20.0mil 40.0mil 8.0mil]
+	SymbolLine[0.0 40.0mil 20.0mil 20.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[10.0mil 20.0mil 10.0mil 40.0mil 8.0mil]
+)
+Symbol['+' 12.0mil]
+(
+	SymbolLine[0.0 30.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[10.0mil 20.0mil 10.0mil 40.0mil 8.0mil]
+)
+Symbol[',' 12.0mil]
+(
+	SymbolLine[0.0 60.0mil 10.0mil 50.0mil 8.0mil]
+)
+Symbol['-' 12.0mil]
+(
+	SymbolLine[0.0 30.0mil 20.0mil 30.0mil 8.0mil]
+)
+Symbol['.' 12.0mil]
+(
+	SymbolLine[0.0 50.0mil 5.0mil 50.0mil 8.0mil]
+)
+Symbol['/' 12.0mil]
+(
+	SymbolLine[0.0 45.0mil 30.0mil 15.0mil 8.0mil]
+)
+Symbol['0' 12.0mil]
+(
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 15.0mil 10.0mil 8.0mil]
+	SymbolLine[15.0mil 10.0mil 20.0mil 15.0mil 8.0mil]
+	SymbolLine[20.0mil 15.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 40.0mil 20.0mil 20.0mil 8.0mil]
+)
+Symbol['1' 12.0mil]
+(
+	SymbolLine[0.0 18.0mil 8.0mil 10.0mil 8.0mil]
+	SymbolLine[8.0mil 10.0mil 8.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 15.0mil 50.0mil 8.0mil]
+)
+Symbol['2' 12.0mil]
+(
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[20.0mil 10.0mil 25.0mil 15.0mil 8.0mil]
+	SymbolLine[25.0mil 15.0mil 25.0mil 25.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 25.0mil 25.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 25.0mil 50.0mil 8.0mil]
+)
+Symbol['3' 12.0mil]
+(
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 15.0mil 10.0mil 8.0mil]
+	SymbolLine[15.0mil 10.0mil 20.0mil 15.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 28.0mil 15.0mil 28.0mil 8.0mil]
+	SymbolLine[20.0mil 15.0mil 20.0mil 23.0mil 8.0mil]
+	SymbolLine[20.0mil 33.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 33.0mil 15.0mil 28.0mil 8.0mil]
+	SymbolLine[20.0mil 23.0mil 15.0mil 28.0mil 8.0mil]
+)
+Symbol['4' 12.0mil]
+(
+	SymbolLine[0.0 35.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 25.0mil 35.0mil 8.0mil]
+	SymbolLine[20.0mil 10.0mil 20.0mil 50.0mil 8.0mil]
+)
+Symbol['5' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 0.0 30.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 5.0mil 25.0mil 8.0mil]
+	SymbolLine[5.0mil 25.0mil 15.0mil 25.0mil 8.0mil]
+	SymbolLine[15.0mil 25.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+)
+Symbol['6' 12.0mil]
+(
+	SymbolLine[15.0mil 10.0mil 20.0mil 15.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 15.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[15.0mil 28.0mil 20.0mil 33.0mil 8.0mil]
+	SymbolLine[0.0 28.0mil 15.0mil 28.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 33.0mil 20.0mil 45.0mil 8.0mil]
+)
+Symbol['7' 12.0mil]
+(
+	SymbolLine[5.0mil 50.0mil 25.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 25.0mil 10.0mil 8.0mil]
+)
+Symbol['8' 12.0mil]
+(
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 37.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 37.0mil 7.0mil 30.0mil 8.0mil]
+	SymbolLine[7.0mil 30.0mil 13.0mil 30.0mil 8.0mil]
+	SymbolLine[13.0mil 30.0mil 20.0mil 37.0mil 8.0mil]
+	SymbolLine[20.0mil 37.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 23.0mil 7.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 0.0 23.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 15.0mil 10.0mil 8.0mil]
+	SymbolLine[15.0mil 10.0mil 20.0mil 15.0mil 8.0mil]
+	SymbolLine[20.0mil 15.0mil 20.0mil 23.0mil 8.0mil]
+	SymbolLine[13.0mil 30.0mil 20.0mil 23.0mil 8.0mil]
+)
+Symbol['9' 12.0mil]
+(
+	SymbolLine[5.0mil 50.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[20.0mil 15.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 10.0mil 20.0mil 15.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 15.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 0.0 25.0mil 8.0mil]
+	SymbolLine[0.0 25.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 20.0mil 30.0mil 8.0mil]
+)
+Symbol[':' 12.0mil]
+(
+	SymbolLine[0.0 25.0mil 5.0mil 25.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 35.0mil 8.0mil]
+)
+Symbol[';' 12.0mil]
+(
+	SymbolLine[0.0 50.0mil 10.0mil 40.0mil 8.0mil]
+	SymbolLine[10.0mil 25.0mil 10.0mil 30.0mil 8.0mil]
+)
+Symbol['<' 12.0mil]
+(
+	SymbolLine[0.0 30.0mil 10.0mil 20.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 10.0mil 40.0mil 8.0mil]
+)
+Symbol['=' 12.0mil]
+(
+	SymbolLine[0.0 25.0mil 20.0mil 25.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 20.0mil 35.0mil 8.0mil]
+)
+Symbol['>' 12.0mil]
+(
+	SymbolLine[0.0 20.0mil 10.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 40.0mil 10.0mil 30.0mil 8.0mil]
+)
+Symbol['?' 12.0mil]
+(
+	SymbolLine[10.0mil 30.0mil 10.0mil 35.0mil 8.0mil]
+	SymbolLine[10.0mil 45.0mil 10.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 0.0 20.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 15.0mil 10.0mil 8.0mil]
+	SymbolLine[15.0mil 10.0mil 20.0mil 15.0mil 8.0mil]
+	SymbolLine[20.0mil 15.0mil 20.0mil 20.0mil 8.0mil]
+	SymbolLine[10.0mil 30.0mil 20.0mil 20.0mil 8.0mil]
+)
+Symbol['@' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 40.0mil 8.0mil]
+	SymbolLine[0.0 40.0mil 10.0mil 50.0mil 8.0mil]
+	SymbolLine[10.0mil 50.0mil 40.0mil 50.0mil 8.0mil]
+	SymbolLine[50.0mil 35.0mil 50.0mil 10.0mil 8.0mil]
+	SymbolLine[50.0mil 10.0mil 40.0mil 0.0 8.0mil]
+	SymbolLine[40.0mil 0.0 10.0mil 0.0 8.0mil]
+	SymbolLine[10.0mil 0.0 0.0 10.0mil 8.0mil]
+	SymbolLine[15.0mil 20.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[20.0mil 35.0mil 30.0mil 35.0mil 8.0mil]
+	SymbolLine[30.0mil 35.0mil 35.0mil 30.0mil 8.0mil]
+	SymbolLine[35.0mil 30.0mil 40.0mil 35.0mil 8.0mil]
+	SymbolLine[35.0mil 30.0mil 35.0mil 15.0mil 8.0mil]
+	SymbolLine[35.0mil 20.0mil 30.0mil 15.0mil 8.0mil]
+	SymbolLine[20.0mil 15.0mil 30.0mil 15.0mil 8.0mil]
+	SymbolLine[20.0mil 15.0mil 15.0mil 20.0mil 8.0mil]
+	SymbolLine[40.0mil 35.0mil 50.0mil 35.0mil 8.0mil]
+)
+Symbol['A' 12.0mil]
+(
+	SymbolLine[0.0 20.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 20.0mil 7.0mil 10.0mil 8.0mil]
+	SymbolLine[7.0mil 10.0mil 18.0mil 10.0mil 8.0mil]
+	SymbolLine[18.0mil 10.0mil 25.0mil 20.0mil 8.0mil]
+	SymbolLine[25.0mil 20.0mil 25.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 25.0mil 30.0mil 8.0mil]
+)
+Symbol['B' 12.0mil]
+(
+	SymbolLine[0.0 50.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[20.0mil 50.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[25.0mil 33.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 28.0mil 25.0mil 33.0mil 8.0mil]
+	SymbolLine[5.0mil 28.0mil 20.0mil 28.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[20.0mil 10.0mil 25.0mil 15.0mil 8.0mil]
+	SymbolLine[25.0mil 15.0mil 25.0mil 23.0mil 8.0mil]
+	SymbolLine[20.0mil 28.0mil 25.0mil 23.0mil 8.0mil]
+)
+Symbol['C' 12.0mil]
+(
+	SymbolLine[7.0mil 50.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 43.0mil 7.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 17.0mil 0.0 43.0mil 8.0mil]
+	SymbolLine[0.0 17.0mil 7.0mil 10.0mil 8.0mil]
+	SymbolLine[7.0mil 10.0mil 20.0mil 10.0mil 8.0mil]
+)
+Symbol['D' 12.0mil]
+(
+	SymbolLine[5.0mil 10.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[18.0mil 10.0mil 25.0mil 17.0mil 8.0mil]
+	SymbolLine[25.0mil 17.0mil 25.0mil 43.0mil 8.0mil]
+	SymbolLine[18.0mil 50.0mil 25.0mil 43.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 18.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 18.0mil 10.0mil 8.0mil]
+)
+Symbol['E' 12.0mil]
+(
+	SymbolLine[0.0 28.0mil 15.0mil 28.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 20.0mil 10.0mil 8.0mil]
+)
+Symbol['F' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 28.0mil 15.0mil 28.0mil 8.0mil]
+)
+Symbol['G' 12.0mil]
+(
+	SymbolLine[20.0mil 10.0mil 25.0mil 15.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[20.0mil 50.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[25.0mil 35.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 25.0mil 35.0mil 8.0mil]
+	SymbolLine[10.0mil 30.0mil 20.0mil 30.0mil 8.0mil]
+)
+Symbol['H' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[25.0mil 10.0mil 25.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 25.0mil 30.0mil 8.0mil]
+)
+Symbol['I' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 10.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 10.0mil 50.0mil 8.0mil]
+)
+Symbol['J' 12.0mil]
+(
+	SymbolLine[7.0mil 10.0mil 15.0mil 10.0mil 8.0mil]
+	SymbolLine[15.0mil 10.0mil 15.0mil 45.0mil 8.0mil]
+	SymbolLine[10.0mil 50.0mil 15.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 10.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 0.0 40.0mil 8.0mil]
+)
+Symbol['K' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 20.0mil 50.0mil 8.0mil]
+)
+Symbol['L' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 20.0mil 50.0mil 8.0mil]
+)
+Symbol['M' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 30.0mil 10.0mil 8.0mil]
+	SymbolLine[30.0mil 10.0mil 30.0mil 50.0mil 8.0mil]
+)
+Symbol['N' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 25.0mil 50.0mil 8.0mil]
+	SymbolLine[25.0mil 10.0mil 25.0mil 50.0mil 8.0mil]
+)
+Symbol['O' 12.0mil]
+(
+	SymbolLine[0.0 15.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 15.0mil 10.0mil 8.0mil]
+	SymbolLine[15.0mil 10.0mil 20.0mil 15.0mil 8.0mil]
+	SymbolLine[20.0mil 15.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+)
+Symbol['P' 12.0mil]
+(
+	SymbolLine[5.0mil 10.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[20.0mil 10.0mil 25.0mil 15.0mil 8.0mil]
+	SymbolLine[25.0mil 15.0mil 25.0mil 25.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 25.0mil 25.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 20.0mil 30.0mil 8.0mil]
+)
+Symbol['Q' 12.0mil]
+(
+	SymbolLine[0.0 15.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 15.0mil 10.0mil 8.0mil]
+	SymbolLine[15.0mil 10.0mil 20.0mil 15.0mil 8.0mil]
+	SymbolLine[20.0mil 15.0mil 20.0mil 40.0mil 8.0mil]
+	SymbolLine[10.0mil 50.0mil 20.0mil 40.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 10.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[10.0mil 35.0mil 20.0mil 50.0mil 8.0mil]
+)
+Symbol['R' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[20.0mil 10.0mil 25.0mil 15.0mil 8.0mil]
+	SymbolLine[25.0mil 15.0mil 25.0mil 25.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 25.0mil 25.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[13.0mil 30.0mil 25.0mil 50.0mil 8.0mil]
+)
+Symbol['S' 12.0mil]
+(
+	SymbolLine[20.0mil 10.0mil 25.0mil 15.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 15.0mil 0.0 25.0mil 8.0mil]
+	SymbolLine[0.0 25.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 25.0mil 35.0mil 8.0mil]
+	SymbolLine[25.0mil 35.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 50.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+)
+Symbol['T' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[10.0mil 10.0mil 10.0mil 50.0mil 8.0mil]
+)
+Symbol['U' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 10.0mil 20.0mil 45.0mil 8.0mil]
+)
+Symbol['V' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 10.0mil 50.0mil 8.0mil]
+	SymbolLine[10.0mil 50.0mil 20.0mil 10.0mil 8.0mil]
+)
+Symbol['W' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 30.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 25.0mil 50.0mil 8.0mil]
+	SymbolLine[25.0mil 50.0mil 30.0mil 30.0mil 8.0mil]
+	SymbolLine[30.0mil 30.0mil 30.0mil 10.0mil 8.0mil]
+)
+Symbol['X' 12.0mil]
+(
+	SymbolLine[0.0 50.0mil 25.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 25.0mil 50.0mil 8.0mil]
+)
+Symbol['Y' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 10.0mil 30.0mil 8.0mil]
+	SymbolLine[10.0mil 30.0mil 20.0mil 10.0mil 8.0mil]
+	SymbolLine[10.0mil 30.0mil 10.0mil 50.0mil 8.0mil]
+)
+Symbol['Z' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 25.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 25.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 25.0mil 50.0mil 8.0mil]
+)
+Symbol['[' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 5.0mil 50.0mil 8.0mil]
+)
+Symbol['\' 12.0mil]
+(
+	SymbolLine[0.0 15.0mil 30.0mil 45.0mil 8.0mil]
+)
+Symbol[']' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 5.0mil 50.0mil 8.0mil]
+)
+Symbol['^' 12.0mil]
+(
+	SymbolLine[0.0 15.0mil 5.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 10.0mil 10.0mil 15.0mil 8.0mil]
+)
+Symbol['_' 12.0mil]
+(
+	SymbolLine[0.0 50.0mil 20.0mil 50.0mil 8.0mil]
+)
+Symbol['a' 12.0mil]
+(
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 45.0mil 25.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+)
+Symbol['b' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 35.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+)
+Symbol['c' 12.0mil]
+(
+	SymbolLine[5.0mil 30.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 20.0mil 50.0mil 8.0mil]
+)
+Symbol['d' 12.0mil]
+(
+	SymbolLine[20.0mil 10.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+)
+Symbol['e' 12.0mil]
+(
+	SymbolLine[5.0mil 50.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[0.0 40.0mil 20.0mil 40.0mil 8.0mil]
+	SymbolLine[20.0mil 40.0mil 20.0mil 35.0mil 8.0mil]
+)
+Symbol['f' 10.0mil]
+(
+	SymbolLine[5.0mil 15.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 15.0mil 10.0mil 10.0mil 8.0mil]
+	SymbolLine[10.0mil 10.0mil 15.0mil 10.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 10.0mil 30.0mil 8.0mil]
+)
+Symbol['g' 12.0mil]
+(
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[0.0 60.0mil 5.0mil 65.0mil 8.0mil]
+	SymbolLine[5.0mil 65.0mil 15.0mil 65.0mil 8.0mil]
+	SymbolLine[15.0mil 65.0mil 20.0mil 60.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 20.0mil 60.0mil 8.0mil]
+)
+Symbol['h' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[20.0mil 35.0mil 20.0mil 50.0mil 8.0mil]
+)
+Symbol['i' 10.0mil]
+(
+	SymbolLine[0.0 20.0mil 0.0 21.0mil 10.0mil]
+	SymbolLine[0.0 35.0mil 0.0 50.0mil 8.0mil]
+)
+Symbol['j' 10.0mil]
+(
+	SymbolLine[5.0mil 20.0mil 5.0mil 21.0mil 10.0mil]
+	SymbolLine[5.0mil 35.0mil 5.0mil 60.0mil 8.0mil]
+	SymbolLine[0.0 65.0mil 5.0mil 60.0mil 8.0mil]
+)
+Symbol['k' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 10.0mil 25.0mil 8.0mil]
+)
+Symbol['l' 10.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+)
+Symbol['m' 12.0mil]
+(
+	SymbolLine[5.0mil 35.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 35.0mil 10.0mil 30.0mil 8.0mil]
+	SymbolLine[10.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[20.0mil 35.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[20.0mil 35.0mil 25.0mil 30.0mil 8.0mil]
+	SymbolLine[25.0mil 30.0mil 30.0mil 30.0mil 8.0mil]
+	SymbolLine[30.0mil 30.0mil 35.0mil 35.0mil 8.0mil]
+	SymbolLine[35.0mil 35.0mil 35.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 5.0mil 35.0mil 8.0mil]
+)
+Symbol['n' 12.0mil]
+(
+	SymbolLine[5.0mil 35.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 35.0mil 10.0mil 30.0mil 8.0mil]
+	SymbolLine[10.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[20.0mil 35.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 5.0mil 35.0mil 8.0mil]
+)
+Symbol['o' 12.0mil]
+(
+	SymbolLine[0.0 35.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[20.0mil 35.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+)
+Symbol['p' 12.0mil]
+(
+	SymbolLine[5.0mil 35.0mil 5.0mil 65.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 5.0mil 35.0mil 8.0mil]
+	SymbolLine[5.0mil 35.0mil 10.0mil 30.0mil 8.0mil]
+	SymbolLine[10.0mil 30.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 25.0mil 35.0mil 8.0mil]
+	SymbolLine[25.0mil 35.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 50.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[10.0mil 50.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 45.0mil 10.0mil 50.0mil 8.0mil]
+)
+Symbol['q' 12.0mil]
+(
+	SymbolLine[20.0mil 35.0mil 20.0mil 65.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 15.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+)
+Symbol['r' 12.0mil]
+(
+	SymbolLine[5.0mil 35.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 35.0mil 10.0mil 30.0mil 8.0mil]
+	SymbolLine[10.0mil 30.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 5.0mil 35.0mil 8.0mil]
+)
+Symbol['s' 12.0mil]
+(
+	SymbolLine[5.0mil 50.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[20.0mil 50.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 40.0mil 25.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 40.0mil 20.0mil 40.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 40.0mil 8.0mil]
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 25.0mil 35.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+)
+Symbol['t' 10.0mil]
+(
+	SymbolLine[5.0mil 10.0mil 5.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 45.0mil 10.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 25.0mil 10.0mil 25.0mil 8.0mil]
+)
+Symbol['u' 12.0mil]
+(
+	SymbolLine[0.0 30.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 20.0mil 45.0mil 8.0mil]
+)
+Symbol['v' 12.0mil]
+(
+	SymbolLine[0.0 30.0mil 10.0mil 50.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 10.0mil 50.0mil 8.0mil]
+)
+Symbol['w' 12.0mil]
+(
+	SymbolLine[0.0 30.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 10.0mil 50.0mil 8.0mil]
+	SymbolLine[10.0mil 50.0mil 15.0mil 45.0mil 8.0mil]
+	SymbolLine[15.0mil 30.0mil 15.0mil 45.0mil 8.0mil]
+	SymbolLine[15.0mil 45.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[20.0mil 50.0mil 25.0mil 50.0mil 8.0mil]
+	SymbolLine[25.0mil 50.0mil 30.0mil 45.0mil 8.0mil]
+	SymbolLine[30.0mil 30.0mil 30.0mil 45.0mil 8.0mil]
+)
+Symbol['x' 12.0mil]
+(
+	SymbolLine[0.0 30.0mil 20.0mil 50.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 20.0mil 30.0mil 8.0mil]
+)
+Symbol['y' 12.0mil]
+(
+	SymbolLine[0.0 30.0mil 0.0 45.0mil 8.0mil]
+	SymbolLine[0.0 45.0mil 5.0mil 50.0mil 8.0mil]
+	SymbolLine[20.0mil 30.0mil 20.0mil 60.0mil 8.0mil]
+	SymbolLine[15.0mil 65.0mil 20.0mil 60.0mil 8.0mil]
+	SymbolLine[5.0mil 65.0mil 15.0mil 65.0mil 8.0mil]
+	SymbolLine[0.0 60.0mil 5.0mil 65.0mil 8.0mil]
+	SymbolLine[5.0mil 50.0mil 15.0mil 50.0mil 8.0mil]
+	SymbolLine[15.0mil 50.0mil 20.0mil 45.0mil 8.0mil]
+)
+Symbol['z' 12.0mil]
+(
+	SymbolLine[0.0 30.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 20.0mil 30.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 20.0mil 50.0mil 8.0mil]
+)
+Symbol['{' 12.0mil]
+(
+	SymbolLine[5.0mil 15.0mil 10.0mil 10.0mil 8.0mil]
+	SymbolLine[5.0mil 15.0mil 5.0mil 25.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 5.0mil 25.0mil 8.0mil]
+	SymbolLine[0.0 30.0mil 5.0mil 35.0mil 8.0mil]
+	SymbolLine[5.0mil 35.0mil 5.0mil 45.0mil 8.0mil]
+	SymbolLine[5.0mil 45.0mil 10.0mil 50.0mil 8.0mil]
+)
+Symbol['|' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 0.0 50.0mil 8.0mil]
+)
+Symbol['}' 12.0mil]
+(
+	SymbolLine[0.0 10.0mil 5.0mil 15.0mil 8.0mil]
+	SymbolLine[5.0mil 15.0mil 5.0mil 25.0mil 8.0mil]
+	SymbolLine[5.0mil 25.0mil 10.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 35.0mil 10.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 35.0mil 5.0mil 45.0mil 8.0mil]
+	SymbolLine[0.0 50.0mil 5.0mil 45.0mil 8.0mil]
+)
+Symbol['~' 12.0mil]
+(
+	SymbolLine[0.0 35.0mil 5.0mil 30.0mil 8.0mil]
+	SymbolLine[5.0mil 30.0mil 10.0mil 30.0mil 8.0mil]
+	SymbolLine[10.0mil 30.0mil 15.0mil 35.0mil 8.0mil]
+	SymbolLine[15.0mil 35.0mil 20.0mil 35.0mil 8.0mil]
+	SymbolLine[20.0mil 35.0mil 25.0mil 30.0mil 8.0mil]
+)
+Attribute("PCB::grid::unit" "mil")
+Attribute("PCB::grid::size" "10.00mil")
+Attribute("PCB::loader" "geda/pcb - readable units")
+Attribute("PCB::conf::editor/grid" "1.00 mil")
+Attribute("PCB::conf::editor/grids_idx" "1")
+Attribute("PCB::conf::editor/buffer_number" "0")
+
+Element["" "" "S?" "" 2.3in 1.61in -120.0mil -270.0mil 0 100 ""]
+(
+	Pin[0.0 -400.0mil 83.0mil 20.0mil 89.0mil 43.0mil "" "3" "clearline"]
+	Pin[0.0 -300.0mil 83.0mil 20.0mil 89.0mil 43.0mil "" "2" "clearline"]
+	Pin[0.0 -200.0mil 83.0mil 20.0mil 89.0mil 43.0mil "" "1" "clearline"]
+	Pin[0.0 0.0 83.0mil 20.0mil 89.0mil 43.0mil "" "4" "clearline"]
+	ElementLine [100.0mil -200.0mil -100.0mil -200.0mil 10.0mil]
+	ElementLine [-100.0mil -200.0mil -100.0mil 133.0mil 10.0mil]
+	ElementLine [-120.0mil 153.0mil 120.0mil 153.0mil 10.0mil]
+	ElementLine [100.0mil -200.0mil 100.0mil 133.0mil 10.0mil]
+	ElementLine [-3.0mil 373.0mil 3.0mil 373.0mil 10.0mil]
+	ElementLine [-98.0mil 373.0mil 98.0mil 373.0mil 10.0mil]
+	ElementLine [-25.0mil 373.0mil 25.0mil 373.0mil 10.0mil]
+	ElementLine [25.0mil 373.0mil 25.0mil 558.0mil 10.0mil]
+	ElementLine [-25.0mil 558.0mil -25.0mil 373.0mil 10.0mil]
+	ElementLine [-98.0mil 153.0mil -98.0mil 373.0mil 10.0mil]
+	ElementLine [98.0mil 373.0mil 98.0mil 153.0mil 10.0mil]
+	ElementLine [0.0 -400.0mil 0.0 -200.0mil 40.0mil]
+	ElementLine [-120.0mil 153.0mil -120.0mil 133.0mil 10.0mil]
+	ElementLine [120.0mil 153.0mil 120.0mil 133.0mil 10.0mil]
+	ElementLine [120.0mil 133.0mil -120.0mil 133.0mil 10.0mil]
+	ElementArc [0.0 558.0mil 25.0mil 25.0mil 0.000000 90.000000 10.0mil]
+	ElementArc [0.0 558.0mil 25.0mil 25.0mil 90.000000 90.000000 10.0mil]
+
+)
+Layer(1 "top")
+(
+)
+Layer(2 "ground")
+(
+)
+Layer(3 "signal2")
+(
+	Line[3.07in 1.65in 3.07in 960.0mil 10.0mil 20.0mil "clearline"]
+	Line[3.02in 1.65in 3.02in 864.0mil 10.0mil 20.0mil "clearline"]
+	Line[3.12in 1.65in 3.12in 864.0mil 10.0mil 20.0mil "clearline"]
+	Line[2.996in 1.063in 3.172in 1.063in 10.0mil 20.0mil "clearline"]
+)
+Layer(4 "signal3")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "bottom")
+(
+)
+Layer(7 "outline")
+(
+)
+Layer(8 "spare")
+(
+)
+Layer(9 "top-paste")
+(
+)
+Layer(10 "bottom-paste")
+(
+)
+Layer(11 "top-mask")
+(
+)
+Layer(12 "bottom-mask")
+(
+)
+Layer(13 "silk")
+(
+)
+Layer(14 "silk")
+(
+	Line[2.97in 1.85in 3.17in 1.85in 10.0mil 20.0mil "clearline"]
+	Line[3.17in 1.517in 3.17in 1.85in 10.0mil 20.0mil "clearline"]
+	Line[2.95in 1.497in 3.19in 1.497in 10.0mil 20.0mil "clearline"]
+	Line[2.97in 1.517in 2.97in 1.85in 10.0mil 20.0mil "clearline"]
+	Line[2.972in 1.277in 3.168in 1.277in 10.0mil 20.0mil "clearline"]
+	Line[3.168in 1.277in 3.168in 1.497in 10.0mil 20.0mil "clearline"]
+	Line[2.972in 1.277in 2.972in 1.497in 10.0mil 20.0mil "clearline"]
+	Line[3.19in 1.497in 3.19in 1.517in 10.0mil 20.0mil "clearline"]
+	Line[2.95in 1.497in 2.95in 1.517in 10.0mil 20.0mil "clearline"]
+	Line[2.95in 1.517in 3.19in 1.517in 10.0mil 20.0mil "clearline"]
+	Line[3.07in 1.85in 3.07in 2.05in 25.0mil 20.0mil "clearline"]
+	Line[3.02in 1.113in 3.02in 1.277in 10.0mil 20.0mil "clearline"]
+	Line[3.12in 1.277in 3.12in 28.295341mm 10.0mil 20.0mil "clearline"]
+	Line[3.12in 28.295341mm 79.247756mm 28.295097mm 10.0mil 20.0mil "clearline"]
+	Line[2.972in 1.307in 3.168in 1.346in 10.0mil 20.0mil "clearline"]
+	Line[2.972in 1.277in 3.168in 1.316in 10.0mil 20.0mil "clearline"]
+	Line[2.972in 1.337in 3.168in 1.376in 10.0mil 20.0mil "clearline"]
+	Line[2.972in 1.367in 3.168in 1.406in 10.0mil 20.0mil "clearline"]
+	Line[2.972in 1.397in 3.168in 1.436in 10.0mil 20.0mil "clearline"]
+	Line[2.972in 1.427in 3.168in 1.466in 10.0mil 20.0mil "clearline"]
+	Line[2.972in 1.457in 3.168in 1.496in 10.0mil 20.0mil "clearline"]
+	Line[3.168in 1.286in 3.12in 1.277in 10.0mil 20.0mil "clearline"]
+	Line[2.972in 1.487in 3.02in 1.497in 10.0mil 20.0mil "clearline"]
+	Arc[3.07in 1.113in 50.0mil 50.0mil 10.0mil 20.0mil 178.876697 181.123303 "clearline"]
+)
