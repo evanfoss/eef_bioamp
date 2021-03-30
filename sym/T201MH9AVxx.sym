@@ -1,0 +1,111 @@
+v 20200604 2
+L 1050 400 545 236 3 0 0 0 -1 -1
+L 550 600 300 600 3 0 0 0 -1 -1
+P 0 600 300 600 1 0 0
+{
+T 2500 600 5 10 0 0 0 0 1
+pintype=pas
+T 355 595 5 10 0 1 0 0 1
+pinlabel=A2
+T 205 645 5 10 1 1 0 6 1
+pinnumber=4
+T 1600 600 5 10 0 0 0 0 1
+pinseq=4
+}
+P 0 200 300 200 1 0 0
+{
+T 2500 200 5 10 0 0 0 0 1
+pintype=pas
+T 355 195 5 10 0 1 0 0 1
+pinlabel=B2
+T 205 245 5 10 1 1 0 6 1
+pinnumber=6
+T 1600 200 5 10 0 0 0 0 1
+pinseq=6
+}
+P 1700 400 1400 400 1 0 0
+{
+T -800 400 5 10 0 0 0 6 1
+pintype=pas
+T 1345 395 5 10 0 1 0 6 1
+pinlabel=C2
+T 1495 445 5 10 1 1 0 0 1
+pinnumber=5
+T 1000 400 5 10 0 0 0 6 1
+pinseq=5
+}
+B 400 0 900 1600 3 0 0 2 100 100 0 -1 -1 -1 -1 -1
+P 1700 0 1400 0 1 0 0
+{
+T -800 0 5 10 0 0 0 6 1
+pintype=pas
+T 1345 -5 5 10 0 1 0 6 1
+pinlabel=Chassis
+T 1495 45 5 10 1 1 0 0 1
+pinnumber=7
+T 100 0 5 10 0 0 0 6 1
+pinseq=7
+}
+L 1300 0 1400 0 3 0 0 0 -1 -1
+V 600 600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 550 200 300 200 3 0 0 0 -1 -1
+V 600 200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 1150 400 1400 400 3 0 0 0 -1 -1
+V 1100 400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 895 1995 8 10 1 1 0 3 1
+refdes=S?
+T 895 1795 8 10 1 1 0 3 1
+model-name=T201MH9AVxx
+L 1050 1200 545 1036 3 0 0 0 -1 -1
+L 550 1400 300 1400 3 0 0 0 -1 -1
+P 0 1400 300 1400 1 0 0
+{
+T 2500 1400 5 10 0 0 0 0 1
+pintype=pas
+T 355 1395 5 10 0 1 0 0 1
+pinlabel=A1
+T 1600 1400 5 10 0 0 0 0 1
+pinseq=1
+T 205 1445 5 10 1 1 0 6 1
+pinnumber=1
+}
+P 0 1000 300 1000 1 0 0
+{
+T 2500 1000 5 10 0 0 0 0 1
+pintype=pas
+T 355 995 5 10 0 1 0 0 1
+pinlabel=B1
+T 1600 1000 5 10 0 0 0 0 1
+pinseq=3
+T 205 1045 5 10 1 1 0 6 1
+pinnumber=3
+}
+P 1700 1200 1400 1200 1 0 0
+{
+T -800 1200 5 10 0 0 0 6 1
+pintype=pas
+T 1345 1195 5 10 0 1 0 6 1
+pinlabel=C1
+T 1000 1200 5 10 0 0 0 6 1
+pinseq=2
+T 1495 1245 5 10 1 1 0 0 1
+pinnumber=2
+}
+V 600 1400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 550 1000 300 1000 3 0 0 0 -1 -1
+V 600 1000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 1150 1200 1400 1200 3 0 0 0 -1 -1
+V 1100 1200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 800 1100 800 300 3 10 1 2 100 100
+T 892 1592 8 10 1 1 0 3 1
+footprint=T201MH9AVxx.fp
+T -8 -208 8 10 0 1 0 0 1
+documentation=https://www.ckswitches.com/media/1391/ttoggle.pdf
+T -8 -208 8 10 0 1 0 0 1
+author=Evan Foss (evanfoss@gmail.com)
+T -8 -208 8 10 0 1 0 0 1
+description=DPDT Toggle Switch with Shield pin that is set back from the front edge. This features a short actuator.
+T -8 -208 8 10 0 1 0 0 1
+dist-license=GPL
+T -8 -8 8 10 0 1 0 0 1
+use-license=unlimited

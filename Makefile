@@ -14,7 +14,10 @@
 #Project Name
 NAME = bioamp
 #Project Schematics
-SCHEMATICS = bioamp.sch output.sch
+SCHEMATICS = bioamp.sch output.sch notchfilter.sch
+#
+SCHEMATICS2 = notchfilter.sch
+
 #Project Netlists
 NETLISTS = $(NAME).net
 #Project SPICE Simulation Data
@@ -29,8 +32,10 @@ SPICEGRAPH = $(NAME)SPICE.csv
 GRAPHCMDFILE_GNUPLOT = plot.gnu
 #Project Schematics to PCB File
 SCH2PCB = project.lht
+SCH2PCB2 = project2.lht
 #Project Printed Circuit Boards
 PCBS = bioamp-art.lht
+PCBS2 = notchfilter-opt-art.lht
 #Project Gerbers
 GERBERS = $(NAME)-art.fab.gbr $(NAME)-art.plated-drill.cnc $(NAME)-art.frontsilk.gbr $(NAME)-art.front.gbr $(NAME)-art.frontmask.gbr $(NAME)-art.back.gbr  $(NAME)-art.backmask.gbr
 
@@ -101,6 +106,14 @@ sch2pcb:
 
 pcb:    sch2pcb
 	$(PCBTOOL) $(PCBS)
+
+sch2pcb2:
+	$(SCH2PCB_TOOL) $(SCH2PCB2) $(SCH2PCB_FLAGS)
+
+pcb2:	sch2pcb2
+	$(PCBTOOL) $(PCBS2)
+
+
 
 gerbv:
 	$(PCBVIEW) $(PCBVIEWFLAGS) $(GERBERS)
