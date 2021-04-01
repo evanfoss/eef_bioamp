@@ -21061,11 +21061,11 @@ ha:pcb-rnd-board-v6 {
                               ha:unnamed_net2 {
                               li:conn { L41-1; C41-2;                              }
                               }
+                               ha:LARGER {
+                               li:conn { R11-1; CONN64-1; R64-2; C62-2; C61-1; R63-1; U60-6;                               }
+                               }
                               ha:unnamed_net3 {
                               li:conn { L40-2; TP4-1; CONN40-1;                              }
-                              }
-                              ha:LARGER {
-                              li:conn { R11-1; CONN64-1; R64-2; C62-2; C61-1; R63-1; U60-6;                              }
                               }
                               ha:unnamed_net4 {
                               li:conn { L41-2; TP5-1; CONN40-2;                              }

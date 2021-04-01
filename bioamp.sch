@@ -138,7 +138,7 @@ value=470nF
 T 49600 46000 5 10 1 1 0 3 1
 description=metal film
 T 49600 45600 5 10 1 1 0 3 1
-model-name=#model-name
+model-name=SMR5474J63J05L16.5CBULK
 T 49600 45800 5 10 1 1 0 3 1
 footprint=KEMET_SMR5xxxxxxJ06xxx.x.subc.lht
 }

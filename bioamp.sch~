@@ -49,7 +49,7 @@ footprint=so(8)
 T 49500 44000 5 10 1 1 0 0 1
 refdes=U20
 T 49495 43795 5 10 1 1 0 0 1
-model-name=OPA130
+model-name=OP1177
 }
 C 48200 42300 1 0 1 gnd-1.sym
 N 48100 42600 48100 43500 4

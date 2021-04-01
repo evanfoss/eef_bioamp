@@ -1,0 +1,77 @@
+PCF1453CT-ND 	
+‎PCF1453CT-ND‎
+‎ECH-U1C102GX5‎
+Panasonic Electronic Components
+CAP FILM 1000PF 2% 16VDC 0603
+	
+	
+Immediate
+	
+0.23620
+	
+$11.81
+26
+	PCF1190CT-ND 	
+‎PCF1190CT-ND‎
+‎ECH-U1C332JX5‎
+Panasonic Electronic Components
+CAP FILM 3300PF 5% 16VDC 0805
+	
+	
+Immediate
+	
+0.22040
+	
+$11.02
+27
+	PCF1172CT-ND 	
+‎PCF1172CT-ND‎
+‎ECH-U1C392GX5‎
+Panasonic Electronic Components
+CAP FILM 3900PF 2% 16VDC 0805
+	
+	
+Immediate
+	
+0.25320
+	
+$12.66
+28
+	PCF1196CT-ND 	
+‎PCF1196CT-ND‎
+‎ECH-U1C103JX5‎
+Panasonic Electronic Components
+CAP FILM 10000PF 5% 16VDC 0805
+	
+	
+Immediate
+	
+0.24040
+	
+$12.02
+29
+	1189-4331-1-ND 	
+‎1189-4331-1-ND‎
+‎35MU153KY11608‎
+Rubycon
+CAP FILM 0.015UF 10% 35VDC 0603
+	
+	
+Immediate
+	
+1.65000
+	
+$16.50
+30
+	1189-4364-1-ND 	
+‎1189-4364-1-ND‎
+‎63MU333KZ22012‎
+Rubycon
+CAP FILM 0.033UF 10% 63VDC 0805
+	
+	
+Immediate
+	
+2.31000
+	
+$23.10 
