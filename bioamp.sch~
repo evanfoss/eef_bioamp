@@ -9,7 +9,7 @@ T 58800 40400 9 8 1 0 0 0 1
 T 54900 40400 9 8 1 0 0 0 1
 bioamp.sch
 T 56500 40100 9 8 1 0 0 0 1
-2
+3
 T 55000 40100 9 8 1 0 0 0 1
 1
 C 49300 41500 1 180 0 generic-power.sym
@@ -138,7 +138,7 @@ value=470nF
 T 49600 46000 5 10 1 1 0 3 1
 description=metal film
 T 49600 45600 5 10 1 1 0 3 1
-model-name=#model-name
+model-name=SMR5474J63J05L16.5CBULK
 T 49600 45800 5 10 1 1 0 3 1
 footprint=KEMET_SMR5xxxxxxJ06xxx.x.subc.lht
 }
