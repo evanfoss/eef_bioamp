@@ -2732,6 +2732,12 @@ ha:pcb-rnd-board-v7 {
          clearline=1
         }
        }
+       ha:arc.3230 {
+        x=2.205in; y=4.79in; width=155.0mil; height=155.0mil; astart=0.000000; adelta=360.000000; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
        ha:text.2527 {
         string=TBNC needs ~515mils minus the case thickness; x=86.36mm; y=124.079mm; scale=100; fid=0;
         ha:flags {
@@ -4911,11 +4917,11 @@ ha:pcb-rnd-board-v7 {
    ha:design {
     text_font_id = 0
      text_scale = 100
-     via_thickness = 137.80 mil
-     via_drilling_hole = 47.24 mil
+     via_thickness = 5.1500 mm
+     via_drilling_hole = 2.1500 mm
      text_thickness = 0
-     line_thickness = 80.00 mil
-     clearance = 25.00 mil
+     line_thickness = 10.00 mil
+     clearance = 20.00 mil
    }
    ha:editor {
      buffer_number = 0
