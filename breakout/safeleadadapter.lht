@@ -1,7 +1,7 @@
 li:pcb-rnd-subcircuit-v7 {
- ha:subc.703 {
+ ha:subc.3822 {
   ha:attributes {
-   refdes = CONN0
+   refdes = U0
   }
   ha:data {
    li:padstack_prototypes {
@@ -42,7 +42,7 @@ li:pcb-rnd-subcircuit-v7 {
        ha:ps_circ {
         x = 0.0
         y = 0.0
-        dia = 5.15mm
+        dia = 4.134mm
        }
        ha:layer_mask {
         copper = 1
@@ -89,16 +89,16 @@ li:pcb-rnd-subcircuit-v7 {
     }
    }
    li:objects {
-    ha:padstack_ref.718 {
+    ha:padstack_ref.3835 {
      smirror = 0
      ha:attributes {
       term = 1
      }
      proto = 0
      xmirror = 0
-     x = 5.83in
+     x = 1.815in
      rot = 0.000000
-     y = 1.4in
+     y = 126.238mm
      li:thermal {
      }
      ha:flags {
@@ -115,72 +115,27 @@ li:pcb-rnd-subcircuit-v7 {
       top = 1
      }
      li:objects {
-      ha:arc.704 {
-       astart = 180.000000
+      ha:arc.3823 {
+       astart = 360.000000
        thickness = 10.0mil
-       width = 300.0mil
-       height = 300.0mil
+       width = 150.0mil
+       height = 150.0mil
        ha:attributes {
        }
-       x = 5.83in
-       y = 1.4in
-       adelta = 90.000000
+       x = 1.815in
+       y = 126.238mm
+       adelta = -360.000000
        ha:flags {
         clearline = 1
        }
        clearance = 40.0mil
       }
-      ha:arc.705 {
-       astart = 90.000000
-       thickness = 10.0mil
-       width = 300.0mil
-       height = 300.0mil
-       ha:attributes {
-       }
-       x = 5.83in
-       y = 1.4in
-       adelta = 90.000000
-       ha:flags {
-        clearline = 1
-       }
-       clearance = 40.0mil
-      }
-      ha:arc.706 {
-       astart = 0.000000
-       thickness = 10.0mil
-       width = 300.0mil
-       height = 300.0mil
-       ha:attributes {
-       }
-       x = 5.83in
-       y = 1.4in
-       adelta = 90.000000
-       ha:flags {
-        clearline = 1
-       }
-       clearance = 40.0mil
-      }
-      ha:arc.707 {
-       astart = 270.000000
-       thickness = 10.0mil
-       width = 300.0mil
-       height = 300.0mil
-       ha:attributes {
-       }
-       x = 5.83in
-       y = 1.4in
-       adelta = 90.000000
-       ha:flags {
-        clearline = 1
-       }
-       clearance = 40.0mil
-      }
-      ha:text.708 {
+      ha:text.3824 {
        scale = 100
        ha:attributes {
        }
-       x = 146.05mm
-       y = 1.03in
+       x = 1.79in
+       y = 120.65mm
        rot = 0.000000
        string = %a.parent.refdes%
        fid = 0
@@ -194,52 +149,79 @@ li:pcb-rnd-subcircuit-v7 {
       auto = 1
      }
     }
-    ha:subc-aux {
+    ha:top-assy {
      lid = 1
+     ha:type {
+      top = 1
+      doc = 1
+     }
+     purpose = assy
+     li:objects {
+      ha:arc.3825 {
+       astart = 360.000000
+       thickness = 10.0mil
+       width = 150.0mil
+       height = 150.0mil
+       ha:attributes {
+       }
+       x = 1.815in
+       y = 126.238mm
+       adelta = -360.000000
+       ha:flags {
+        clearline = 1
+       }
+       clearance = 40.0mil
+      }
+     }
+     ha:combining {
+     }
+    }
+    ha:subc-aux {
+     lid = 2
      ha:type {
       top = 1
       misc = 1
       virtual = 1
      }
      li:objects {
-      ha:line.709 {
+      ha:line.3826 {
        clearance = 0.0
-       y2 = 1.4in
+       y2 = 126.238mm
        thickness = 0.1mm
        ha:attributes {
         subc-role = origin
        }
-       x1 = 5.83in
-       x2 = 5.83in
+       x1 = 1.815in
+       x2 = 1.815in
        ha:flags {
        }
-       y1 = 1.4in
+       y1 = 126.238mm
       }
-      ha:line.712 {
+      ha:line.3829 {
        clearance = 0.0
-       y2 = 1.4in
+       y2 = 126.238mm
        thickness = 0.1mm
        ha:attributes {
         subc-role = x
        }
-       x1 = 5.83in
-       x2 = 149.082mm
+       x1 = 1.815in
+       x2 = 47.101mm
        ha:flags {
        }
-       y1 = 1.4in
+       y1 = 126.238mm
       }
-      ha:line.715 {
+      ha:line.3832 {
        clearance = 0.0
-       y2 = 36.56mm
+       y2 = 127.238mm
        thickness = 0.1mm
        ha:attributes {
         subc-role = y
        }
-       x1 = 5.83in
-       x2 = 5.83in
+       x1 = 1.815in
+       x2 = 1.815in
        ha:flags {
        }
-       y1 = 1.4in
+       y1 = 126.238mm
       }
      }
      ha:combining {
@@ -247,7 +229,7 @@ li:pcb-rnd-subcircuit-v7 {
     }
    }
   }
-  uid = n1tGSNL6b05Jz3Xi8RcAAAAB
+  uid = BP66D5XUZNNtRL9Pk6cAAAAL
   ha:flags {
   }
  }
