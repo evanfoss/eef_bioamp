@@ -945,6 +945,24 @@ ha:pcb-rnd-board-v7 {
       }
 
       li:objects {
+       ha:line.9141 {
+        x1=39.751mm; y1=3.98in; x2=39.751mm; y2=104.013mm; thickness=80.0mil; clearance=50.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.9144 {
+        x1=39.751mm; y1=104.013mm; x2=1.38in; y2=4.28in; thickness=80.0mil; clearance=50.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.9147 {
+        x1=39.751mm; y1=104.013mm; x2=44.45mm; y2=4.28in; thickness=80.0mil; clearance=50.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
       }
       color = {#8b2323}
     }
@@ -1083,6 +1101,54 @@ ha:pcb-rnd-board-v7 {
       }
 
       li:objects {
+       ha:text.9133 {
+        string=Safelead; x=28.067mm; y=105.283mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        rot = 90.000000
+       }
+       ha:text.9134 {
+        string=Adapter; x=29.591mm; y=105.283mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        rot = 90.000000
+       }
+       ha:text.9135 {
+        string=EPL; x=985.0mil; y=105.283mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        rot = 90.000000
+       }
+       ha:text.9136 {
+        string=BioAmp; x=26.543mm; y=105.283mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        rot = 90.000000
+       }
+       ha:text.9139 {
+        string=Evan Foss; x=1.98in; y=104.775mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        rot = 90.000000
+       }
+       ha:text.9140 {
+        string=2021.04.09; x=1.92in; y=104.775mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        rot = 90.000000
+       }
       }
       color = {#000000}
     }
@@ -1098,6 +1164,48 @@ ha:pcb-rnd-board-v7 {
       }
 
       li:objects {
+       ha:text.9069 {
+        string=Evan Foss; x=1.155in; y=105.283mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+        }
+        rot = 270.000000
+       }
+       ha:text.9070 {
+        string=2021.04.09; x=30.861mm; y=105.283mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+        }
+        rot = 270.000000
+       }
+       ha:text.9099 {
+        string=Safelead; x=52.07mm; y=105.283mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+        }
+        rot = 270.000000
+       }
+       ha:text.9100 {
+        string=Adapter; x=1.99in; y=105.283mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+        }
+        rot = 270.000000
+       }
+       ha:text.9101 {
+        string=EPL; x=55.118mm; y=105.283mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+        }
+        rot = 270.000000
+       }
+       ha:text.9102 {
+        string=BioAmp; x=53.594mm; y=105.283mm; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+        }
+        rot = 270.000000
+       }
       }
       color = {#000000}
     }
@@ -3630,16 +3738,20 @@ ha:pcb-rnd-board-v7 {
    ha:design {
     text_font_id = 0
      text_scale = 100
-     via_thickness = 5.1500 mm
-     via_drilling_hole = 2.1500 mm
+     via_thickness = 137.80 mil
+     via_drilling_hole = 47.24 mil
      text_thickness = 0
-     line_thickness = 10.00 mil
-     clearance = 20.00 mil
+     line_thickness = 80.00 mil
+     clearance = 25.00 mil
    }
    ha:editor {
      grids_idx = 2
      grid = 5.00 mil
       buffer_number = 0
+     ha:view {
+      flip_y = 0
+     }
+       show_solder_side = 0
    }
   }
  }
