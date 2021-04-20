@@ -1,4 +1,4 @@
-v 20201211 2
+v 20200604 2
 C 40000 40000 0 0 0 title-C.sym
 T 55000 40700 9 8 1 0 0 0 1
 Biological Amplifier Output Stage and Cable Driver
@@ -166,7 +166,7 @@ refdes=C61
 T 50600 51400 5 10 0 0 0 6 1
 symversion=0.1
 T 50400 51400 5 10 1 1 0 3 1
-value=3.3pF
+value=2.2nF
 T 50400 51200 5 10 1 1 0 3 1
 description=metal film
 T 50400 51000 5 10 1 1 0 3 1
@@ -221,7 +221,7 @@ refdes=C62
 T 47400 50600 5 10 0 0 0 0 1
 symversion=0.1
 T 47600 50600 5 10 1 1 0 3 1
-value=330pF
+value=220pF
 T 47600 50400 5 10 1 1 0 3 1
 description=metal film
 T 47600 50200 5 10 1 1 0 3 1
@@ -235,7 +235,7 @@ netname=U60GAIN100:1
 }
 N 48100 49900 52500 49900 4
 N 52500 48900 50800 48900 4
-T 40800 52500 9 12 1 0 0 0 4
+T 40800 52700 9 12 1 0 0 0 4
 Note: refdes=R62 is reserved for the 
 option of having the servo loop around 
 U60 for improved CMRR. If used it 
@@ -868,3 +868,7 @@ C15 is actually two capacitors
 PCF1172CT-ND‎
 3.9nF
 =36.9nF
+T 40800 51800 9 12 1 0 0 0 3
+Note: For system gains of 1K the 
+components are R63 = 499 and 
+C61 = 22nF
