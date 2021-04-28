@@ -1,4 +1,4 @@
-v 20200604 2
+v 20201211 2
 C 40000 40000 0 0 0 title-C.sym
 T 55000 40700 9 8 1 0 0 0 1
 Biological Amplifier Output Stage and Cable Driver
@@ -9,7 +9,7 @@ T 58800 40400 9 8 1 0 0 0 1
 T 54900 40400 9 8 1 0 0 0 1
 output.sch
 T 56500 40100 9 8 1 0 0 0 1
-4
+5
 T 55000 40100 9 8 1 0 0 0 1
 2
 C 41600 54100 1 0 0 input-2.sym

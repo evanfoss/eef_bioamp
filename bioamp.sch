@@ -5,11 +5,11 @@ Biological Amplifier Input Stage
 T 58900 40100 9 8 1 0 0 0 1
 Evan Foss
 T 58800 40400 9 8 1 0 0 0 1
-2021.03.08
+2021.04.28
 T 54900 40400 9 8 1 0 0 0 1
 bioamp.sch
 T 56500 40100 9 8 1 0 0 0 1
-4
+5
 T 55000 40100 9 8 1 0 0 0 1
 1
 C 49300 41500 1 180 0 generic-power.sym
@@ -614,3 +614,16 @@ comment=16uH
 T 46305 52995 5 10 1 1 0 3 1
 footprint=AB4X2X8W-vertical.subc.lht
 }
+C 41800 44300 1 0 0 connector2-1.sym
+{
+T 42000 45300 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 41800 45100 5 10 0 1 0 0 1
+footprint=connector(2, 1, spacing=100.0mil, silkmark=external)
+T 41800 45100 5 10 1 1 0 0 1
+refdes=CONN21
+}
+N 43500 44500 45200 44500 4
+N 45200 44500 45200 43100 4
+N 43500 44800 43900 44800 4
+N 43900 44800 43900 43100 4

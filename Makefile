@@ -14,7 +14,7 @@
 #Project Name
 NAME = bioamp
 #Project Schematics
-SCHEMATICS = bioamp.sch output.sch twinax_doc.sch notchfilter.sch
+SCHEMATICS = bioamp.sch output.sch twinax_doc.sch notchfilter.sch highpass.sch
 #
 SCHEMATICS2 = notchfilter.sch
 
