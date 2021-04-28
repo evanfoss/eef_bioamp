@@ -13,11 +13,13 @@
 
 #Project Name
 NAME = bioamp
+NAME2 = notchfilter
+NAME3 = highpass
 #Project Schematics
 SCHEMATICS = bioamp.sch output.sch twinax_doc.sch notchfilter.sch highpass.sch
 #
 SCHEMATICS2 = notchfilter.sch
-
+SCHEMATICS3 = highpass.sch
 #Project Netlists
 NETLISTS = $(NAME).net
 #Project SPICE Simulation Data
@@ -33,11 +35,16 @@ GRAPHCMDFILE_GNUPLOT = plot.gnu
 #Project Schematics to PCB File
 SCH2PCB = project.lht
 SCH2PCB2 = project2.lht
+SCH2PCB3 = project3.lht
 #Project Printed Circuit Boards
 PCBS = bioamp-art.lht
 PCBS2 = notchfilter-opt-art.lht
+PCBS3 = highpass-opt-art.lht
 #Project Gerbers
 GERBERS = $(NAME)-art.fab.gbr $(NAME)-art.plated-drill.cnc $(NAME)-art.frontsilk.gbr $(NAME)-art.front.gbr $(NAME)-art.frontmask.gbr $(NAME)-art.back.gbr  $(NAME)-art.backmask.gbr
+GERBERS2 = $(NAME2)-art.fab.gbr $(NAME2)-art.plated-drill.cnc $(NAME2)-art.frontsilk.gbr $(NAME2)-art.front.gbr $(NAME2)-art.frontmask.gbr $(NAME2)-art.back.gbr  $(NAME2)-art.backmask.gbr
+GERBERS3 = $(NAME3)-art.fab.gbr $(NAME3)-art.plated-drill.cnc $(NAME3)-art.frontsilk.gbr $(NAME3)-art.front.gbr $(NAME3)-art.frontmask.gbr $(NAME3)-art.back.gbr  $(NAME3)-art.backmask.gbr
+
 
 #
 ## Text Editor
@@ -113,10 +120,21 @@ sch2pcb2:
 pcb2:	sch2pcb2
 	$(PCBTOOL) $(PCBS2)
 
+sch2pcb3:
+	$(SCH2PCB_TOOL) $(SCH2PCB3) $(SCH2PCB_FLAGS)
+
+pcb3:	sch2pcb3
+	$(PCBTOOL) $(PCBS3)
 
 
 gerbv:
 	$(PCBVIEW) $(PCBVIEWFLAGS) $(GERBERS)
+
+gerbv2:
+	$(PCBVIEW) $(PCBVIEWFLAGS) $(GERBERS2)
+
+gerbv3:
+	$(PCBVIEW) $(PCBVIEWFLAGS) $(GERBERS3)
 
 bom:
 	$(BOMTOOL) $(BOMFLAGS) $(PCBS)
