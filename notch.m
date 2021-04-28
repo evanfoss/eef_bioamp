@@ -58,7 +58,7 @@ disp("\nSelected Values\n");
 #R102 = 81.6*Kilo
 
 #C = 470nF
-R100 = 33.6*Kilo
+R100 = (67.3*Kilo)/2 #33.6*Kilo
 R101 = 475
 R102 = 67.3*Kilo
 
