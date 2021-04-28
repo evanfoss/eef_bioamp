@@ -217,11 +217,11 @@ T 49200 54800 5 10 0 0 0 6 1
 symversion=0.1
 T 48900 54400 5 10 0 1 0 3 1
 footprint=KEMET_MMK5xxxK63J0xL4.subc.lht
-T 48900 55000 5 10 1 1 0 3 1
+T 49000 54800 5 10 1 1 0 3 1
 refdes=C40
-T 48900 54800 5 10 1 1 0 3 1
+T 49000 54600 5 10 1 1 0 3 1
 value=2.2nF
-T 48900 54600 5 10 1 1 0 3 1
+T 49000 54400 5 10 1 1 0 3 1
 comment=Metal Film
 }
 C 48800 52400 1 0 1 capacitor-1.sym
@@ -232,11 +232,11 @@ T 48600 53300 5 10 0 0 0 6 1
 symversion=0.1
 T 48400 52900 5 10 0 1 0 3 1
 footprint=KEMET_MMK5xxxK63J0xL4.subc.lht
-T 48400 53500 5 10 1 1 0 3 1
-refdes=C41
 T 48400 53300 5 10 1 1 0 3 1
-value=2.2nF
+refdes=C41
 T 48400 53100 5 10 1 1 0 3 1
+value=2.2nF
+T 48400 52900 5 10 1 1 0 3 1
 comment=Metal Film
 }
 N 50500 53800 50500 54100 4

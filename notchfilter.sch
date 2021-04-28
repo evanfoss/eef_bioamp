@@ -297,30 +297,30 @@ model-name=T101MHAVxx
 T 52200 44200 5 10 1 1 0 3 1
 footprint=T101MHAVxx.lht
 }
-C 41000 47900 1 0 0 connector2-1.sym
+C 42500 49400 1 0 0 connector2-1.sym
 {
-T 41200 48900 5 10 0 0 0 0 1
+T 42700 50400 5 10 0 0 0 0 1
 device=CONNECTOR_2
-T 41000 48700 5 10 0 1 0 0 1
+T 42500 50200 5 10 0 1 0 0 1
 footprint=connector(2, 1, spacing=100.0mil, silkmark=external)
-T 41000 48900 5 10 1 1 0 0 1
+T 42500 50400 5 10 1 1 0 0 1
 refdes=CONN141
-T 41000 48700 5 10 1 1 0 0 1
+T 42500 50200 5 10 1 1 0 0 1
 comment=Mates with CONN41
 }
-N 42700 48100 43500 48100 4
-N 43500 48100 43500 47500 4
-C 43400 47200 1 0 0 gnd-1.sym
-C 43700 48300 1 0 0 output-2.sym
+N 44200 49600 45000 49600 4
+N 45000 49600 45000 49000 4
+C 44900 48700 1 0 0 gnd-1.sym
+C 45200 49800 1 0 0 output-2.sym
 {
-T 43900 49000 5 10 0 0 0 0 1
+T 45400 50500 5 10 0 0 0 0 1
 device=none
-T 44600 48400 5 10 0 1 0 1 1
+T 46100 49900 5 10 0 1 0 1 1
 value=OUTPUT
-T 44600 48400 5 10 1 1 0 1 1
+T 46100 49900 5 10 1 1 0 1 1
 net=SMALL:1
 }
-N 43700 48400 42700 48400 4
+N 45200 49900 44200 49900 4
 T 55000 40700 9 8 1 0 0 0 1
 Biological Amplifier Power Line Notch Filter
 T 58900 40100 9 8 1 0 0 0 1
@@ -347,7 +347,9 @@ footprint=0805
 N 47200 45500 47500 45500 4
 N 46300 45500 46000 45500 4
 N 46000 45500 46000 46700 4
-T 45800 46100 9 10 1 0 0 8 3
-Note: While it is possible to do R100 & R103 in one 
-resistor it makes supply chain management easier to 
-use 1 part 3 times than to source 2 parts.
+T 45600 46300 9 10 1 0 0 8 5
+Note: While it is possible to do R100 
+& R103 in one resistor it makes 
+supply chain management easier to 
+use 1 part 3 times than to source 2 
+parts.
