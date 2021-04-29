@@ -1,0 +1,45 @@
+
+The following is a work in progress
+
+BioAmp "Fancy" - Common Parts
+
+2	1M	Resistor 1206 Footprint
+
+12	0.1uF	Capacitor Ceramic 1206 Footprint
+1	SMR5474J50J04L16.5CBULK		399-13063-ND	0.47uF	Capacitor Metal Film PPS 5% 50VDC
+3	1uF	Capacitor Ceramic 1206 Footprint
+2	ECQ-E1225KF			EF1225-ND	2.2uF	Capacitor Metal Film 10% 100VDC
+2	35SEPF22M+TSS			P16407CT-ND	22uF	Capacitor Aluminum Polymer 20% 35V
+1	Wire Stranded Yellow
+1	Wire Stranded Blue
+1	Wire Stranded Green
+1	Wire Stranded White
+
+BioAmp "Fancy" - 1K/10K Gain
+
+BioAmp "Fancy" - 10K/100K Gain
+
+BioAmp "Fancy" - Option Notch Filter 60Hz
+2	0.1uF	Capacitor Ceramic 1206 Footprint
+
+BioAmp "Fancy" - Option Notch Filter 50Hz
+
+BioAmp "Fancy" - Option HPF 10Hz/300Hz
+1	12.7K	Resistor 0805 Footprint
+1	20K	Resistor 0805 Footprint
+
+BioAmp Breakout Pod
+1	Box Hammond Diecast Aluminum Powder Coated
+1	Twinax Connector Panel Mount
+1	BNC Lockwasher with Solder Lug
+1	5 Way Binding Post (Green)
+1	5 Way Binding Post (Black)
+1	5 Way Binding Post (Red)
+3	Safelead Adapters (modified see note)
+2	4-40 Screws Binding Head
+2	#4 Lockwashers
+2	4-40 Nuts
+1	Wire Stranded Red
+1	Wire Stranded Black
+1	Wire Stranded Green
+
