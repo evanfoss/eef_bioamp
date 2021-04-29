@@ -10,10 +10,7 @@ BioAmp "Fancy" - Common Parts
 3	1uF	Capacitor Ceramic 1206 Footprint
 2	ECQ-E1225KF			EF1225-ND	2.2uF	Capacitor Metal Film 10% 100VDC
 2	35SEPF22M+TSS			P16407CT-ND	22uF	Capacitor Aluminum Polymer 20% 35V
-1	Wire Stranded Yellow
-1	Wire Stranded Blue
-1	Wire Stranded Green
-1	Wire Stranded White
+7	929647-09-02-I			3M156537-02-ND	2Pos	Connector Male 2 Position 0.1" Spacing Gold Plating
 
 BioAmp "Fancy" - 1K/10K Gain
 
@@ -25,8 +22,10 @@ BioAmp "Fancy" - Option Notch Filter 60Hz
 BioAmp "Fancy" - Option Notch Filter 50Hz
 
 BioAmp "Fancy" - Option HPF 10Hz/300Hz
-1	12.7K	Resistor 0805 Footprint
-1	20K	Resistor 0805 Footprint
+1	12.7K		Resistor 0805 Footprint
+1	20K		Resistor 0805 Footprint
+1	T101MHAVBE			CKN9899-ND		SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
+2	929850-01-02-RA			929850E-01-02-ND		Connector Female 2 Position 0.1" Spacing Gold Plating
 
 BioAmp Breakout Pod
 1	Box Hammond Diecast Aluminum Powder Coated
@@ -42,4 +41,32 @@ BioAmp Breakout Pod
 1	Wire Stranded Red
 1	Wire Stranded Black
 1	Wire Stranded Green
+
+BioAmp Subrack Module - Front
+1	Front Panel
+1	Switch DPDT Push Button Locking Right Angle Mount Mechanical Indicator Solder Eyelet
+Note: The front panel is shared with the Dual 9V Power Supply Version
+
+Subrack Module Edgecard - Rear Assembly
+1       Connector Male
+
+Subrack Module Edgecard - Wire Harness
+1	Connector Female
+0008550102	WM2312-ND	Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
+1	Wire Blue
+1	Wire Yellow
+1	Wire Green
+1	Wire White
+
+Dual 9V Power Supply - Rear Assembly
+
+Dual 9V Power Supply - Wire Harness
+0008550102	WM2312-ND	Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
+1	Wire Blue
+1	Wire Yellow
+1	Wire Green
+1	Wire White
+
+
+
 
