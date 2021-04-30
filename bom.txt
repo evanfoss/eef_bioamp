@@ -2,9 +2,9 @@
 The following is a work in progress
 
 BioAmp "Fancy" - Common Parts
-1	AD8221	AD8221ARZ-ND	Insturmentation Amplifier 8 SOIC Package
-1	OP1177	OpAmp
-1	OPA1611	OpAmp
+1	AD8221		AD8221ARZ-ND	Insturmentation Amplifier 8 SOIC Package
+1	OP1177		OpAmp
+1	OPA1611		OpAmp
 1	LF356 OpAmp
 1	SO8 to DIP8 Adapter
 1	DIP8 Socket
@@ -27,12 +27,14 @@ BioAmp "Fancy" - Common Parts
 2	ECQ-E1225KF			EF1225-ND	2.2uF	Capacitor Metal Film 10% 100VDC
 2	35SEPF22M+TSS			P16407CT-ND	22uF	Capacitor Aluminum Polymer 20% 35V
 2	AB4X2X8W	AB4X2X8W-ND	Ferrite Bead
-9	Test Point
-7	929647-09-02-I			3M156537-02-ND	2Pos	Connector Male 2 Position 0.1" Spacing Gold Plating
+9	S1751-46R	952-1478-1-ND	Test Point
+7	929647-09-02-I	3M156537-02-ND	3M156537-02-ND	2Pos	Connector Male 2 Position 0.1" Spacing Gold Plating
 2	T101MHAVBE	CKN9899-ND	SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
 2	22-05-3051	WM4303-ND	Connector 5 Position Right Angle 0.1" Spacing Ramp and Rib Locking
-1	031-5431-10RFX	ARF1690-ND	Connector BNC Right Angle+PCB Mount
-1	5228686-1	A32412-ND	Connector Twinax BNC
+1	031-5431-10RFX	ARF1690-ND	Connector BNC Right Angle+PCB Mount Includes Mounting Hardware
+1	5228686-1	A32412-ND	Connector Twinax BNC No Included Mounting Hardware
+1	1/2" Diameter Lockwasher
+1	1/2"-28 Nut
 
 BioAmp "Fancy" - 1K/10K Gain
 1	499	Resistor 0805
@@ -67,7 +69,8 @@ BioAmp "Fancy" - Option HPF 10Hz/300Hz
 
 BioAmp Breakout Pod
 1	AN-2851-AB	377-2363-ND	Box Hammond Diecast Aluminum Powder Coated
-1	31-223	ARF1038-ND	Twinax Connector Panel Mount
+1	31-223		ARF1038-ND	Twinax Connector Panel Mount (expensive version)
+1	162109		ACX2067-ND	Twinax Connector Panel Mount (cheap version)
 1	9-227260-0	A33796-ND	BNC Lockwasher with Solder Lug
 1	5 Way Binding Post (Green)
 1	5 Way Binding Post (Black)
@@ -89,12 +92,13 @@ When ordered individually the switch cap is F11010108	CKN10073-ND
 
 Subrack Module Edgecard - Rear Assembly
 1	Rear Panel
-1	Connector Male
+1	6 Position Right Angle 0.1" Spacing Connector Male
 
 
 Subrack Module Edgecard - Wire Harness
-1	Connector Female
-0008550102	WM2312-ND	Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
+1	6 Position Connector Female Housing
+1	5 Position Connector Female Housing
+10	0008550102	WM2312-ND	Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
 1	Wire Blue
 1	Wire Yellow
 1	Wire Green
@@ -106,7 +110,8 @@ Dual 9V Power Supply - Rear Assembly
 1		2x 9V Battery Holder
 
 Dual 9V Power Supply - Wire Harness
-	0008550102	WM2312-ND	Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
+6	0008550102	WM2312-ND	Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
+2	5 Position Connector Housing
 1	Wire Blue
 1	Wire Yellow
 1	Wire Green
