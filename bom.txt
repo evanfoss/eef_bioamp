@@ -18,7 +18,7 @@ BioAmp "Fancy" - Common Parts
 1	RT0805DRE071K13L	311-2803-1-ND				1.13K	Resistor 0805 Footprint
 2	RT1206FRE071ML		YAG5985CT-ND				1M	Resistor 1206 Footprint
 1	FCN1206A102J-H2		338-2779-1-ND				1nF	Capacitor Metal Film 1206 Footprint
-2	MMK5222K63J01L4BULK	399-5435-ND				2.2nF	Capacitor Metal Film (PPS)
+2	MMK5222K63J01L4BULK	399-5435-ND				2.2nF	Capacitor Metal Film PPS Through Hole
 1	ECH-U1C392GX5		PCF1172CT-ND				3.9nF	Capacitor Metal Film
 1	35MU153KY11608		1189-4331-1-ND				15nF	Capacitor Metal Film 0603 Footprint
 1	63MU333KZ22012		1189-4364-ND				33nF	Capacitor Metal Film 0805 Footprint
@@ -34,20 +34,20 @@ BioAmp "Fancy" - Common Parts
 2	22-05-3051		WM4303-ND					Connector 5 Position Right Angle 0.1" Spacing Ramp and Rib Locking
 1	031-5431-10RFX		ARF1690-ND				N.A.	Connector BNC Right Angle+PCB Mount Includes Mounting Hardware
 1	5228686-1		A32412-ND				N.A.	Connector Twinax BNC No Included Mounting Hardware
-1										1/2" Diameter Lockwasher
-1	1/2"-28 Nut
+1									N.A.	1/2" Diameter Lockwasher
+1									N.A.	1/2"-28 Nut
 
 BioAmp "Fancy" - 1K/10K Gain
-1	499	Resistor 0805
-1	RNCP0805FTD4K99	RNCP0805FTD4K99CT-ND	4.99K	Resistor 0805
-1	2.2nF	Capacitor
-1	22nF	Capacitor
+1	RNCP0805FTD499R		RNCP0805FTD499RCT-ND			499	Resistor 0805
+1	RNCP0805FTD4K99		RNCP0805FTD4K99CT-ND			4.99K	Resistor 0805
+1		2.2nF	Capacitor
+1		22nF	Capacitor
 
 BioAmp "Fancy" - 10K/100K Gain
-1	RNCP0805FTD4K99	RNCP0805FTD4K99CT-ND	4.99K	Resistor 0805
-1	PTN0805E5002BST1	764-1535-1-ND	50K	Resistor 0805
-1	220pF	Capacitor
-1	2.2nF	Capacitor
+1	RNCP0805FTD4K99		RNCP0805FTD4K99CT-ND			4.99K	Resistor 0805
+1	PTN0805E5002BST1	764-1535-1-ND				50K	Resistor 0805
+1		220pF	Capacitor
+1		2.2nF	Capacitor
 
 BioAmp "Fancy" - Option Notch Filter 60Hz
 1	OP1177	OpAmp
