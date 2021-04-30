@@ -2,24 +2,61 @@
 The following is a work in progress
 
 BioAmp "Fancy" - Common Parts
-
+1	AD8221	AD8221ARZ-ND	Insturmentation Amplifier 8 SOIC Package
+1	OP1177	OpAmp
+1	OPA1611	OpAmp
+1	LF356 OpAmp
+1	SO8 to DIP8 Adapter
+1	DIP8 Socket
+1	0	Resistor 0805 Footprint (or a solder bridge)
+1	2	Resistot 2512 Footprint
+1	12	Resistor 0805 Footprint
+1	37.4	Resistor 0805 Footprint
+1	49.9	Resistor 1206 Footprint
+2	499	Resistor 0805 Footprint
+2	1K	Resistor 0805 Footprint
+1	1.13K	Resistor 0805 Footprint
 2	1M	Resistor 1206 Footprint
-
+1	1nF	Capacitor Metal Film
+2	2.2nF	Capacitor Metal Film (PPS)
+1	3.9nF	Capacitor Metal Film
+1	15nF	Capacitor Metal Film
 12	0.1uF	Capacitor Ceramic 1206 Footprint
 1	SMR5474J50J04L16.5CBULK		399-13063-ND	0.47uF	Capacitor Metal Film PPS 5% 50VDC
 3	1uF	Capacitor Ceramic 1206 Footprint
 2	ECQ-E1225KF			EF1225-ND	2.2uF	Capacitor Metal Film 10% 100VDC
 2	35SEPF22M+TSS			P16407CT-ND	22uF	Capacitor Aluminum Polymer 20% 35V
+2	AB4X2X8W	AB4X2X8W-ND	Ferrite Bead
+9	Test Point
 7	929647-09-02-I			3M156537-02-ND	2Pos	Connector Male 2 Position 0.1" Spacing Gold Plating
+2	T101MHAVBE	CKN9899-ND	SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
+2	22-05-3051	WM4303-ND	Connector 5 Position Right Angle 0.1" Spacing Ramp and Rib Locking
+1	031-5431-10RFX	ARF1690-ND	Connector BNC Right Angle+PCB Mount
+1	5228686-1	A32412-ND	Connector Twinax BNC
 
 BioAmp "Fancy" - 1K/10K Gain
+1	499	Resistor 0805
+1	5K	Resistor 0805
+1	2.2nF	Capacitor
+1	22nF	Capacitor
 
 BioAmp "Fancy" - 10K/100K Gain
+1	5K	Resistor 0805
+1	50K	Resistor 0805
+1	220pF	Capacitor
+1	2.2nF	Capacitor
 
 BioAmp "Fancy" - Option Notch Filter 60Hz
+1	OP1177	OpAmp
+1	475	Resistor 0805 Footprint
+3	67.3K	Resistor 0805 Footprint
 2	0.1uF	Capacitor Ceramic 1206 Footprint
+1	SMR5474J50J04L16.5CBULK	399-13063-ND	0.47uF	Capacitor Metal Film PPS 5% 50VDC
+1	T101MHAVBE	CKN9899-ND	SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
+4	929850-01-02-RA	929850E-01-02-ND	Connector Female 2 Position 0.1" Spacing Gold Plating
 
 BioAmp "Fancy" - Option Notch Filter 50Hz
+
 
 BioAmp "Fancy" - Option HPF 10Hz/300Hz
 1	12.7K		Resistor 0805 Footprint
@@ -27,10 +64,11 @@ BioAmp "Fancy" - Option HPF 10Hz/300Hz
 1	T101MHAVBE			CKN9899-ND		SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
 2	929850-01-02-RA			929850E-01-02-ND		Connector Female 2 Position 0.1" Spacing Gold Plating
 
+
 BioAmp Breakout Pod
-1	Box Hammond Diecast Aluminum Powder Coated
-1	Twinax Connector Panel Mount
-1	BNC Lockwasher with Solder Lug
+1	AN-2851-AB	377-2363-ND	Box Hammond Diecast Aluminum Powder Coated
+1	31-223	ARF1038-ND	Twinax Connector Panel Mount
+1	9-227260-0	A33796-ND	BNC Lockwasher with Solder Lug
 1	5 Way Binding Post (Green)
 1	5 Way Binding Post (Black)
 1	5 Way Binding Post (Red)
@@ -42,13 +80,17 @@ BioAmp Breakout Pod
 1	Wire Stranded Black
 1	Wire Stranded Green
 
-BioAmp Subrack Module - Front
+
+BioAmp - Front Assembly
 1	Front Panel
-1	Switch DPDT Push Button Locking Right Angle Mount Mechanical Indicator Solder Eyelet
-Note: The front panel is shared with the Dual 9V Power Supply Version
+1	ZFA FA200 BK GN 2U EE	CKN10064-ND	Switch DPDT Push Button Locking Right Angle Mount Mechanical Indicator Solder Eyelet
+
+When ordered individually the switch cap is F11010108	CKN10073-ND
 
 Subrack Module Edgecard - Rear Assembly
-1       Connector Male
+1	Rear Panel
+1	Connector Male
+
 
 Subrack Module Edgecard - Wire Harness
 1	Connector Female
@@ -58,10 +100,13 @@ Subrack Module Edgecard - Wire Harness
 1	Wire Green
 1	Wire White
 
+
 Dual 9V Power Supply - Rear Assembly
+1	Rear Panel
+1		2x 9V Battery Holder
 
 Dual 9V Power Supply - Wire Harness
-0008550102	WM2312-ND	Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
+	0008550102	WM2312-ND	Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
 1	Wire Blue
 1	Wire Yellow
 1	Wire Green
