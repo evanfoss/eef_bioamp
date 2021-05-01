@@ -1,3 +1,8 @@
+EPL BioAmp Fancy
+Parts List
+bom.txt
+By Evan Foss
+2021.04.30
 
 The following is a work in progress
 
@@ -28,30 +33,30 @@ Quant.	Model#			Distributor	Distributor#			Value	Description
 3	CL31B105KBHNNNE		Digikey		1276-1068-1-ND			1uF	Capacitor Ceramic 1206 Footprint
 2	ECQ-E1225KF		Digikey		EF1225-ND			2.2uF	Capacitor Metal Film 10% 100VDC
 2	35SEPF22M+TSS		Digikey		P16407CT-ND			22uF	Capacitor Aluminum Polymer 20% 35V
-2	AB4X2X8W		Digikey		AB4X2X8W-ND					Ferrite Bead
+2	AB4X2X8W		Digikey		AB4X2X8W-ND				Ferrite Bead
 9	S1751-46R		Digikey		952-1478-1-ND			N.A.	Test Point
 7	929647-09-02-I		Digikey		3M156537-02-ND			2Pos	Connector Male 2 Position 0.1" Spacing Gold Plating
 2	T101MHAVBE		Digikey		CKN9899-ND			SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
-2	22-05-3051		Digikey		WM4303-ND				Connector 5 Position Right Angle 0.1" Spacing Ramp and Rib Locking
+2	22-05-3051		Digikey		WM4303-ND			5Pos	Connector 5 Position Right Angle 0.1" Spacing Ramp and Rib Locking
 1	031-5431-10RFX		Digikey		ARF1690-ND			N.A.	Connector BNC Right Angle+PCB Mount Includes Mounting Hardware
 1	5228686-1		Digikey		A32412-ND			N.A.	Connector Twinax BNC No Included Mounting Hardware
 1	031-5653		Mouser		523-31-5653			N.A.	1/2" Diameter Lockwasher
 1	031-5652		Digikey		ARF1927-ND			N.A.	1/2"-28 Nut
 
 BioAmp "Fancy" - 1K/10K Gain
-1	RNCP0805FTD499R		Digikey		RNCP0805FTD499RCT-ND		499	Resistor 0805
-1	RNCP0805FTD4K99		Digikey		RNCP0805FTD4K99CT-ND		4.99K	Resistor 0805
-1				Digikey						2.2nF	Capacitor
-1				Digikey						22nF	Capacitor
+1	RNCP0805FTD499R		Digikey		RNCP0805FTD499RCT-ND		499	Resistor 0805 Footprint
+1	RNCP0805FTD4K99		Digikey		RNCP0805FTD4K99CT-ND		4.99K	Resistor 0805 Footprint
+1	ECH-U1H222JX5		Digikey		PCF1332CT-ND			2.2nF	Capacitor 0805 Footprint
+1	FCP1210H223J-G2		Digikey		338-4085-1-ND			22nF	Capacitor 1210 Footprint
 
 BioAmp "Fancy" - 10K/100K Gain
-1	RNCP0805FTD4K99		Digikey		RNCP0805FTD4K99CT-ND		4.99K	Resistor 0805
-1	PTN0805E5002BST1	Digikey		764-1535-1-ND			50K	Resistor 0805
-1				Digikey						220pF	Capacitor
-1				Digikey						2.2nF	Capacitor
+1	RNCP0805FTD4K99		Digikey		RNCP0805FTD4K99CT-ND		4.99K	Resistor 0805 Footprint
+1	RNCP0805FTD49K9		Digikey		RNCP0805FTD49K9CT-ND		49.9K	Resistor 0805 Footprint
+1	ECH-U1H221GX5		Digikey		PCF1288CT-ND			220pF	Capacitor
+1	ECH-U1H222JX5		Digikey		PCF1332CT-ND			2.2nF	Capacitor
 
 BioAmp "Fancy" - Option Notch Filter 60Hz
-1	OP1177	OpAmp
+1	OP1177			Digikey		OP1177ARZ-ND			N.A.	OpAmp
 1	ERA-6AEB4750V		Digikey		P475DACT-ND			475	Resistor 0805 Footprint
 3	RN732ATTD6732B25	Mouser		660-RN732ATD6732B25		67.3K	Resistor 0805 Footprint
 2	C1206C104K5RAC7800	Digikey		399-C1206C104K5RAC7800-ND	0.1uF	Capacitor Ceramic 1206 Footprint
@@ -60,11 +65,11 @@ BioAmp "Fancy" - Option Notch Filter 60Hz
 4	929850-01-02-RA		Digikey		929850E-01-02-ND		2 Pos	Connector Female 2 Position 0.1" Spacing Gold Plating
 
 BioAmp "Fancy" - Option Notch Filter 50Hz
-
+This needs to be worked out.
 
 BioAmp "Fancy" - Option HPF 10Hz/300Hz
-1										12.7K	Resistor 0805 Footprint
-1										20K	Resistor 0805 Footprint
+1	ERA-6AEB1272V		Digikey		P12.7KDACT-ND			12.7K	Resistor 0805 Footprint
+1	RNCP0805FTD20K0		Digikey		RNCP0805FTD20K0CT-ND		20K	Resistor 0805 Footprint
 1	T101MHAVBE		Digikey		CKN9899-ND			SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
 2	929850-01-02-RA		Digikey		929850E-01-02-ND		2 Pos	Connector Female 2 Position 0.1" Spacing Gold Plating
 
