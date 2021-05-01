@@ -2,122 +2,123 @@
 The following is a work in progress
 
 BioAmp "Fancy" - Common Parts
-1	AD8221BRZ		AD8221BRZ-ND				N.A.	Insturmentation Amplifier 8 SOIC Package
-1	OP1177			OP1177ARZ-ND 				N.A.	OpAmp
-1	OPA1611			29647811-1-ND				N.A.	OpAmp
-1	LF356			LF356MX/NOPBCT-ND			N.A.	OpAmp
-1	PA0001C			315-PA0001C-ND				SO8	SO8 to DIP8 Adapter
-1	110-43-308-41-001000	ED90032-ND				DIP8	DIP8 Socket
-1	N.A.			N.A.					0	Resistor 0805 Footprint (or a solder bridge)
-1	RMCF2512JT2R00		MCF2512JT2R00CT-ND			2	Resistor Footprint 2512
-1	ERA-6AHD120V		P123888CT-ND				12	Resistor 0805 Footprint
-1	ERA-6AHD37R4V		P37.4BPCT-ND				37.4	Resistor 0805 Footprint
-1	RNCP1206FTD49R9		RNCP1206FTD49R9CT-ND			49.9	Resistor 1206 Footprint
-2	RNCP0805FTD499R		RNCP0805FTD499RCT-ND			499	Resistor 0805 Footprint
-2	RN73H2ATTD1001B25	2019-RN73H2ATTDD1001B25CT-ND		1K	Resistor 0805 Footprint
-1	RT0805DRE071K13L	311-2803-1-ND				1.13K	Resistor 0805 Footprint
-2	RT1206FRE071ML		YAG5985CT-ND				1M	Resistor 1206 Footprint
-1	FCN1206A102J-H2		338-2779-1-ND				1nF	Capacitor Metal Film 1206 Footprint
-2	MMK5222K63J01L4BULK	399-5435-ND				2.2nF	Capacitor Metal Film PPS Through Hole
-1	ECH-U1C392GX5		PCF1172CT-ND				3.9nF	Capacitor Metal Film
-1	35MU153KY11608		1189-4331-1-ND				15nF	Capacitor Metal Film 0603 Footprint
-1	63MU333KZ22012		1189-4364-ND				33nF	Capacitor Metal Film 0805 Footprint
-12	C1206C104K5RAC7800	399-C1206C104K5RAC7800-ND		0.1uF	Capacitor Ceramic 1206 Footprint 50V
-1	SMR5474J50J04L16.5CBULK	399-13063-ND				0.47uF	Capacitor Metal Film PPS 5% 50VDC
-3	CL31B105KBHNNNE		1276-1068-1-ND				1uF	Capacitor Ceramic 1206 Footprint
-2	ECQ-E1225KF		EF1225-ND				2.2uF	Capacitor Metal Film 10% 100VDC
-2	35SEPF22M+TSS		P16407CT-ND				22uF	Capacitor Aluminum Polymer 20% 35V
-2	AB4X2X8W		AB4X2X8W-ND						Ferrite Bead
-9	S1751-46R		952-1478-1-ND				N.A.	Test Point
-7	929647-09-02-I		3M156537-02-ND				2Pos	Connector Male 2 Position 0.1" Spacing Gold Plating
-2	T101MHAVBE		CKN9899-ND				SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
-2	22-05-3051		WM4303-ND					Connector 5 Position Right Angle 0.1" Spacing Ramp and Rib Locking
-1	031-5431-10RFX		ARF1690-ND				N.A.	Connector BNC Right Angle+PCB Mount Includes Mounting Hardware
-1	5228686-1		A32412-ND				N.A.	Connector Twinax BNC No Included Mounting Hardware
-1									N.A.	1/2" Diameter Lockwasher
-1									N.A.	1/2"-28 Nut
+Quant.	Model#			Distributor	Distributor#			Value	Description
+1	AD8221BRZ		Digikey		AD8221BRZ-ND			N.A.	Insturmentation Amplifier 8 SOIC Package
+1	OP1177			Digikey		OP1177ARZ-ND 			N.A.	OpAmp
+1	OPA1611			Digikey		29647811-1-ND			N.A.	OpAmp
+1	LF356			Digikey		LF356MX/NOPBCT-ND		N.A.	OpAmp
+1	PA0001C			Digikey		315-PA0001C-ND			SO8	SO8 to DIP8 Adapter
+1	110-43-308-41-001000	Digikey		ED90032-ND			DIP8	DIP8 Socket
+1	N.A.			Digikey		N.A.				0	Resistor 0805 Footprint (or a solder bridge)
+1	RMCF2512JT2R00		Digikey		MCF2512JT2R00CT-ND		2	Resistor Footprint 2512
+1	ERA-6AHD120V		Digikey		P123888CT-ND			12	Resistor 0805 Footprint
+1	ERA-6AHD37R4V		Digikey		P37.4BPCT-ND			37.4	Resistor 0805 Footprint
+1	RNCP1206FTD49R9		Digikey		RNCP1206FTD49R9CT-ND		49.9	Resistor 1206 Footprint
+2	RNCP0805FTD499R		Digikey		RNCP0805FTD499RCT-ND		499	Resistor 0805 Footprint
+2	RN73H2ATTD1001B25	Digikey		2019-RN73H2ATTDD1001B25CT-ND	1K	Resistor 0805 Footprint
+1	RT0805DRE071K13L	Digikey		311-2803-1-ND			1.13K	Resistor 0805 Footprint
+2	RT1206FRE071ML		Digikey		YAG5985CT-ND			1M	Resistor 1206 Footprint
+1	FCN1206A102J-H2		Digikey		338-2779-1-ND			1nF	Capacitor Metal Film 1206 Footprint
+2	MMK5222K63J01L4BULK	Digikey		399-5435-ND			2.2nF	Capacitor Metal Film PPS Through Hole
+1	ECH-U1C392GX5		Digikey		PCF1172CT-ND			3.9nF	Capacitor Metal Film
+1	35MU153KY11608		Digikey		1189-4331-1-ND			15nF	Capacitor Metal Film 0603 Footprint
+1	63MU333KZ22012		Digikey		1189-4364-ND			33nF	Capacitor Metal Film 0805 Footprint
+12	C1206C104K5RAC7800	Digikey		399-C1206C104K5RAC7800-ND	0.1uF	Capacitor Ceramic 1206 Footprint 50V
+1	SMR5474J50J04L16.5CBULK	Digikey		399-13063-ND			0.47uF	Capacitor Metal Film PPS 5% 50VDC
+3	CL31B105KBHNNNE		Digikey		1276-1068-1-ND			1uF	Capacitor Ceramic 1206 Footprint
+2	ECQ-E1225KF		Digikey		EF1225-ND			2.2uF	Capacitor Metal Film 10% 100VDC
+2	35SEPF22M+TSS		Digikey		P16407CT-ND			22uF	Capacitor Aluminum Polymer 20% 35V
+2	AB4X2X8W		Digikey		AB4X2X8W-ND					Ferrite Bead
+9	S1751-46R		Digikey		952-1478-1-ND			N.A.	Test Point
+7	929647-09-02-I		Digikey		3M156537-02-ND			2Pos	Connector Male 2 Position 0.1" Spacing Gold Plating
+2	T101MHAVBE		Digikey		CKN9899-ND			SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
+2	22-05-3051		Digikey		WM4303-ND				Connector 5 Position Right Angle 0.1" Spacing Ramp and Rib Locking
+1	031-5431-10RFX		Digikey		ARF1690-ND			N.A.	Connector BNC Right Angle+PCB Mount Includes Mounting Hardware
+1	5228686-1		Digikey		A32412-ND			N.A.	Connector Twinax BNC No Included Mounting Hardware
+1	031-5653		Mouser		523-31-5653			N.A.	1/2" Diameter Lockwasher
+1	031-5652		Digikey		ARF1927-ND			N.A.	1/2"-28 Nut
 
 BioAmp "Fancy" - 1K/10K Gain
-1	RNCP0805FTD499R		RNCP0805FTD499RCT-ND			499	Resistor 0805
-1	RNCP0805FTD4K99		RNCP0805FTD4K99CT-ND			4.99K	Resistor 0805
-1		2.2nF	Capacitor
-1		22nF	Capacitor
+1	RNCP0805FTD499R		Digikey		RNCP0805FTD499RCT-ND		499	Resistor 0805
+1	RNCP0805FTD4K99		Digikey		RNCP0805FTD4K99CT-ND		4.99K	Resistor 0805
+1				Digikey						2.2nF	Capacitor
+1				Digikey						22nF	Capacitor
 
 BioAmp "Fancy" - 10K/100K Gain
-1	RNCP0805FTD4K99		RNCP0805FTD4K99CT-ND			4.99K	Resistor 0805
-1	PTN0805E5002BST1	764-1535-1-ND				50K	Resistor 0805
-1		220pF	Capacitor
-1		2.2nF	Capacitor
+1	RNCP0805FTD4K99		Digikey		RNCP0805FTD4K99CT-ND		4.99K	Resistor 0805
+1	PTN0805E5002BST1	Digikey		764-1535-1-ND			50K	Resistor 0805
+1				Digikey						220pF	Capacitor
+1				Digikey						2.2nF	Capacitor
 
 BioAmp "Fancy" - Option Notch Filter 60Hz
 1	OP1177	OpAmp
-1	ERA-6AEB4750V	P475DACT-ND	475	Resistor 0805 Footprint
-3	RN732ATTD6732B25	660-RN732ATD6732B25		67.3K	Resistor 0805 Footprint
-2	0.1uF	Capacitor Ceramic 1206 Footprint
-1	SMR5474J50J04L16.5CBULK	399-13063-ND	0.47uF	Capacitor Metal Film PPS 5% 50VDC
-1	T101MHAVBE	CKN9899-ND	SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
-4	929850-01-02-RA	929850E-01-02-ND	Connector Female 2 Position 0.1" Spacing Gold Plating
+1	ERA-6AEB4750V		Digikey		P475DACT-ND			475	Resistor 0805 Footprint
+3	RN732ATTD6732B25	Mouser		660-RN732ATD6732B25		67.3K	Resistor 0805 Footprint
+2	C1206C104K5RAC7800	Digikey		399-C1206C104K5RAC7800-ND	0.1uF	Capacitor Ceramic 1206 Footprint
+1	SMR5474J50J04L16.5CBULK	Digikey		399-13063-ND			0.47uF	Capacitor Metal Film PPS 5% 50VDC
+1	T101MHAVBE		Digikey		CKN9899-ND			SPDT	Switch 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
+4	929850-01-02-RA		Digikey		929850E-01-02-ND		2 Pos	Connector Female 2 Position 0.1" Spacing Gold Plating
 
 BioAmp "Fancy" - Option Notch Filter 50Hz
 
 
 BioAmp "Fancy" - Option HPF 10Hz/300Hz
-1	12.7K		Resistor 0805 Footprint
-1	20K		Resistor 0805 Footprint
-1	T101MHAVBE			CKN9899-ND		SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
-2	929850-01-02-RA			929850E-01-02-ND		Connector Female 2 Position 0.1" Spacing Gold Plating
+1										12.7K	Resistor 0805 Footprint
+1										20K	Resistor 0805 Footprint
+1	T101MHAVBE		Digikey		CKN9899-ND			SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
+2	929850-01-02-RA		Digikey		929850E-01-02-ND		2 Pos	Connector Female 2 Position 0.1" Spacing Gold Plating
 
 
 BioAmp Breakout Pod
-1	AN-2851-AB	377-2363-ND	Box Hammond Diecast Aluminum Powder Coated
-1	31-223		ARF1038-ND	Twinax Connector Panel Mount (expensive version)
-1	162109		ACX2067-ND	Twinax Connector Panel Mount (cheap version)
-1	9-227260-0	A33796-ND	BNC Lockwasher with Solder Lug
-1	111-0104-001	J371-ND		5 Way Binding Post (Green)
-1	111-0103-001	J165-ND		5 Way Binding Post (Black)
-1	111-0102-001	J164-ND		5 Way Binding Post (Red)
-3	Safelead Adapters (modified see note)
-2	4-40 Screws Binding Head
-2	#4 Lockwashers
-2	4-40 Nuts
-1	Wire Stranded Red
-1	Wire Stranded Black
-1	Wire Stranded Green
-1	CTC-5	Twinax to Twinax Cable Shielded Twisted Pair
+1	AN-2851-AB		Digikey		377-2363-ND				Box Hammond Diecast Aluminum Powder Coated
+1	31-223			Digikey		ARF1038-ND				Twinax Connector Panel Mount (expensive version)
+1	162109			Digikey		ACX2067-ND				Twinax Connector Panel Mount (cheap version)
+1	9-227260-0		Digikey		A33796-ND				BNC Lockwasher with Solder Lug
+1	111-0104-001		Digikey		J371-ND					5 Way Binding Post (Green)
+1	111-0103-001		Digikey		J165-ND					5 Way Binding Post (Black)
+1	111-0102-001		Digikey		J164-ND					5 Way Binding Post (Red)
+3											Safelead Adapters (modified see note)
+2											4-40 Screws Binding Head
+2											#4 Lockwashers
+2											4-40 Nuts
+1											Wire Stranded Red
+1											Wire Stranded Black
+1											Wire Stranded Green
+1	CTC-5			L-Com		CTC-5					Twinax to Twinax Cable Shielded Twisted Pair
 
 
 BioAmp - Front Assembly
 1	Front Panel
-1	ZFA FA200 BK GN 2U EE	CKN10064-ND	Switch DPDT Push Button Locking Right Angle Mount Mechanical Indicator Solder Eyelet
+1	ZFA FA200 BK GN 2U EE	Digikey		CKN10064-ND			DPDT	Switch DPDT Push Button Locking Right Angle Mount Mechanical Indicator Solder Eyelet
 
 When ordered individually the switch cap is F11010108	CKN10073-ND
 
 Subrack Module Edgecard - Rear Assembly
-1	Rear Panel
-1	6 Position Right Angle 0.1" Spacing Connector Male
+1											Rear Panel
+1				Digikey							6 Position Right Angle 0.1" Spacing Connector Male
 
 
 Subrack Module Edgecard - Wire Harness
-1	6 Position Connector Female Housing
-1	5 Position Connector Female Housing
-10	0008550102	WM2312-ND	Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
-1	Wire Blue
-1	Wire Yellow
-1	Wire Green
-1	Wire White
+1				Digikey							6 Position Connector Female Housing
+1				Digikey							5 Position Connector Female Housing
+10	0008550102		Digikey		WM2312-ND		Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
+1											Wire Blue
+1											Wire Yellow
+1											Wire Green
+1											Wire White
 
 
 Dual 9V Power Supply - Rear Assembly
-1	Rear Panel
-1		2x 9V Battery Holder
+1											Rear Panel
+1											2x 9V Battery Holder
 
 Dual 9V Power Supply - Wire Harness
-6	0008550102	WM2312-ND	Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
-2	5 Position Connector Housing
-1	Wire Blue
-1	Wire Yellow
-1	Wire Green
-1	Wire White
+6	0008550102		Digikey		WM2312-ND		Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
+2				Digikey							5 Position Connector Housing
+1				Digikey							Wire Blue
+1				Digikey							Wire Yellow
+1				Digikey							Wire Green
+1				Digikey							Wire White
 
 
 
