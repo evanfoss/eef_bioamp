@@ -82,7 +82,7 @@ BioAmp Breakout Pod
 1	111-0104-001		Digikey		J371-ND					5 Way Binding Post (Green)
 1	111-0103-001		Digikey		J165-ND					5 Way Binding Post (Black)
 1	111-0102-001		Digikey		J164-ND					5 Way Binding Post (Red)
-3											Safelead Adapters (modified see note)
+3	140420			Natus		140420					Safelead Adapters (modified see note)
 2											4-40 Screws Binding Head
 2											#4 Lockwashers
 2											4-40 Nuts
