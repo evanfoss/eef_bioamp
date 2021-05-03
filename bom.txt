@@ -10,30 +10,30 @@ BioAmp "Fancy" - Common Parts
 Quant.	Model#			Distributor	Distributor#			Value	Description
 1	AD8221BRZ		Digikey		AD8221BRZ-ND			N.A.	Insturmentation Amplifier 8 SOIC Package
 1	OP1177			Digikey		OP1177ARZ-ND 			N.A.	OpAmp
-1	OPA1611			Digikey		29647811-1-ND			N.A.	OpAmp
+1	OPA1611			Digikey		296-47811-1-ND			N.A.	OpAmp
 1	LF356			Digikey		LF356MX/NOPBCT-ND		N.A.	OpAmp
 1	PA0001C			Digikey		315-PA0001C-ND			SO8	SO8 to DIP8 Adapter
 1	110-43-308-41-001000	Digikey		ED90032-ND			DIP8	DIP8 Socket
 1	N.A.			Digikey		N.A.				0	Resistor 0805 Footprint (or a solder bridge)
-1	RMCF2512JT2R00		Digikey		MCF2512JT2R00CT-ND		2	Resistor Footprint 2512
+1	RMCF2512JT2R00		Digikey		RMCF2512JT2R00CT-ND		2	Resistor Footprint 2512
 1	ERA-6AHD120V		Digikey		P123888CT-ND			12	Resistor 0805 Footprint
 1	ERA-6AHD37R4V		Digikey		P37.4BPCT-ND			37.4	Resistor 0805 Footprint
 1	RNCP1206FTD49R9		Digikey		RNCP1206FTD49R9CT-ND		49.9	Resistor 1206 Footprint
 2	RNCP0805FTD499R		Digikey		RNCP0805FTD499RCT-ND		499	Resistor 0805 Footprint
-2	RN73H2ATTD1001B25	Digikey		2019-RN73H2ATTDD1001B25CT-ND	1K	Resistor 0805 Footprint
+2	RN73H2ATTD1001B25	Digikey		2019-RN73H2ATTD1001B25CT-ND	1K	Resistor 0805 Footprint
 1	RT0805DRE071K13L	Digikey		311-2803-1-ND			1.13K	Resistor 0805 Footprint
 2	RT1206FRE071ML		Digikey		YAG5985CT-ND			1M	Resistor 1206 Footprint
 1	FCN1206A102J-H2		Digikey		338-2779-1-ND			1nF	Capacitor Metal Film 1206 Footprint
 2	MMK5222K63J01L4BULK	Digikey		399-5435-ND			2.2nF	Capacitor Metal Film PPS Through Hole
 1	ECH-U1C392GX5		Digikey		PCF1172CT-ND			3.9nF	Capacitor Metal Film
 1	35MU153KY11608		Digikey		1189-4331-1-ND			15nF	Capacitor Metal Film 0603 Footprint
-1	63MU333KZ22012		Digikey		1189-4364-ND			33nF	Capacitor Metal Film 0805 Footprint
-12	C1206C104K5RAC7800	Digikey		399-C1206C104K5RAC7800-ND	0.1uF	Capacitor Ceramic 1206 Footprint 50V
+1	63MU333KZ22012		Digikey		1189-4364-1-ND			33nF	Capacitor Metal Film 0805 Footprint
+12	C1206C104K5RAC7800	Digikey		399-C1206C104K5RAC7800CT-ND	0.1uF	Capacitor Ceramic 1206 Footprint 50V
 1	SMR5474J50J04L16.5CBULK	Digikey		399-13063-ND			0.47uF	Capacitor Metal Film PPS 5% 50VDC
-3	CL31B105KBHNNNE		Digikey		1276-1068-1-ND			1uF	Capacitor Ceramic 1206 Footprint
+3	CL31B105KBHNFNE		Digikey		1276-3091-1-ND			1uF	Capacitor Ceramic 1206 Footprint
 2	ECQ-E1225KF		Digikey		EF1225-ND			2.2uF	Capacitor Metal Film 10% 100VDC
 2	35SEPF22M+TSS		Digikey		P16407CT-ND			22uF	Capacitor Aluminum Polymer 20% 35V
-2	AB4X2X8W		Digikey		AB4X2X8W-ND				Ferrite Bead
+2	AB4X2X8W		Digikey		AB4X2X8W-ND			8mm_2mm	Ferrite Bead
 9	S1751-46R		Digikey		952-1478-1-ND			N.A.	Test Point
 7	929647-09-02-I		Digikey		3M156537-02-ND			2Pos	Connector Male 2 Position 0.1" Spacing Gold Plating
 2	T101MHAVBE		Digikey		CKN9899-ND			SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
@@ -59,7 +59,7 @@ BioAmp "Fancy" - Option Notch Filter 60Hz
 1	OP1177			Digikey		OP1177ARZ-ND			N.A.	OpAmp
 1	ERA-6AEB4750V		Digikey		P475DACT-ND			475	Resistor 0805 Footprint
 3	RN732ATTD6732B25	Mouser		660-RN732ATD6732B25		67.3K	Resistor 0805 Footprint
-2	C1206C104K5RAC7800	Digikey		399-C1206C104K5RAC7800-ND	0.1uF	Capacitor Ceramic 1206 Footprint
+2	C1206C104K5RAC7800	Digikey		399-C1206C104K5RAC7800CT-ND	0.1uF	Capacitor Ceramic 1206 Footprint
 1	SMR5474J50J04L16.5CBULK	Digikey		399-13063-ND			0.47uF	Capacitor Metal Film PPS 5% 50VDC
 1	T101MHAVBE		Digikey		CKN9899-ND			SPDT	Switch 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
 4	929850-01-02-RA		Digikey		929850E-01-02-ND		2 Pos	Connector Female 2 Position 0.1" Spacing Gold Plating
