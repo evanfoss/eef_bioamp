@@ -18188,13 +18188,13 @@ ha:pcb-rnd-board-v6 {
         }
        }
        ha:line.210982 {
-        x1=56.134mm; y1=1.33in; x2=2.31in; y2=1.23in; thickness=65.0mil; clearance=40.0mil;
+        x1=56.134mm; y1=35.813999mm; x2=60.198001mm; y2=31.749998mm; thickness=65.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
        }
        ha:line.210988 {
-        x1=2.79in; y1=1.23in; x2=3.04in; y2=1.48in; thickness=65.0mil; clearance=40.0mil;
+        x1=2.81in; y1=31.75mm; x2=3.04in; y2=1.48in; thickness=65.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -18242,7 +18242,7 @@ ha:pcb-rnd-board-v6 {
         }
        }
        ha:line.215924 {
-        x1=56.134mm; y1=1.33in; x2=56.134mm; y2=1.58in; thickness=65.0mil; clearance=40.0mil;
+        x1=56.134mm; y1=35.813999mm; x2=56.134mm; y2=1.58in; thickness=65.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -18620,7 +18620,7 @@ ha:pcb-rnd-board-v6 {
         }
        }
        ha:line.238623 {
-        x1=2.31in; y1=1.23in; x2=2.79in; y2=1.23in; thickness=65.0mil; clearance=40.0mil;
+        x1=60.198001mm; y1=31.749998mm; x2=2.81in; y2=31.75mm; thickness=65.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -21724,12 +21724,12 @@ ha:pcb-rnd-board-v6 {
                               ha:unnamed_net2 {
                               li:conn { L41-1; C41-2;                              }
                               }
+                                     ha:LARGER {
+                                     li:conn { R11-1; CONN64-1; R64-2; C62-2; C61-1; R63-1; U60-6;                                     }
+                                     }
                                     ha:unnamed_net3 {
                                     li:conn { L40-2; TP4-1; CONN40-1;                                    }
                                     }
-                                   ha:LARGER {
-                                   li:conn { R11-1; CONN64-1; R64-2; C62-2; C61-1; R63-1; U60-6;                                   }
-                                   }
                               ha:unnamed_net4 {
                               li:conn { L41-2; TP5-1; CONN40-2;                              }
                               }

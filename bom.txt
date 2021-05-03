@@ -23,9 +23,9 @@ Quant.	Model#			Distributor	Distributor#			Value	Description
 2	RN73H2ATTD1001B25	Digikey		2019-RN73H2ATTD1001B25CT-ND	1K	Resistor 0805 Footprint
 1	RT0805DRE071K13L	Digikey		311-2803-1-ND			1.13K	Resistor 0805 Footprint
 2	RT1206FRE071ML		Digikey		YAG5985CT-ND			1M	Resistor 1206 Footprint
-1	FCN1206A102J-H2		Digikey		338-2779-1-ND			1nF	Capacitor Metal Film 1206 Footprint
+1	ECH-U1H102JX5		Digikey		PCF1328CT-ND			1nF	Capacitor Metal Film 0805 Footprint
 2	MMK5222K63J01L4BULK	Digikey		399-5435-ND			2.2nF	Capacitor Metal Film PPS Through Hole
-1	ECH-U1C392GX5		Digikey		PCF1172CT-ND			3.9nF	Capacitor Metal Film
+1	ECH-U1C392GX5		Digikey		PCF1172CT-ND			3.9nF	Capacitor Metal Film 0805 Footprint
 1	35MU153KY11608		Digikey		1189-4331-1-ND			15nF	Capacitor Metal Film 0603 Footprint
 1	63MU333KZ22012		Digikey		1189-4364-1-ND			33nF	Capacitor Metal Film 0805 Footprint
 12	C1206C104K5RAC7800	Digikey		399-C1206C104K5RAC7800CT-ND	0.1uF	Capacitor Ceramic 1206 Footprint 50V

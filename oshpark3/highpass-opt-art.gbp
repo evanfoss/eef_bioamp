@@ -1,13 +1,13 @@
-G04 start of page 2 for group 16 layer_idx 15 *
-G04 Title: (unknown), top_assy *
+G04 start of page 2 for group 13 layer_idx 12 *
+G04 Title: (unknown), bottom_paste *
 G04 Creator: pcb-rnd 2.3.0 *
-G04 CreationDate: 2021-05-03 19:20:31 UTC *
+G04 CreationDate: 2021-05-03 18:52:41 UTC *
 G04 For:  *
 G04 Format: Gerber/RS-274X *
 G04 PCB-Dimensions: 500000 500000 *
 G04 PCB-Coordinate-Origin: lower left *
 %MOIN*%
 %FSLAX25Y25*%
-%LNTOP_DOC_ASSY_16*%
+%LNBOTTOM_PASTE_NONE_13*%
 %ADD11C,0.0100*%
 M02*
