@@ -297,11 +297,11 @@ T 60900 54000 5 10 0 0 0 6 1
 symversion=0.1
 T 60600 53600 5 10 0 1 0 3 1
 footprint=panasonic_ECQE1225xFx_horiz.subc.lht
-T 60600 54200 5 10 1 1 0 3 1
-refdes=C49
 T 60600 54000 5 10 1 1 0 3 1
-value=2.2uF
+refdes=C49
 T 60600 53800 5 10 1 1 0 3 1
+value=2.2uF
+T 60600 53600 5 10 1 1 0 3 1
 comment=Metal Film
 }
 N 61100 53300 61500 53300 4
@@ -341,11 +341,11 @@ C 58700 55100 1 0 0 testpt-1.sym
 {
 T 59100 56000 5 10 0 0 0 0 1
 device=TESTPOINT
-T 58800 56000 5 10 1 1 0 3 1
-refdes=CONN5
 T 58800 55800 5 10 1 1 0 3 1
-comment=CHASSIS
+refdes=CONN5
 T 58800 55600 5 10 1 1 0 3 1
+comment=CHASSIS
+T 58800 55600 5 10 0 1 0 3 1
 footprint=connector(1, 1)
 }
 N 58800 55100 58800 53300 4

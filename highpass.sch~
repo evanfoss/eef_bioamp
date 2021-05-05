@@ -60,3 +60,15 @@ T 56500 40100 9 8 1 0 0 0 1
 5
 T 55000 40100 9 8 1 0 0 0 1
 5
+C 56200 46400 1 0 1 connector2-1.sym
+{
+T 56000 47400 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 56200 47200 5 10 1 1 0 6 1
+refdes=CONN264
+T 56200 47200 5 10 0 1 0 6 1
+footprint=connector(2, 1, spacing=100.0mil, silkmark=external)
+}
+C 54400 46100 1 0 1 gnd-1.sym
+N 54300 46400 54300 46600 4
+N 54300 46600 54500 46600 4
