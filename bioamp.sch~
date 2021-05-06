@@ -229,7 +229,7 @@ Biological Amplifier Input Stage
 T 58900 40100 9 8 1 0 0 0 1
 Evan Foss
 T 58800 40400 9 8 1 0 0 0 1
-2020.03.26
+2020.05.06
 T 54900 40400 9 8 1 0 0 0 1
 bioamp.sch
 T 56500 40100 9 8 1 0 0 0 1
@@ -533,7 +533,7 @@ device=RESISTOR
 T 45400 45600 5 10 1 1 0 3 1
 refdes=R10
 T 45400 45400 5 10 1 1 0 3 1
-value=5K
+value=4.99K
 T 45400 45200 5 10 1 1 0 3 1
 footprint=0805
 }
@@ -1050,3 +1050,11 @@ value=22uF
 T 60700 51200 5 10 1 1 0 6 1
 model-name=35SEPF22M+TSS
 }
+T 49500 47500 9 10 1 0 0 0 7
+Note: C15&C10 set the LPF. 
+For LPF=3KHz:
+C10 = 47nF
+C15 = 5.6nF
+For LPF=10KHz:
+C10 = 15nF
+C15 = 1nF
