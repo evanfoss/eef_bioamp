@@ -1167,3 +1167,20 @@ T 46595 52895 5 10 1 1 0 3 1
 footprint=AB4X2X8W-vertical.subc.lht
 }
 N 47400 52500 47900 52500 4
+C 48600 50900 1 0 1 connector2-1.sym
+{
+T 48400 51900 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 48600 51700 5 10 0 1 0 6 1
+footprint=connector(2, 1, spacing=100.0mil, silkmark=external)
+T 48600 51700 5 10 1 1 0 6 1
+refdes=CONN42
+}
+C 46300 50400 1 0 0 chassis.sym
+{
+T 46300 50400 5 10 0 1 0 0 1
+graphical=1
+}
+N 46500 50700 46500 51400 4
+N 46500 51400 46900 51400 4
+N 46900 51100 46500 51100 4
