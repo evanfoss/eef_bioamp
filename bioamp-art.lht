@@ -17830,18 +17830,15 @@ ha:pcb-rnd-board-v6 {
 
  ha:netlists {
    li:input {
-      ha:unnamed_net10 {
-      li:conn { CONN42-1; U?-?; CONN42-2;      }
-      }
+       {ha:CHASSIS:1} {
+       li:conn { CONN42-1; CONN42-2; CONN1-5; CONN5-1; C50-1; R44-2; CONN4-5; C49-2; U?-?; CONN40-3;       }
+       }
       ha:P15V {
       li:conn { TP6-1; C14-1; C48-1; C46-2; C47-2; CONN62-1; CONN62-2; CONN4-1; CONN1-1; C11-1; U10-7; C21-1; U20-7; C23-2; U40-8; C42-1; C44-1;      }
       }
       {ha:U20IN:1} {
       li:conn { R21-2; R20-1;      }
       }
-     {ha:CHASSIS:1} {
-     li:conn { CONN1-5; CONN5-1; C50-1; R44-2; CONN4-5; C49-2; U?-?; CONN40-3;     }
-     }
     ha:N15V {
     li:conn { TP8-1; C13-2; C48-2; C46-1; C47-1; CONN63-1; CONN63-2; CONN4-4; CONN1-4; C12-2; U10-4; C22-1; U20-4; C23-1; U40-5; C45-2; C43-2;    }
     }
