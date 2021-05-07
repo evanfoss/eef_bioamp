@@ -15,6 +15,7 @@
 NAME = bioamp
 #Project Schematics
 SCHEMATICS = bioamp.sch twinax_doc.sch notchfilter.sch rackpower.sch
+SCHEMATICS2 = notchfilter.sch
 #Project Netlists
 NETLISTS = $(NAME).net
 #Project SPICE Simulation Data
@@ -29,11 +30,13 @@ SPICEGRAPH = $(NAME)SPICE.csv
 GRAPHCMDFILE_GNUPLOT = plot.gnu
 #Project Schematics to PCB File
 SCH2PCB = project.lht
+SCH2PCB2 = project2.lht
 #Project Printed Circuit Boards
 PCBS = bioamp-art.lht
+PCBS2 = notchfilter-opt-art.lht
 #Project Gerbers
 GERBERS = $(NAME)-art.fab.gbr $(NAME)-art.plated-drill.cnc $(NAME)-art.frontsilk.gbr $(NAME)-art.front.gbr $(NAME)-art.frontmask.gbr $(NAME)-art.back.gbr  $(NAME)-art.backmask.gbr
-
+GERBERS2 = $(NAME2)-art.fab.gbr $(NAME2)-art.plated-drill.cnc $(NAME2)-art.frontsilk.gbr $(NAME2)-art.front.gbr $(NAME2)-art.frontmask.gbr $(NAME2)-art.back.gbr  $(NAME2)-art.backmask.gbr
 #
 ## Text Editor
 TEXTEDITOR = vi
@@ -99,11 +102,20 @@ math:
 sch2pcb:
 	$(SCH2PCB_TOOL) $(SCH2PCB) $(SCH2PCB_FLAGS)
 
+sch2pcb2:
+	$(SCH2PCB_TOOL) $(SCH2PCB2) $(SCH2PCB_FLAGS)
+
 pcb:    sch2pcb
 	$(PCBTOOL) $(PCBS)
 
+pcb2:	sch2pcb2
+	$(PCBTOOL) $(PCBS2)
+
 gerbv:
 	$(PCBVIEW) $(PCBVIEWFLAGS) $(GERBERS)
+
+gerbv2:
+	$(PCBVIEW) $(PCBVIEWFLAGS) $(GERBERS2)
 
 bom:
 	$(BOMTOOL) $(BOMFLAGS) $(PCBS)
