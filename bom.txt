@@ -30,9 +30,8 @@ Quant.	Model#			Distributor	Distributor#			Value	Description
 2	ECQ-E1225KF		Digikey		EF1225-ND			2.2uF	Capacitor Metal Film 10% 100VDC
 2	35SEPF22M+TSS		Digikey		P16407CT-ND			22uF	Capacitor Aluminum Polymer 20% 35V
 2	AB4X2X8W		Digikey		AB4X2X8W-ND			8mm_2mm	Ferrite Bead
-9	S1751-46R		Digikey		952-1478-1-ND			N.A.	Test Point
-7	929647-09-02-I		Digikey		3M156537-02-ND			2Pos	Connector Male 2 Position 0.1" Spacing Gold Plating
-2	T101MHAVBE		Digikey		CKN9899-ND			SPDT	Switch SPDT 0.4VA 20V Chassis GND Pin Toggle Switch Right Angle+PCB Mount Vertical Actuator
+8	S1751-46R		Digikey		952-1478-1-ND			N.A.	Test Point
+5	929647-09-02-I		Digikey		3M156537-02-ND			2Pos	Connector Male 2 Position 0.1" Spacing Gold Plating
 2	22-05-3051		Digikey		WM4303-ND			5Pos	Connector 5 Position Right Angle 0.1" Spacing Ramp and Rib Locking
 1	031-5431-10RFX		Digikey		ARF1690-ND			N.A.	Connector BNC Right Angle+PCB Mount Includes Mounting Hardware
 1	5228686-1		Digikey		A32412-ND			N.A.	Connector Twinax BNC No Included Mounting Hardware
