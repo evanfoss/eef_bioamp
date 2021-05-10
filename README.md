@@ -43,7 +43,7 @@ This is shared between the "Cheap" and "Fancy" versions. Like both of them it is
 It's features include the following.
 * Twinaxial BNC Output
 * 3 x 5 Way Binding Post Input
-* 3 x 1.5mm Male Input (DIN 42802-1 Connectors)
+* 3 x 1.5mm Male Input (DIN 42802-1 Compatible Connectors)
 * Holes on the sides for Mounting to Tables and etc.
 
 The mounting holes are more important than they might sound. In a lot of our booths the EPL Subrack the EPL BioAmp sits in is on a shelf while the subject of the testing is on a sliding optical breadboard.
