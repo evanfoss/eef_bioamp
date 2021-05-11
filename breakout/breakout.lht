@@ -18,11 +18,11 @@ ha:pcb-rnd-board-v7 {
     clearance = 20.0mil
    }
    ha:Fat {
-    diameter = 137.8mil
+    diameter = 4.2mm
     text_scale = 0
     text_thick = 0.0
     thickness = 80.0mil
-    hole = 47.24mil
+    hole = 0.42mm
     clearance = 25.0mil
    }
    ha:Sig-tight {
@@ -185,6 +185,150 @@ ha:pcb-rnd-board-v7 {
 
         }
       }
+
+       ha:ps_proto_v6.4 {
+         hdia=2.15mm; hplated=1; htop=0; hbottom=0;
+         li:shape {
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=5.15mm;            }
+            ha:combining {            }
+            ha:layer_mask {
+             copper = 1
+             top = 1
+            }
+            clearance=0.0
+           }
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=5.15mm;            }
+            ha:combining {            }
+            ha:layer_mask {
+             bottom = 1
+             copper = 1
+            }
+            clearance=0.0
+           }
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=5.15mm;            }
+            ha:combining {            }
+            ha:layer_mask {
+             copper = 1
+             intern = 1
+            }
+            clearance=0.0
+           }
+         }
+       }
+
+       ha:ps_proto_v6.5 {
+         hdia=1.0mm; hplated=1; htop=0; hbottom=0;
+         li:shape {
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=2.2mm;            }
+            ha:combining {            }
+            ha:layer_mask {
+             copper = 1
+             top = 1
+            }
+            clearance=0.0
+           }
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=2.2mm;            }
+            ha:combining {            }
+            ha:layer_mask {
+             bottom = 1
+             copper = 1
+            }
+            clearance=0.0
+           }
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=2.2mm;            }
+            ha:combining {            }
+            ha:layer_mask {
+             copper = 1
+             intern = 1
+            }
+            clearance=0.0
+           }
+         }
+       }
+
+       ha:ps_proto_v6.6 {
+         hdia=328.0mil; hplated=1; htop=0; hbottom=0;
+         li:shape {
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=137.8mil;            }
+            ha:combining {            }
+            ha:layer_mask {
+             copper = 1
+             top = 1
+            }
+            clearance=0.0
+           }
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=137.8mil;            }
+            ha:combining {            }
+            ha:layer_mask {
+             bottom = 1
+             copper = 1
+            }
+            clearance=0.0
+           }
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=500.0mil;            }
+            ha:combining {            }
+            ha:layer_mask {
+             copper = 1
+             intern = 1
+            }
+            clearance=0.0
+           }
+         }
+       }
+
+       ha:ps_proto_v6.7 {
+         hdia=31.5mil; hplated=1; htop=0; hbottom=0;
+         li:shape {
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=64.0mil;            }
+            ha:combining {            }
+            ha:layer_mask {
+             copper = 1
+             top = 1
+            }
+            clearance=0.0
+           }
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=64.0mil;            }
+            ha:combining {            }
+            ha:layer_mask {
+             bottom = 1
+             copper = 1
+            }
+            clearance=0.0
+           }
+
+           ha:ps_shape_v4 {
+            ha:ps_circ { x=0.0; y=0.0; dia=64.0mil;            }
+            ha:combining {            }
+            ha:layer_mask {
+             copper = 1
+             intern = 1
+            }
+            clearance=0.0
+           }
+         }
+       }
   }
 
    li:objects {
@@ -3743,6 +3887,7 @@ ha:pcb-rnd-board-v7 {
      text_thickness = 0
      line_thickness = 80.00 mil
      clearance = 25.00 mil
+      via_proto = 6
    }
    ha:editor {
      grids_idx = 2

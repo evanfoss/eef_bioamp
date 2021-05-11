@@ -1,0 +1,11 @@
+
+In the beginning I couldn't find the connector for the "safelead" and so I was buying safelead adapters (Natus 140420 formerly Natus DM-215) and cutting their output pins down so they could mate with a pcb I designed. 
+
+I now have a connector but I wanted to mark this version as the last one to have the pcb design in it.
+
+We believe the "safelead" to actually be DIN 42802-1 which appears to be compatible with Cinch part number 105-1301-002 a.k.a. Digikey part number J10495-ND.
+
+Please note the assembly layers in the pcb mark out the outline of the box used (hammond AN-2851-AB), the 3 x 5 way binding posts, and the connector for the twinbnc.
+
+-Evan
+
