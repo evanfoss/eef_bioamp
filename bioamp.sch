@@ -585,7 +585,7 @@ device=RESISTOR
 T 51200 42200 5 10 1 1 0 3 1
 refdes=R12
 T 51200 42000 5 10 1 1 0 3 1
-value=49.9
+value=100
 T 51200 41800 5 10 1 1 0 3 1
 footprint=1206
 }
