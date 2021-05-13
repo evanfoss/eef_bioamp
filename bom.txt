@@ -18,7 +18,7 @@ Quant.	Model#			Distributor	Distributor#			Value	Description
 1	RMCF2512JT2R00		Digikey		RMCF2512JT2R00CT-ND		2	Resistor Footprint 2512
 1	ERA-6AHD120V		Digikey		P123888CT-ND			12	Resistor 0805 Footprint
 1	ERA-6AHD37R4V		Digikey		P37.4BPCT-ND			37.4	Resistor 0805 Footprint
-1	RNCP1206FTD49R9		Digikey		RNCP1206FTD49R9CT-ND		49.9	Resistor 1206 Footprint
+1	RNCP1206FTD100R		Digikey		RNCP1206FTD100RCT-ND		100	Resistor 1206 Footprint
 2	RNCP0805FTD499R		Digikey		RNCP0805FTD499RCT-ND		499	Resistor 0805 Footprint
 2	RN73H2ATTD1001B25	Digikey		2019-RN73H2ATTD1001B25CT-ND	1K	Resistor 0805 Footprint
 1	RT0805DRE071K13L	Digikey		311-2803-1-ND			1.13K	Resistor 0805 Footprint
