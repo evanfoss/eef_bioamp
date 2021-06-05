@@ -826,7 +826,7 @@ T 51200 53000 5 10 1 1 0 3 1
 footprint=0805
 }
 N 51600 52800 51700 52800 4
-T 53300 49900 9 10 1 0 0 0 1
+T 54400 49900 9 10 1 0 0 0 1
 Fix C20 footprint later this represents what the prototype is currently configured for.
 C 46800 47300 1 0 0 capacitor-1.sym
 {
