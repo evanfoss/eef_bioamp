@@ -16,7 +16,7 @@ NAME = bioamp
 NAME2 = notchfilter
 NAME3 = highpass
 #Project Schematics
-SCHEMATICS = bioamp.sch output.sch twinax_doc.sch notchfilter.sch highpass.sch rackpower.sch batterypower.sch
+SCHEMATICS = bioamp.sch output.sch twinax_doc.sch notchfilter.sch highpass.sch rackpower.sch batterypower.sch testfixture.sch
 #
 SCHEMATICS2 = notchfilter.sch
 SCHEMATICS3 = highpass.sch
