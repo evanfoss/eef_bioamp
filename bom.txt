@@ -106,7 +106,8 @@ Subrack Module Edgecard - Rear Assembly
 
 Subrack Module Edgecard - Wire Harness
 1	22-01-3067		Digikey		WM2004-ND				6 Position Connector Female Housing
-1	22-01-3057		Digikey		WM2004-ND				5 Position Connector Female Housing
+1	22-01-3057		Digikey		WM2003-ND				5 Position Connector Female Housing
+1	
 10	08-55-0102		Digikey		WM2312-ND		Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
 1									22AWG		Wire Blue
 1									22AWG		Wire Yellow
@@ -120,7 +121,7 @@ Dual 9V Power Supply - Rear Assembly
 
 Dual 9V Power Supply - Wire Harness
 6	08-55-0102		Digikey		WM2312-ND		Connector Pin	Connector Crimp Pin Gold Plated (Selective Flash)
-2	22-01-3057		Digikey		WM2004-ND				5 Position Connector Housing
+2	22-01-3057		Digikey		WM2003-ND				5 Position Connector Housing
 1				Digikey					22AWG		Wire Blue
 1				Digikey					22AWG		Wire Yellow
 1				Digikey					22AWG		Wire Green
