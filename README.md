@@ -1,15 +1,17 @@
-# EPL_BioAmp
+# EEF_BioAmp
 
 This project is a family of differential input amplifiers with single ended outputs for use in electrophysiology. 
-They are all *not* intended or rated for use on humans. 
+They are all *not* rated for use on humans. 
+
+This is a fork of my original work here: https://github.com/EPL-Engineering/epl_bioamp
 
 There are a few versions
 
-EPL BioAmp "Fancy" - (master branch)
+EEF BioAmp "Fancy" - (master branch)
 
-EPL BioAmp "Cheap" - (cheap branch)
+EEF BioAmp "Cheap" - (cheap branch)
 
-# EPL BioAmp "Fancy"
+# EEF BioAmp "Fancy"
 The "Fancy" version has every bell and whistle we reasonably expect a user to need for doing ABR, DP, and EKG. Often these users have multiple dedicated amplifiers and prefer to use more involved filtering so that EKG signals can be seperated from ABR and etc for example.
 The feature set I have given it so far includes.
 * Twinaxial BNC Input
@@ -24,7 +26,9 @@ The feature set I have given it so far includes.
 
 Please Note: The HPF option and Power Line Rejection option are mutually exclusive because of front panel constraints. Likewise the EPL Subrack Power and Battery Power are mutually exclusive because of rear panel space constraints. 
 
-# EPL BioAmp "Cheap"
+# EEF BioAmp "Cheap"
+
+<this version is not maintaned currently>
 
 The "Cheap" verion is designed to be pure minimalism. The idea was to have a lower cost version of the fancy that is just for ABR, DP, and EKG measurements. It's meant for our simple dedicated chambers where users exclusively do ABRs all day long with a single BioAmp and never adjust settings. The following is it's configuration.
 * Twinaxial BNC Input
