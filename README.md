@@ -94,11 +94,13 @@ The toolchain automation uses the following commands:
 
 ### Design
 
+The diagram in Sch0 shows the overall design concept for the fancy version of the BioAmp. 
+
 |<a href="block/bioamp_block.png"><img alt="Block diagram of the fancy bioamp." src="block/bioamp_block.png"></a>
 |:---------------
 |Sch0: Block Diagram
 
-
+The mainboard of the BioAmp is made up of the schematics Sch1 & Sch2.
 
 |<a href="bioamp.png"><img alt="Bioamp input stage with integrator schematic." src="bioamp.png"></a>
 |:---------------
@@ -108,6 +110,7 @@ The toolchain automation uses the following commands:
 |<a href="output.png"><img alt="Bioamp output stage schematic." src="output.png"></a>
 |:---------------
 |Sch2: BioAmp Output Stage
+
 
 
 |<a href="notchfilter.png"><img alt="Notch filter option schematic." src="notchfilter.png"></a>
