@@ -64,13 +64,13 @@ The mounting holes are more important than they might sound. In a lot of our boo
 
 The development toolchain was as follows:
 
-Tool Name             | Function
-:---------------      | :-----------------
-lepton-eda            | Open source EDA suite lepton-eda a fork of gEDA
-pcb-rnd               | Open source CAD tool pcb-rnd a fork of gEDA/PCB
-gerbv                 | verified in the open source gerber viewer
-GNU/Make              | project management
-Front Panel Designer  | The proprietary (closed source) Front Panels Express Software
+Tool Name             | License        | Function
+:---------------      | :------------- | :-----------------
+lepton-eda            | Open Source    | EDA (Electronic Design Automation) suite lepton-eda a fork of gEDA
+pcb-rnd               | Open Source    | CAD tool pcb-rnd a fork of gEDA/PCB
+gerbv                 | Open Source    | Gerber viewer
+GNU/Make              | Open Source    | Toolchain automation
+Front Panel Designer  | Free as in Beer| Front Panels Express Software
 
 
 
