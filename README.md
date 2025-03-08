@@ -92,11 +92,16 @@ The toolchain automation uses the following commands:
 
 ### Design
 
-|Block Diagram
-|:---------------
 |<a href="block/bioamp_block.png"><img alt="Block diagram of the fancy bioamp." src="block/bioamp_block.png"></a>
+|:---------------
+|Sch0: Block Diagram
 
-<a href="bioamp.png"><img alt="Bioamp input stage with integrator schematic." src="bioamp.png"></a>
+
+
+|<a href="bioamp.png"><img alt="Bioamp input stage with integrator schematic." src="bioamp.png"></a>
+|:---------------
+|Sch1: BioAmp Input Stage
+
 <a href="output.png"><img alt="Bioamp output stage schematic." src="output.png"></a>
 <a href="notchfilter.png"><img alt="Notch filter option schematic." src="notchfilter.png"></a>
 <a href="highpass.png"><img alt="Highpass filter lower frequency option schematic." src="highpass.png"></a>
