@@ -74,6 +74,12 @@ Tool Name             | License        | Function
 
 <img alt="Block diagram of the fancy bioamp." src="block/bioamp_block.png">
 
-
+<img alt="" src="bioamp.png">
+<img alt="" src="output.png">
+<img alt="" src="notchfilter.png">
+<img alt="" src="highpass.png">
+<img alt="" src="twinax_doc.png">
+<img alt="" src="rackpower.png">
+<img alt="" src="batterypower.png">
 
 
