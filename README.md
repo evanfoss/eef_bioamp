@@ -94,14 +94,14 @@ The toolchain automation uses the following commands:
 
 |Block Diagram
 |:---------------
-|<img alt="Block diagram of the fancy bioamp." src="block/bioamp_block.png">
+|<a href="block/bioamp_block.png"><img alt="Block diagram of the fancy bioamp." src="block/bioamp_block.png"></a>
 
-<img alt="Bioamp input stage with integrator schematic." src="bioamp.png">
-<img alt="Bioamp output stage schematic." src="output.png">
-<img alt="Notch filter option schematic." src="notchfilter.png">
-<img alt="Highpass filter lower frequency option schematic." src="highpass.png">
-<img alt="Schematic documenting the way twinaxial coax flips polarity from device to cable and back." src="twinax_doc.png">
-<img alt="Rack based power schematic." src="rackpower.png">
-<img alt="Battery based power schematic." src="batterypower.png">
+<a href="bioamp.png"><img alt="Bioamp input stage with integrator schematic." src="bioamp.png"></a>
+<a href="output.png"><img alt="Bioamp output stage schematic." src="output.png"></a>
+<a href="notchfilter.png"><img alt="Notch filter option schematic." src="notchfilter.png"></a>
+<a href="highpass.png"><img alt="Highpass filter lower frequency option schematic." src="highpass.png"></a>
+<a href="twinax_doc.png"><img alt="Schematic documenting the way twinaxial coax flips polarity from device to cable and back." src="twinax_doc.png"></a>
+<a href="rackpower.png"><img alt="Rack based power schematic." src="rackpower.png"></a>
+<a href="batterypower.png"><img alt="Battery based power schematic." src="batterypower.png"></a>
 
 
