@@ -102,11 +102,35 @@ The toolchain automation uses the following commands:
 |:---------------
 |Sch1: BioAmp Input Stage
 
-<a href="output.png"><img alt="Bioamp output stage schematic." src="output.png"></a>
-<a href="notchfilter.png"><img alt="Notch filter option schematic." src="notchfilter.png"></a>
-<a href="highpass.png"><img alt="Highpass filter lower frequency option schematic." src="highpass.png"></a>
-<a href="twinax_doc.png"><img alt="Schematic documenting the way twinaxial coax flips polarity from device to cable and back." src="twinax_doc.png"></a>
-<a href="rackpower.png"><img alt="Rack based power schematic." src="rackpower.png"></a>
-<a href="batterypower.png"><img alt="Battery based power schematic." src="batterypower.png"></a>
+
+|<a href="output.png"><img alt="Bioamp output stage schematic." src="output.png"></a>
+|:---------------
+|Sch2: BioAmp Output Stage
+
+
+|<a href="notchfilter.png"><img alt="Notch filter option schematic." src="notchfilter.png"></a>
+|:---------------
+|Sch3: Notch filter option
+
+
+|<a href="highpass.png"><img alt="Highpass filter lower frequency option schematic." src="highpass.png"></a>
+|:---------------
+|Sch4: Highpass filter lower frequency option
+
+
+|<a href="twinax_doc.png"><img alt="Schematic documenting the way twinaxial coax flips polarity from device to cable and back." src="twinax_doc.png"></a>
+|:---------------
+|Sch5: Twinaxial coax flips documented
+
+
+|<a href="rackpower.png"><img alt="Rack based power schematic." src="rackpower.png"></a>
+|:---------------
+|Sch6: Rack based power option
+
+
+|<a href="batterypower.png"><img alt="Battery based power schematic." src="batterypower.png"></a>
+|:---------------
+|Sch7: Battery based power option
+
 
 
