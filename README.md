@@ -62,6 +62,8 @@ The mounting holes are more important than they might sound. In a lot of our boo
 
 # Development
 
+#### Toolchain
+
 The development toolchain was as follows:
 
 |Tool Name             | License        | Function
@@ -71,6 +73,8 @@ The development toolchain was as follows:
 |<a href="https://gerbv.github.io/">gerbv</a>                                                | Open Source       | Gerber viewer
 |<a href="https://www.gnu.org/software/make/">GNU/Make</a>                                   | Open Source       | Toolchain automation
 |<a href="https://www.frontpanelexpress.com/front-panel-designer">Front Panel Designer</a>   | Free as in Beer   | Front Panels Express Software
+
+#### Design
 
 |Block Diagram
 |:---------------
