@@ -111,7 +111,7 @@ The mainboard of the BioAmp is made up of the schematics Sch1 & Sch2.
 |:---------------
 |Sch2: BioAmp Output Stage
 
-
+The use of the OPA1611 here is excessive considering it's performance characteristics but please see the note in "Supply Chain Issues".
 
 |<a href="notchfilter.png"><img alt="Notch filter option schematic." src="notchfilter.png"></a>
 |:---------------
@@ -146,6 +146,8 @@ The BioAmp was designed with a few packaging options in mind. The image at the t
 #### Reflow Soldering
 
 #### Supply Chain Issues
+
+The OPA1611 was used because it was thought at the time that it would be used in later itterations of the MicAmp and that consolidation of the parts lists would help make stocking parts easier. In reality the testing of that which was concurrent with the testing of this project showed that it was a bad idea but the part is stocked now. It would have been nice if TI had not ceased production of the LME49710 so both designs could have used that part. *grumbles*
 
 ### Testing
 
