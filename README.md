@@ -47,7 +47,7 @@ The "Cheap" verion is designed to be pure minimalism. The idea was to have a low
 
 Please Note: The Power Line Frequency Rejection in some units is not user adjustable.
 
-# EPL BioAmp "Breakout Pod"
+# EEF BioAmp "Breakout Pod"
 
 This is shared between the "Cheap" and "Fancy" versions. Like both of them it is not for use on humans. 
 It's features include the following.
@@ -59,5 +59,21 @@ It's features include the following.
 The mounting holes are more important than they might sound. In a lot of our booths the EPL Subrack the EPL BioAmp sits in is on a shelf while the subject of the testing is on a sliding optical breadboard.
 
 <img alt="5 breakout pods sitting next to each other." src="photos/IMG_0665.JPG">
+
+# Development
+
+The development toolchain was as follows:
+
+Tool Name             | Function
+:---------------      | :-----------------
+lepton-eda            | Open source EDA suite lepton-eda a fork of gEDA
+pcb-rnd               | Open source CAD tool pcb-rnd a fork of gEDA/PCB
+gerbv                 | verified in the open source gerber viewer
+GNU/Make              | project management
+Front Panel Designer  | The proprietary (closed source) Front Panels Express Software
+
+
+
+
 
 
