@@ -137,5 +137,10 @@ The mainboard of the BioAmp is made up of the schematics Sch1 & Sch2.
 |:---------------
 |Sch7: Battery based power option
 
+### Packaging
+
+The BioAmp was designed with a few packaging options in mind. The image at the top of the README is of the front panel for a subrack module but it was also planned to be included in a standard 19" equipment/"server" rack package U1 size enclosure.
+
+
 
 
