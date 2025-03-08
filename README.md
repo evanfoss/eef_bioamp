@@ -1,7 +1,7 @@
 # EEF_BioAmp
 
 This project is a family of differential input amplifiers with single ended outputs for use in electrophysiology. 
-They are all *not* rated for use on humans. 
+They are all *not* rated for use on humans. Let me repeat do not connect this to a person. If you do I am not responsible.
 
 This is a fork of my original work here: https://github.com/EPL-Engineering/epl_bioamp
 
@@ -66,7 +66,7 @@ The development toolchain was as follows:
 
 Tool Name             | License        | Function
 :---------------      | :------------- | :-----------------
-<a href="https://github.com/lepton-eda/lepton-eda">lepton-eda</a>                           | Open Source    | EDA (Electronic Design Automation) suite lepton-eda a fork of gEDA
+<a href="https://github.com/lepton-eda/lepton-eda">lepton-eda</a>                           | Open Source       | EDA (Electronic Design Automation) suite lepton-eda a fork of gEDA
 <a href="http://repo.hu/projects/pcb-rnd/">pcb-rnd</a>                                      | Open Source       | CAD (Computer Aided Design) tool for PCB (Printed Circuit Board) layout gEDA/PCB
 <a href="https://gerbv.github.io/">gerbv</a>                                                | Open Source       | Gerber viewer
 <a href="https://www.gnu.org/software/make/">GNU/Make</a>                                   | Open Source       | Toolchain automation
