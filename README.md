@@ -68,6 +68,7 @@ The development toolchain was as follows:
 
 |Tool Name             | License        | Function
 |:---------------      | :------------- | :-----------------
+|<a href="https://octave.org/">Octave</a>                                                    | Open Source       | Scientific Programming Language used for calculations
 |<a href="https://github.com/lepton-eda/lepton-eda">lepton-eda</a>                           | Open Source       | EDA (Electronic Design Automation) suite lepton-eda a fork of gEDA
 |<a href="http://repo.hu/projects/pcb-rnd/">pcb-rnd</a>                                      | Open Source       | CAD (Computer Aided Design) tool for PCB (Printed Circuit Board) layout gEDA/PCB
 |<a href="https://gerbv.github.io/">gerbv</a>                                                | Open Source       | Gerber viewer
