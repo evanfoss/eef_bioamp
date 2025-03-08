@@ -58,6 +58,6 @@ It's features include the following.
 
 The mounting holes are more important than they might sound. In a lot of our booths the EPL Subrack the EPL BioAmp sits in is on a shelf while the subject of the testing is on a sliding optical breadboard.
 
-<img alt="Two breakout pods sitting next to each other." src="photos/IMG_0665.JPG">
+<img alt="5 breakout pods sitting next to each other." src="photos/IMG_0665.JPG">
 
 
