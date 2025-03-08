@@ -64,13 +64,14 @@ The mounting holes are more important than they might sound. In a lot of our boo
 
 The development toolchain was as follows:
 
-Tool Name             | License        | Function
-:---------------      | :------------- | :-----------------
+|Tool Name             | License        | Function
+|:---------------      | :------------- | :-----------------
 <a href="https://github.com/lepton-eda/lepton-eda">lepton-eda</a>                           | Open Source       | EDA (Electronic Design Automation) suite lepton-eda a fork of gEDA
 <a href="http://repo.hu/projects/pcb-rnd/">pcb-rnd</a>                                      | Open Source       | CAD (Computer Aided Design) tool for PCB (Printed Circuit Board) layout gEDA/PCB
 <a href="https://gerbv.github.io/">gerbv</a>                                                | Open Source       | Gerber viewer
 <a href="https://www.gnu.org/software/make/">GNU/Make</a>                                   | Open Source       | Toolchain automation
 <a href="https://www.frontpanelexpress.com/front-panel-designer">Front Panel Designer</a>   | Free as in Beer   | Front Panels Express Software
+
 
 <img alt="Block diagram of the fancy bioamp." src="block/bioamp_block.png">
 
