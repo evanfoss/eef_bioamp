@@ -80,6 +80,7 @@ The toolchain automation uses the following commands:
 |:---------------      | :------------- | :-----------------
 |make all               | Yes           | lists operations
 |make change            | Yes           | edits all projects schematics
+|make simulation        | No            | runs spice simulation
 |make graph             | Yes           | opens spice simulation graph(s)
 |make pcb               | Yes           | edits bioamp main board pcb
 |make pcb2              | Yes           | edits notchfilter option pcb 
