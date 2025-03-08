@@ -11,7 +11,7 @@ EEF BioAmp "Fancy" - (master branch)
 
 EEF BioAmp "Cheap" - (cheap branch)
 
-# EEF BioAmp "Fancy"
+### EEF BioAmp "Fancy"
 The "Fancy" version has every bell and whistle we reasonably expect a user to need for doing ABR, DP, and EKG. Often these users have multiple dedicated amplifiers and prefer to use more involved filtering so that EKG signals can be seperated from ABR and etc for example.
 The feature set I have given it so far includes.
 * Twinaxial BNC Input
@@ -32,7 +32,7 @@ Please Note: The HPF option and Power Line Rejection option are mutually exclusi
 
 <img alt="Circuitboards for the bioamp inside a chassis." src="photos/IMG_0673.JPG">
 
-# EEF BioAmp "Cheap"
+### EEF BioAmp "Cheap"
 
 <this version is not maintaned currently>
 
@@ -47,7 +47,7 @@ The "Cheap" verion is designed to be pure minimalism. The idea was to have a low
 
 Please Note: The Power Line Frequency Rejection in some units is not user adjustable.
 
-# EEF BioAmp "Breakout Pod"
+### EEF BioAmp "Breakout Pod"
 
 This is shared between the "Cheap" and "Fancy" versions. Like both of them it is not for use on humans. 
 It's features include the following.
@@ -62,7 +62,7 @@ The mounting holes are more important than they might sound. In a lot of our boo
 
 # Development
 
-#### Toolchain
+### Toolchain
 
 The development toolchain was as follows:
 
@@ -74,7 +74,7 @@ The development toolchain was as follows:
 |<a href="https://www.gnu.org/software/make/">GNU/Make</a>                                   | Open Source       | Toolchain automation
 |<a href="https://www.frontpanelexpress.com/front-panel-designer">Front Panel Designer</a>   | Free as in Beer   | Front Panels Express Software
 
-#### Design
+### Design
 
 |Block Diagram
 |:---------------
