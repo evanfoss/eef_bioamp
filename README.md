@@ -66,11 +66,11 @@ The development toolchain was as follows:
 
 Tool Name             | License        | Function
 :---------------      | :------------- | :-----------------
-lepton-eda            | Open Source    | EDA (Electronic Design Automation) suite lepton-eda a fork of gEDA
-pcb-rnd               | Open Source    | CAD (Computer Aided Design) tool for PCB (Printed Circuit Board) layout gEDA/PCB
-gerbv                 | Open Source    | Gerber viewer
-GNU/Make              | Open Source    | Toolchain automation
-<a href="https://www.frontpanelexpress.com/front-panel-designer">Front Panel Designer</a>  | Free as in Beer| Front Panels Express Software
+<a href="https://github.com/lepton-eda/lepton-eda">lepton-eda</a>                           | Open Source    | EDA (Electronic Design Automation) suite lepton-eda a fork of gEDA
+<a href="http://repo.hu/projects/pcb-rnd/">pcb-rnd</a>                                      | Open Source       | CAD (Computer Aided Design) tool for PCB (Printed Circuit Board) layout gEDA/PCB
+<a href="https://gerbv.github.io/">gerbv</a>                                                | Open Source       | Gerber viewer
+<a href="https://www.gnu.org/software/make/">GNU/Make</a>                                   | Open Source       | Toolchain automation
+<a href="https://www.frontpanelexpress.com/front-panel-designer">Front Panel Designer</a>   | Free as in Beer   | Front Panels Express Software
 
 
 
