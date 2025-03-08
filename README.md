@@ -74,12 +74,12 @@ Tool Name             | License        | Function
 
 <img alt="Block diagram of the fancy bioamp." src="block/bioamp_block.png">
 
-<img alt="" src="bioamp.png">
-<img alt="" src="output.png">
-<img alt="" src="notchfilter.png">
-<img alt="" src="highpass.png">
-<img alt="" src="twinax_doc.png">
-<img alt="" src="rackpower.png">
-<img alt="" src="batterypower.png">
+<img alt="Bioamp input stage with integrator schematic." src="bioamp.png">
+<img alt="Bioamp output stage schematic." src="output.png">
+<img alt="Notch filter option schematic." src="notchfilter.png">
+<img alt="Highpass filter lower frequency option schematic." src="highpass.png">
+<img alt="Schematic documenting the way twinaxial coax flips polarity from device to cable and back." src="twinax_doc.png">
+<img alt="Rack based power schematic." src="rackpower.png">
+<img alt="Battery based power schematic." src="batterypower.png">
 
 
