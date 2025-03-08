@@ -74,6 +74,22 @@ The development toolchain was as follows:
 |<a href="https://www.gnu.org/software/make/">GNU/Make</a>                                   | Open Source       | Toolchain automation
 |<a href="https://www.frontpanelexpress.com/front-panel-designer">Front Panel Designer</a>   | Free as in Beer   | Front Panels Express Software
 
+The toolchain automation uses the following commands:
+
+|Command               | Implimented | Operation
+|:---------------      | :------------- | :-----------------
+|make all               | Yes           | lists operations
+|make change            | Yes           | edits all projects schematics
+|make graph             | Yes           | opens spice simulation graph(s)
+|make pcb               | Yes           | edits bioamp main board pcb
+|make pcb2              | Yes           | edits notchfilter option pcb 
+|make pcb3              | Yes           | edits highpass filter option pcb
+|make gerbv             | Yes           | opens gerber viewer of bioamp main pcb
+|make gerbv2            | Yes           | opens gerber viewer of notchfilter pcb
+|make gerbv3            | Yes           | opens gerber viewer of highpass filter option pcb
+
+
+
 ### Design
 
 |Block Diagram
