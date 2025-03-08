@@ -26,6 +26,8 @@ The feature set I have given it so far includes.
 
 Please Note: The HPF option and Power Line Rejection option are mutually exclusive because of front panel constraints. Likewise the EPL Subrack Power and Battery Power are mutually exclusive because of rear panel space constraints. 
 
+<img src="photos/IMG_0668_cropped.JPG">
+
 # EEF BioAmp "Cheap"
 
 <this version is not maintaned currently>
