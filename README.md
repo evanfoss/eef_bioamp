@@ -155,16 +155,27 @@ The performance of the device in it's first prototypes (late 2020/early 2021) an
 
 The OPA1611 was used because it was thought at the time that it would be used in later itterations of the MicAmp and that consolidation of the parts lists would help make stocking parts easier. In reality the testing of that which was concurrent with the testing of this project showed that it was a bad idea but the part is stocked now. It would have been nice if TI had not ceased production of the LME49710 so both designs could have used that part. *grumbles*
 
-### Testing
+### Validation
 
-Testing was done by me at home with a homemade attenuator and my HP35665A and then repeated independently by Ishmael S. W. at EPL using the shop PXI and it's PXI4461 DAQ card before the BioAmp was released to the users. The first 3 or 4 users were also told to repeate the tests of frequency reponse and gain and found it proper for use in ABR (auditory brainstem response) measurement. For every unit I have made since these tests have been repeated with the HP35665A and cross checked against the original results for consistancy. Later it was suspected by me that the 10KHz option might infact be landing lower than 10KHz and so the feature was depreciated to "More" on the control panel. I bought a brand new Keysight U1733P and tested all the capacitors etc in one unit but could not find a suitable drift in component value to explain it. I had thought the soldering process revisions might be causing values to drift. More on this in the heading "Future".
+Validation was done by me at home with a homemade attenuator and my HP35665A and then repeated independently by Ishmael S. W. at EPL using the shop PXI and it's PXI4461 DAQ card before the BioAmp was released to the users. The first 3 or 4 users were also told to repeate the tests of frequency reponse and gain and found it proper for use in ABR (auditory brainstem response) measurement. For every unit I have made since these tests have been repeated with the HP35665A and cross checked against the original results for consistancy. Later it was suspected by me that the 10KHz option might infact be landing lower than 10KHz and so the feature was depreciated to "More" on the control panel. I bought a brand new Keysight U1733P and tested all the capacitors etc in one unit but could not find a suitable drift in component value to explain it. I had thought the soldering process revisions might be causing values to drift. More on this in the heading "Future".
+
+### Testing
 
 The use of an attenuator is required with the HP35665A as the input voltage range is so small all direct output settings from the DSA would be too large. The attenuator's issues could actually be the cause of the LPF 10Hz issue.
 
 Of the dozen or so units I made only a few were notably out of spec to the point where the capacitors (often tolleranced at 2% or better) needed to be swapped to meet requirements. This most commonly happened in the 60Hz notch filter where the parts exact rating doesn't matter as much as their matching which is harder to assure without an unreasonably high BOM price.
 
+### Changelog
+
+##Post EPL fork
+
+2025.03.07 - Improved README.md with images of the schematics and some initial added text
+
+2025.03.08 - Rewritten notes into proper matlab/octave code for the BioAmp filter components
+
 ### Future
 
-Refining the 10KHz mode or settling the uncertanty would be nice. 
-
+* Spice Simulation of the design complete with an estimated source model.
+* Refining the 10KHz mode or settling the uncertanty would be nice. 
+* A more refined attenuator for testing without a PXI.
 
