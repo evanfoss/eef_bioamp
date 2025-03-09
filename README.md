@@ -26,9 +26,13 @@ The feature set I have given it so far includes.
 
 Please Note: The HPF option and Power Line Rejection option are mutually exclusive because of front panel constraints. Likewise the EPL Subrack Power and Battery Power are mutually exclusive because of rear panel space constraints. 
 
-<img alt="Front panel of the bioamp." src="photos/IMG_0668_cropped.JPG">
+|<img alt="Front panel of the bioamp." src="photos/IMG_0668_cropped.JPG">
+|:---------------
+|Pic2: A picture of a BioAmp front panel upclose enclosed in a subrack module.
 
-<img alt="Circuitboards for the bioamp inside a chassis." src="photos/IMG_0673.JPG">
+|<img alt="Circuitboards for the bioamp inside a chassis." src="photos/IMG_0673.JPG">
+|:---------------
+|Pic1: A picture of inside of an assembled BioAmp.
 
 ### EEF BioAmp "Cheap"
 
@@ -56,7 +60,10 @@ It's features include the following.
 
 The mounting holes are more important than they might sound. In a lot of our booths the EPL Subrack the EPL BioAmp sits in is on a shelf while the subject of the testing is on a sliding optical breadboard.
 
-<img alt="5 breakout pods sitting next to each other." src="photos/IMG_0665.JPG">
+|<img alt="5 breakout pods sitting next to each other." src="photos/IMG_0665.JPG">
+|:---------------
+|Pic2: A picture of 5 breakout pods.
+
 
 # Development
 
