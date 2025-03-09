@@ -111,8 +111,14 @@ graph:
 mainmath:
 	$(MATHTOOL) $(MATHFLAGS) $(MATHFILE)
 
+editmainmath:
+	$(TEXTEDITOR) $(MATHFILE)
+
 notchmath:
 	$(MATHTOOL) $(MATHFLAGS) $(MATHFILENOTCH)
+
+editnotchmath:
+	$(TEXTEDITOR) $(MATHFILENOTCH)
 
 sch2pcb:
 	$(SCH2PCB_TOOL) $(SCH2PCB) $(SCH2PCB_FLAGS)
