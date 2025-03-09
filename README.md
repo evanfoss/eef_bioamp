@@ -177,6 +177,7 @@ Of the dozen or so units I made only a few were notably out of spec to the point
 
 ### Future
 
+* Migration off the old gsch2pcb-rnd script which is depreciated in modern releases of pcb-rnd
 * Spice Simulation of the design complete with an estimated source model.
 * Refining the 10KHz mode or settling the uncertanty would be nice. 
 * A more refined attenuator for testing without a PXI.
