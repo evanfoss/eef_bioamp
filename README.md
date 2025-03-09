@@ -167,15 +167,15 @@ The use of an attenuator is required with the HP35665A as the input voltage rang
 
 Of the dozen or so units I made only a few were notably out of spec to the point where the capacitors (often tolleranced at 2% or better) needed to be swapped to meet requirements. This most commonly happened in the 60Hz notch filter where the parts exact rating doesn't matter as much as their matching which is harder to assure without an unreasonably high BOM price.
 
-### Changelog
+## Changelog
 
-## Post EPL fork
+### Post EPL fork
 
 2025.03.07 - Improved README.md with images of the schematics and some initial added text
 
 2025.03.08 - Rewritten notes into proper matlab/octave code for the BioAmp filter components
 
-### Future
+## Future
 
 * Migration off the old gsch2pcb-rnd script which is depreciated in modern releases of pcb-rnd
 * Spice Simulation of the design complete with an estimated source model.
