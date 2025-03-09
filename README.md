@@ -169,7 +169,7 @@ Of the dozen or so units I made only a few were notably out of spec to the point
 
 ### Changelog
 
-##Post EPL fork
+## Post EPL fork
 
 2025.03.07 - Improved README.md with images of the schematics and some initial added text
 
