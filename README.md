@@ -83,6 +83,8 @@ The toolchain automation uses the following commands:
 |make change            | Yes           | edits all projects schematics
 |make simulation        | No            | runs spice simulation
 |make graph             | Yes           | opens spice simulation graph(s)
+|make mainmath          | Yes           | run the numbers for the filter values
+|make notchmath         | Yes           | run the numbers for the notch filter option values
 |make pcb               | Yes           | edits bioamp main board pcb
 |make pcb2              | Yes           | edits notchfilter option pcb 
 |make pcb3              | Yes           | edits highpass filter option pcb

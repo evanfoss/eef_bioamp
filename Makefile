@@ -30,6 +30,9 @@ SPICEGRAPH = $(NAME)SPICE.csv
 
 #Project GNUCAP Data to Graph
 
+#files for the math
+MATHFILE = filter.m
+MATHFILENOTCH = notch.m
 #Project Graphing Programs
 GRAPHCMDFILE_GNUPLOT = plot.gnu
 #Project Schematics to PCB File
@@ -51,7 +54,7 @@ GERBERS3 = $(NAME3)-art.fab.gbr $(NAME3)-art.plated-drill.cnc $(NAME3)-art.front
 TEXTEDITOR = vi
 #
 ## Math Tool (you still have to type notebook() after this starts though)
-MATHTOOL = sage
+MATHTOOL = octave
 MATHFLAGS = 
 #
 ## Schematic Capture
@@ -105,8 +108,11 @@ simulation:
 graph:
 	$(GRAPHTOOL_GNUPLOT) $(GRAPHFLAGS_GNUPLOT) $(GRAPHCMDFILE_GNUPLOT)
 
-math:
-	$(MATHTOOL) $(MATHFLAGS)
+mainmath:
+	$(MATHTOOL) $(MATHFLAGS) $(MATHFILE)
+
+notchmath:
+	$(MATHTOOL) $(MATHFLAGS) $(MATHFILENOTCH)
 
 sch2pcb:
 	$(SCH2PCB_TOOL) $(SCH2PCB) $(SCH2PCB_FLAGS)
