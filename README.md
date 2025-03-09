@@ -28,8 +28,6 @@ Please Note: The HPF option and Power Line Rejection option are mutually exclusi
 
 <img alt="Front panel of the bioamp." src="photos/IMG_0668_cropped.JPG">
 
-<img alt="Populated ciruitboards for the bioamp." src="photos/IMG_0456.JPG">
-
 <img alt="Circuitboards for the bioamp inside a chassis." src="photos/IMG_0673.JPG">
 
 ### EEF BioAmp "Cheap"
@@ -147,7 +145,31 @@ The BioAmp was designed with a few packaging options in mind. The image at the t
 
 ### Manufacturing
 
+Initial prototypes were made with hand soldering under a microscope. However I prefer to build these in batches which makes using solder paste nessisary. 
+
 #### Reflow Soldering
+
+With the switch to reflow soldering I had to switch to solder paste. Because solder paste has to be washable in this case the flux was going to dry out and I worried about the fine metal balls in the suspension were going to become a safety concern. This required the change to lead free solder to reduce exposure risk.
+
+This is my current assembly process:
+
+0. Verify that all parts are on hand including front panel
+1. Stencil on solder paste
+2. Apply SMT components
+3. Warm the PCBA on a hot plate
+4. Reflow PCBA
+5. Ramp PCBA temperature down
+6. Solder all through hole components except the switches and connectors
+7. Insert switches and connectors and fasten them to the front panel (finger tight)
+8. Solder switches and connectors
+9. Detach front panel from PCBA
+10. Wash PCBA and front panel seperatly
+11. Check PCBA under microscope and record assembly with pictures
+12. Assemble PCBA into chassis and test
+
+|<img alt="Populated ciruitboards for the bioamp." src="photos/IMG_0456.JPG">
+|:---------------
+|Pic3: Populated BioAmp main circuit board and notch filter option board on the right.
 
 #### Supply Chain Issues
 
