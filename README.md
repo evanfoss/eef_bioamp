@@ -28,11 +28,11 @@ Please Note: The HPF option and Power Line Rejection option are mutually exclusi
 
 |<img alt="Front panel of the bioamp." src="photos/IMG_0668_cropped.JPG">
 |:---------------
-|Pic2: A picture of a BioAmp front panel upclose enclosed in a subrack module.
+|Pic1: A picture of a BioAmp front panel upclose enclosed in a subrack module.
 
 |<img alt="Circuitboards for the bioamp inside a chassis." src="photos/IMG_0673.JPG">
 |:---------------
-|Pic1: A picture of inside of an assembled BioAmp.
+|Pic2: A picture of inside of an assembled BioAmp.
 
 ### EEF BioAmp "Cheap"
 
@@ -148,7 +148,25 @@ The use of the OPA1611 here is excessive considering it's performance characteri
 
 ### Packaging
 
-The BioAmp was designed with a few packaging options in mind. The image at the top of the README is of the front panel for a subrack module but it was also planned to be included in a standard 19" equipment/"server" rack package U1 size enclosure.
+The BioAmp was designed with a few packaging options in mind. The image at the top of the README is of the front panel for a subrack module but it was also planned to be included in a standard 19" equipment/"server" rack package U1 size enclosure. The idea was to package it with the other hardware commonly used in the chamber for doing ABR (Auditory Brainstem Response) testing.
+
+|<a href="photos/IMG_0032-cropped.JPG"><img alt="Image of the combined front panel for the integrated bioamp with mic amp and equalizer." src="photos/IMG_0032-cropped.JPG"></a>
+|:---------------
+|Pic3: Front panel of an integrated device with a Mic Amp, Equalizer and BioAmp all in a U1 enclosure.
+
+That said I prefer the subrack module packaging shown at the opening of the readme in Pic1 because of the other modules that fit neetly in the subrack.
+
+|<a href="photos/IMG_4276-cropped.JPG"><img alt="Image of the subrack holding other modules that go in the rack" src="photos/IMG_4276-cropped.JPG"></a>
+|:---------------
+|Pic4: An array of just some of the many subrack modules that could be used in parallel to the BioAmp.
+
+Outside of EPL of course this level of flexibility is in low demand.
+
+The other big demand is of course battery powered operation. Now I frown on it because of the environmental footprint of batteries but there is a rear panel design that is included in the project files. Some thought went into the selection of the battery holder to make ease of changing the batteries without opening the cover easier. I find those little vinyl enclosed snap on 9V connectors unpleasant. The holder I selected costs a lot more but it works very well, the covers are hard to loose, and in most cases they make it impossible to put the batteries in backwards. 
+
+The power button assembly was picked both because the on/off state was clearly visible without power but also because some experiments require low to zero illumination so power indicator lights are frowned appoon. I had a project with optogenetics and a blue power indicator in a commericially made device was causing trouble.
+
+The breakout pod (Pic2) was designed in because many users require the chamber table to be at a distance from the equipment rack or for ergonomic reasons they need a chamber to have a pull out tray. So connecting the electrodes to the BioAmp front panel directly was not advisable.
 
 ### Manufacturing
 
