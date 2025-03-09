@@ -109,16 +109,27 @@ The diagram in Sch0 shows the overall design concept for the fancy version of th
 |:---------------
 |Sch0: Block Diagram
 
-The mainboard of the BioAmp is made up of the schematics Sch1 & Sch2.
+The mainboard of the BioAmp is made up of the schematics Sch1 & Sch2. The optional Notch Filter board is just Sch3, and the optional highpass filter option is Sch4.
 
 |<a href="bioamp.png"><img alt="Bioamp input stage with integrator schematic." src="bioamp.png"></a>
 |:---------------
 |Sch1: BioAmp Input Stage
 
+Sch1 shows the input filter composed of L40, L41, C40, C41, R42, and R43.
+
+Sch1 also includes the insturmentation amplifier is U40, and it's gain limits it's frequency response. The gain for this stage is set by R45 + R41. It has the usual capacitors sprinkled around it for power supply decoupling.
+
+U40 was selected for it's ability to operate at high gain with relatively low noise, and a level of input offset that could be overcome with an integrator. 
+
+The inverting integrator which acts as a low pass filter is built around U20. R20 and C20 set the time constant for the integration. R21 and the jumper over it are for adjusting this lower limit if the highpass filter adjustment option is installed. 
+
+U20 was selected for it's lower input bias current, low input offset voltage, and of course to drive a capacitive load.
 
 |<a href="output.png"><img alt="Bioamp output stage schematic." src="output.png"></a>
 |:---------------
 |Sch2: BioAmp Output Stage
+
+
 
 The use of the OPA1611 here is excessive considering it's performance characteristics but please see the note in "Supply Chain Issues".
 
