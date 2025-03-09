@@ -79,7 +79,7 @@ The toolchain automation uses the following commands:
 
 |Command               | Implimented | Operation
 |:---------------      | :------------- | :-----------------
-|make all               | Yes           | lists operations
+|make all               | Yes           | edits Makefile
 |make change            | Yes           | edits all projects schematics
 |make simulation        | No            | runs spice simulation
 |make graph             | Yes           | opens spice simulation graph(s)
