@@ -129,14 +129,21 @@ U20 was selected for it's lower input bias current, low input offset voltage, an
 |:---------------
 |Sch2: BioAmp Output Stage
 
+Sch2 starts with the inverting amplifier that adds the rest of the gain required. It has 2 inputs. The 1st input is from the input stage on Sch1 and the 2nd is for the notch filter option. S20 selects the feedback RC pair (R63 & C61) or (R64 & C62). 
 
+The use of the OPA1611 here is excessive considering it's performance characteristics but please see the note in "Supply Chain Issues". However it is very low noise in this application. 
 
-The use of the OPA1611 here is excessive considering it's performance characteristics but please see the note in "Supply Chain Issues".
+In Sch2 we also have the final output stage which is built around U10. It is setup to just invert the signal at unit gain. The switch S10 adds added capacitence across the feedback resistor R10. Obviously R10 and R11 should match each other for this to work. C10+C17 put a limit on the frequency response. C16+C17 add more capacitence to lower the frequency response even more.
+
+Once more to control noise the chassis ground is connected to the exterior of the switches S20 and S10 so that it can connect through them to the chassis.
 
 |<a href="notchfilter.png"><img alt="Notch filter option schematic." src="notchfilter.png"></a>
 |:---------------
 |Sch3: Notch filter option
 
+The notch filter shown in Sch3 is built around U101. It works as an inverting unity gain filter. That way the inverted signal can be added back into the main device at cancel out the offending frequency. Normally this would cause phase issues but the frequency in question is 60Hz (or with changes 50Hz).
+
+U101 was selected using the same criteria as U20 on Sch1 as a result the same part was selected. I should really say I picked this topology so I could use the same opamp and the same value for C101 and C102 as I did in C20. The catch is that C101 and C102 require a level of tollerance that C20 does not because the notch filter's performance is tied to the matching of these parts.
 
 |<a href="highpass.png"><img alt="Highpass filter lower frequency option schematic." src="highpass.png"></a>
 |:---------------
@@ -205,7 +212,7 @@ This is my current assembly process:
 
 |<img alt="Populated ciruitboards for the bioamp." src="photos/IMG_0456.JPG">
 |:---------------
-|Pic3: Populated BioAmp main circuit board and notch filter option board on the right.
+|Pic5: Populated BioAmp main circuit board and notch filter option board on the right.
 
 #### Supply Chain Issues
 
@@ -214,6 +221,12 @@ The Input stage IC AD8221 was selected before the COVID-19 pandemic and tarif is
 The performance of the device in it's first prototypes (late 2020/early 2021) and the later itterations have drifted a bit. I believe this maybe do to variations in the process control of some parts. This is why the 10KHz LPF (Low Pass Filter) option is now marked as "More". I don't like it but as this feature is almost never used by 90% of users it for more than debugging test chamber noise restoring this to a known 10KHz is not a priority.
 
 The OPA1611 was used because it was thought at the time that it would be used in later itterations of the MicAmp and that consolidation of the parts lists would help make stocking parts easier. In reality the testing of that which was concurrent with the testing of this project showed that it was a bad idea but the part is stocked now. It would have been nice if TI had not ceased production of the LME49710 so both designs could have used that part. *grumbles*
+
+The notch filter requires on obscure part 67.3K Ohm resistors ideally in 1% or better tollerance. I resolved this issue by buying in large quantity.
+
+To simplify the front panel design and supply chain issues I used the same model switch for everything.
+
+The front panel twinaxial connector that is PCB mount and right angle is no longer manufactured. However it is still commonly available on the surplus market. The non-PCB mount version is also still common so you can buy those and solder wires to the PCB.
 
 ### Validation
 
