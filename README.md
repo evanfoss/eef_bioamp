@@ -173,7 +173,7 @@ Sch7 like Sch6 is exactly what it says.
 
 ## Printed Circuit Board Layout
 
-|<a href="photos/bioamp-art.png"><src alt="Image of the main BioAmp PCB rendered by the gerber viewer in neon colors." src="photos/bioamp-art.png"></a>
+|<a href="photos/bioamp-art.png"><img alt="Image of the main BioAmp PCB rendered by the gerber viewer in neon colors." src="photos/bioamp-art.png"></a>
 |:---------------
 |PCB1: Image exported from the gerber viewer of the main BioAmp circuit board layout
 
