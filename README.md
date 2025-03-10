@@ -149,20 +149,25 @@ U101 was selected using the same criteria as U20 on Sch1 as a result the same pa
 |:---------------
 |Sch4: Highpass filter lower frequency option
 
+Sch4 just optionally adds resistance in the integrator in Sch1 slowing down it's integration rate and lowering the input stage's highpass filter to 10Hz.
 
 |<a href="twinax_doc.png"><img alt="Schematic documenting the way twinaxial coax flips polarity from device to cable and back." src="twinax_doc.png"></a>
 |:---------------
 |Sch5: Twinaxial coax flips documented
 
+Sch5 just helps you understand the polarity of the signal as it goes through the twinaxial wiring.
 
 |<a href="rackpower.png"><img alt="Rack based power schematic." src="rackpower.png"></a>
 |:---------------
 |Sch6: Rack based power option
 
+Sch6 really is what it says.
 
 |<a href="batterypower.png"><img alt="Battery based power schematic." src="batterypower.png"></a>
 |:---------------
 |Sch7: Battery based power option
+
+Sch7 like Sch6 is exactly what it says.
 
 ### Packaging
 
