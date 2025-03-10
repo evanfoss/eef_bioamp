@@ -121,6 +121,8 @@ Sch1 also includes the insturmentation amplifier is U40, and it's gain limits it
 
 U40 was selected for it's ability to operate at high gain with relatively low noise, and a level of input offset that could be overcome with an integrator. 
 
+One more thing about U40. Although it has yet to happen I believe this is the part most likely to be toasted by static discharge as it is the most directly connected to the user touchable connections. This is why it's on a small SOIC to DIP adapter. It is a method of reducing downtime from repairs.
+
 The inverting integrator which acts as a low pass filter is built around U20. R20 and C20 set the time constant for the integration. R21 and the jumper over it are for adjusting this lower limit if the highpass filter adjustment option is installed. 
 
 U20 was selected for it's lower input bias current, low input offset voltage, and of course to drive a capacitive load.
