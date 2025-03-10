@@ -187,7 +187,7 @@ The BioAmp was designed with a few packaging options in mind. The image at the t
 
 |<a href="photos/IMG_0032-cropped.JPG"><img alt="Image of the combined front panel for the integrated bioamp with mic amp and equalizer." src="photos/IMG_0032-cropped.JPG"></a>
 |:---------------
-|Pic3: Front panel of an integrated device with a Mic Amp, Equalizer and BioAmp all in a U1 enclosure.
+|Pic3: Front panel of an integrated device with a <a href="https://github.com/evanfoss/eef_micamp">Mic Amp</a>, <a href="https://github.com/evanfoss/eef_equalizer">Equalizer</a> and BioAmp all in a U1 enclosure.
 
 That said I prefer the subrack module packaging shown at the opening of the readme in Pic1 because of the other modules that fit neetly in the subrack.
 
