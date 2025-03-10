@@ -103,6 +103,8 @@ The toolchain automation uses the following commands:
 
 ### Design
 
+## Circuit Design
+
 The diagram in Sch0 shows the overall design concept for the fancy version of the BioAmp. 
 
 |<a href="block/bioamp_block.png"><img alt="Block diagram of the fancy bioamp." src="block/bioamp_block.png"></a>
@@ -120,8 +122,6 @@ Sch1 shows the input filter composed of L40, L41, C40, C41, R42, and R43.
 Sch1 also includes the insturmentation amplifier is U40, and it's gain limits it's frequency response. The gain for this stage is set by R45 + R41. It has the usual capacitors sprinkled around it for power supply decoupling.
 
 U40 was selected for it's ability to operate at high gain with relatively low noise, and a level of input offset that could be overcome with an integrator. 
-
-One more thing about U40. Although it has yet to happen I believe this is the part most likely to be toasted by static discharge as it is the most directly connected to the user touchable connections. This is why it's on a small SOIC to DIP adapter. It is a method of reducing downtime from repairs.
 
 The inverting integrator which acts as a low pass filter is built around U20. R20 and C20 set the time constant for the integration. R21 and the jumper over it are for adjusting this lower limit if the highpass filter adjustment option is installed. 
 
@@ -170,6 +170,16 @@ Sch6 really is what it says.
 |Sch7: Battery based power option
 
 Sch7 like Sch6 is exactly what it says.
+
+## Printed Circuit Board Layout
+
+One more thing about U40. Although it has yet to happen I believe this is the part most likely to be toasted by static discharge as it is the most directly connected to the user touchable connections. This is why it's on a small SOIC to DIP adapter. It is a method of reducing downtime from repairs. 
+
+The layout was obviously designed to have the feedback paths as short as was reasonably possible. The decoupling capacitors were also kept close to the pins of the opamps they were meant to be near. Some effort was put into making sure the input side of the insturmentation amplifier was kept away from the rest of the design to avoid coupling anything over.
+
+I sprinkled in a liberal number of test points so that repairs and debuging would be easier. 
+
+The layout was drawn to be inside this size onvelope based on the packaging plan I had. For more on that see "Packaging".
 
 ### Packaging
 
@@ -241,7 +251,7 @@ Validation was done by me at home with a homemade attenuator and my HP35665A and
 
 ### Testing
 
-The use of an attenuator is required with the HP35665A as the input voltage range is so small all direct output settings from the DSA would be too large. The attenuator's issues could actually be the cause of the LPF 10Hz issue.
+The use of an attenuator is required with the HP35665A as the input voltage range is so small all direct output settings from the DSA (Dynamic Signal Analyzer) would be too large. The attenuator's issues could actually be the cause of the LPF 10Hz issue.
 
 Of the dozen or so units I made only a few were notably out of spec to the point where the capacitors (often tolleranced at 2% or better) needed to be swapped to meet requirements. This most commonly happened in the 60Hz notch filter where the parts exact rating doesn't matter as much as their matching which is harder to assure without an unreasonably high BOM price.
 
