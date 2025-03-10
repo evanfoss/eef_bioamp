@@ -173,6 +173,10 @@ Sch7 like Sch6 is exactly what it says.
 
 ## Printed Circuit Board Layout
 
+|<a href="photos/bioamp-art.png"><src alt="Image of the main BioAmp PCB rendered by the gerber viewer in neon colors." img="photos/bioamp-art.png"></a>
+|:---------------
+|PCB1: Image exported from the gerber viewer of the main BioAmp circuit board layout
+
 One more thing about U40. Although it has yet to happen I believe this is the part most likely to be toasted by static discharge as it is the most directly connected to the user touchable connections. This is why it's on a small SOIC to DIP adapter. It is a method of reducing downtime from repairs. 
 
 The layout was obviously designed to have the feedback paths as short as was reasonably possible. The decoupling capacitors were also kept close to the pins of the opamps they were meant to be near. Some effort was put into making sure the input side of the insturmentation amplifier was kept away from the rest of the design to avoid coupling anything over.
@@ -180,6 +184,10 @@ The layout was obviously designed to have the feedback paths as short as was rea
 I sprinkled in a liberal number of test points so that repairs and debuging would be easier. 
 
 The layout was drawn to be inside this size onvelope based on the packaging plan I had. For more on that see "Packaging".
+
+|<a href="photos/notchfilter-opt-art.png"><img alt="Image of the Notch Filter PCB rendered by the gerber viewer in neon colors." src="photos/notchfilter-opt-art.png"></a>|<a href="photos/highpass-opt-art.png"><img alt="Image of the High Pass Filter Adjustment Option PCB rendered by the gerber viewer in neon colors." src="photos/highpass-opt-art.png"></a>
+|:---------------                                   |:---------------
+|PCB2: Notch Filter Option PCB Layout.                     |PCB3: Low Pass Filter Adjustment Option PCB Layout.
 
 ### Packaging
 
