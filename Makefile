@@ -44,7 +44,7 @@ PCBS = bioamp-art.lht
 PCBS2 = notchfilter-opt-art.lht
 PCBS3 = highpass-opt-art.lht
 #Project Gerbers
-GERBERS = $(NAME)-art.fab.gbr $(NAME)-art.plated-drill.cnc $(NAME)-art.frontsilk.gbr $(NAME)-art.front.gbr $(NAME)-art.frontmask.gbr $(NAME)-art.back.gbr  $(NAME)-art.backmask.gbr
+GERBERS = oshpark/$(NAME)-art.fab oshpark/$(NAME)-art.xln oshpark/$(NAME)-art.ast oshpark/$(NAME)-art.gtp oshpark/$(NAME)-art.gts oshpark/$(NAME)-art.gko oshpark/$(NAME)-art.gtl oshpark/$(NAME)-art.gto oshpark/$(NAME)-art.gbp oshpark/$(NAME)-art.gbs oshpark/$(NAME)-art.gbl oshpark/$(NAME)-art.gbo oshpark/$(NAME)-art.asb
 GERBERS2 = $(NAME2)-art.fab.gbr $(NAME2)-art.plated-drill.cnc $(NAME2)-art.frontsilk.gbr $(NAME2)-art.front.gbr $(NAME2)-art.frontmask.gbr $(NAME2)-art.back.gbr  $(NAME2)-art.backmask.gbr
 GERBERS3 = $(NAME3)-art.fab.gbr $(NAME3)-art.plated-drill.cnc $(NAME3)-art.frontsilk.gbr $(NAME3)-art.front.gbr $(NAME3)-art.frontmask.gbr $(NAME3)-art.back.gbr  $(NAME3)-art.backmask.gbr
 
