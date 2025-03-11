@@ -1,4 +1,4 @@
-v 20200604 2
+v 20220529 2
 C 40000 40000 0 0 0 title-C.sym
 N 49500 49700 52000 49700 4
 N 45200 46700 46300 46700 4
@@ -182,7 +182,7 @@ T 58200 44100 5 10 1 1 0 6 1
 description=Al-Poly
 T 58200 44300 5 10 1 1 0 6 1
 value=22uF
-T 58200 43700 5 10 1 1 0 6 1
+T 58200 43900 5 10 1 1 0 6 1
 model-name=35SEPF22M+TSS
 }
 C 60800 44600 1 270 0 capacitor-2.sym
@@ -201,7 +201,7 @@ T 60700 44100 5 10 1 1 0 6 1
 description=Al-Poly
 T 60700 44300 5 10 1 1 0 6 1
 value=22uF
-T 60700 43700 5 10 1 1 0 6 1
+T 60700 43900 5 10 1 1 0 6 1
 model-name=35SEPF22M+TSS
 }
 C 52000 49000 1 0 0 LME49710.sym
@@ -353,3 +353,7 @@ Note: While it is possible to do R100
 supply chain management easier to 
 use 1 part 3 times than to source 2 
 parts.
+L 58700 43700 58300 44600 3 10 1 0 -1 -1
+L 58300 43700 58700 44600 3 10 1 0 -1 -1
+L 61200 43700 60800 44600 3 10 1 0 -1 -1
+L 60800 43700 61200 44600 3 10 1 0 -1 -1
