@@ -139,6 +139,8 @@ In Sch2 we also have the final output stage which is built around U10. It is set
 
 Once more to control noise the chassis ground is connected to the exterior of the switches S20 and S10 so that it can connect through them to the chassis.
 
+Grounding gets complicated. Every amplifier in the chamber would work best if it was the only place were chassis ground and analog common were connected. That connection improves performance but you can't do that because of the ground loops it would add. That is why I now believe the over all enclosure (subrack/multiamplifier chassis) *or* the most sensitive/critical amplifier should be where that connection happens. Following that logic the next best thing we can do for each amplifier is to add an RC bridge between chassis and analog common. The 2.7 Ohm resistor is enough that it's not technically a "loop" and also small enough that the safety of a possible split where ever the chassis / common connection won't put the user in an unsafe situation. (but that should *never* *ever* happen!) Everyone repeat after me "I will never unground a chamber."
+
 |<a href="notchfilter.png"><img alt="Notch filter option schematic." src="notchfilter.png"></a>
 |:---------------
 |Sch3: Notch filter option
