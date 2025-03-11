@@ -280,8 +280,8 @@ Of the dozen or so units I made only a few were notably out of spec to the point
 
 * 2025.03.11 - I noticed there were some parts that I have never deliberately stuffed on the PCB's so I revised the schematics.
 |<a href="photos/20250311-output-sch-revision.png"><img src="photos/20250311-output-sch-revision.png"></a>|<a href="photos/20250311-notchfilter-revision.png"><img src="photos/20250311-notchfilter-revision.png"></a>
-|:---------------                   |:---------------
-|ALT2: C48 is not to be stuffed     |ALT3: C152 & C153 are also not stuffed
+|:---------------                               |:---------------
+|ALT2: bioamp.sch C48 is not to be stuffed      |ALT3: notchfilter.sch C152 & C153 are also not stuffed
 
 ## Changelog
 
