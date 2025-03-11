@@ -268,7 +268,7 @@ Of the dozen or so units I made only a few were notably out of spec to the point
 * One unit destroyed when the user installed the batteries backwards frying most of the IC's inside. Additional labeling was added to the sides indicating battery alignment.
 * 3 Units (1 @ EPL, 1 @ _Unanmed_Biotech_Startup_, 1 @ Baylor) stopped operating until they were powered off and their inputs shorted temporarily. 
 
-2025.03.10 - Writing this documentation caused me to catch that I had listed the wrong composition for C40 & C41 in the BOM. Looking at that made me realize that the lockup issue was likely caused by those parts accumulating a charge. Normally the impedance to the refrence electrode would be on the order of 20K Ohms which should keep it discharged but I suspect over time charge is allowed to accumulate. I have a suggested correction.
+2025.03.10 - Writing this documentation caused me to catch that I had listed the wrong composition for C40 & C41 in the BOM. Looking at that made me realize that the lockup issue was likely caused by those parts accumulating a charge. Normally the impedance to the refrence electrode would be on the order of 20K Ohms which should keep it discharged but I suspect over time charge is allowed to accumulate. I have a suggested correction. I would prefer 1.1nF instead of 1.2nF (1.1nF would hold the -3dB point @ 7.2343 Hz vs 1.2nF which puts it at 6.6315 Hz) however 1.1nF parts are not commonly available.
 
 |<a href="photos/20250310-proposed change.png"><img alt="revised schematic" src="photos/20250310-proposed change.png"></a>
 |:---------------
