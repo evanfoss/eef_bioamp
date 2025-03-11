@@ -263,6 +263,19 @@ The use of an attenuator is required with the HP35665A as the input voltage rang
 
 Of the dozen or so units I made only a few were notably out of spec to the point where the capacitors (often tolleranced at 2% or better) needed to be swapped to meet requirements. This most commonly happened in the 60Hz notch filter where the parts exact rating doesn't matter as much as their matching which is harder to assure without an unreasonably high BOM price.
 
+### Maintence and Errata
+
+* One unit destroyed when the user installed the batteries backwards frying most of the IC's inside. Additional labeling was added to the sides indicating battery alignment.
+* 3 Units (1 @ EPL, 1 @ _Unanmed_Biotech_Startup_, 1 @ Baylor) stopped operating until they were powered off and their inputs shorted temporarily. 
+
+2025.03.10 - Writing this documentation caused me to catch that I had listed the wrong composition for C40 & C41 in the BOM. Looking at that made me realize that the lockup issue was likely caused by those parts accumulating a charge. Normally the impedance to the refrence electrode would be on the order of 20K Ohms which should keep it discharged but I suspect over time charge is allowed to accumulate. I have a suggested correction.
+
+|<a href="photos/20250310-proposed change.png"><img alt="" src="photos/20250310-proposed change.png"></a>
+|:---------------
+|ALT1: I am suggesting adding 2 more resistors before the input filter capacitors but after the inductors and changing the capacitors to PPS film (1.2nF) and the resistors 2M Ohm.
+
+Or we could just tell users to leave the + electrode in the 5 way - binding post top or vice versa between uses.
+
 ## Changelog
 
 ### Post EPL fork
@@ -270,6 +283,8 @@ Of the dozen or so units I made only a few were notably out of spec to the point
 2025.03.07 - Improved README.md with images of the schematics and some initial added text
 
 2025.03.08 - Rewritten notes into proper matlab/octave code for the BioAmp filter components
+
+2025.03.10 - Correction/Fix to bill of matterials (bom.txt) about C40, C41 composition. Now actually PPS film for reduced dielectric absorbtion.
 
 ## Future
 
