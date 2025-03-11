@@ -270,13 +270,14 @@ Of the dozen or so units I made only a few were notably out of spec to the point
 ### Maintence and Errata
 
 * 2021 - One unit destroyed when the user installed the batteries backwards frying most of the IC's inside. Additional labeling was added to the sides indicating battery alignment.
+* 2022 - Added extra footprint for alternative package size C66 to replace C61
 * 2025.03.10 - 3 Units (1 @ EPL, 1 @ _Unanmed_Biotech_Startup_, 1 @ Baylor) stopped operating until they were powered off and their inputs shorted temporarily.  Writing this documentation caused me to catch that I had listed the wrong composition for C40 & C41 in the BOM. Looking at that made me realize that the lockup issue was likely caused by those parts accumulating a charge. Normally the impedance to the refrence electrode would be on the order of 20K Ohms which should keep it discharged but I suspect over time charge is allowed to accumulate. I have a suggested correction. I would prefer 1.1nF instead of 1.2nF (1.1nF would hold the -3dB point @ 7.2343 Hz vs 1.2nF which puts it at 6.6315 Hz) however 1.1nF parts are not commonly available.
 
 |<a href="photos/20250310-proposed change.png"><img alt="revised schematic" src="photos/20250310-proposed change.png"></a>
 |:---------------
 |ALT1: I highlighted the changes. I am suggesting adding 2 more resistors before the input filter capacitors but after the inductors and changing the capacitors to PPS film (1.2nF) and the resistors 2M Ohm.
 
-   Or we could just tell users to leave the + electrode in the 5 way - binding post top or vice versa between uses.
+   Or we could just tell users to leave the + electrode in the 5 way - binding post top or vice versa between uses. As all three incidents happened multiple years into use this seems excessive.
 
 * 2025.03.11 - I noticed there were some parts that I have never deliberately stuffed on the PCB's so I revised the schematics.
 
@@ -287,6 +288,8 @@ Of the dozen or so units I made only a few were notably out of spec to the point
 ## Changelog
 
 ### Post EPL fork
+
+2022 - Revised output.sch to add extra footprint for 2nd package size of C66 to replace C61 if unavailable.
 
 2025.03.07 - Improved README.md with images of the schematics and some initial added text
 
