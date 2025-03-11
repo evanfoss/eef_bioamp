@@ -278,6 +278,7 @@ Of the dozen or so units I made only a few were notably out of spec to the point
 |ALT1: I highlighted the changes. I am suggesting adding 2 more resistors before the input filter capacitors but after the inductors and changing the capacitors to PPS film (1.2nF) and the resistors 2M Ohm.
 
    Or we could just tell users to leave the + electrode in the 5 way - binding post top or vice versa between uses. As all three incidents happened multiple years into use this seems excessive.
+   Another good option is to give users a small block of antistatic foam to squeeze between the 5 way binding posts and to tell them to insert the needles into that between uses.
 
 * 2025.03.11 - I noticed there were some parts that I have never deliberately stuffed on the PCB's so I revised the schematics.
 
