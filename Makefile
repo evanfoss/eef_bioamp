@@ -44,9 +44,9 @@ PCBS = bioamp-art.lht
 PCBS2 = notchfilter-opt-art.lht
 PCBS3 = highpass-opt-art.lht
 #Project Gerbers
-GERBERS = oshpark/$(NAME)-art.fab oshpark/$(NAME)-art.xln oshpark/$(NAME)-art.ast oshpark/$(NAME)-art.gtp oshpark/$(NAME)-art.gts oshpark/$(NAME)-art.gko oshpark/$(NAME)-art.gtl oshpark/$(NAME)-art.gto oshpark/$(NAME)-art.gbp oshpark/$(NAME)-art.gbs oshpark/$(NAME)-art.gbl oshpark/$(NAME)-art.gbo oshpark/$(NAME)-art.asb
-GERBERS2 = $(NAME2)-art.fab.gbr $(NAME2)-art.plated-drill.cnc $(NAME2)-art.frontsilk.gbr $(NAME2)-art.front.gbr $(NAME2)-art.frontmask.gbr $(NAME2)-art.back.gbr  $(NAME2)-art.backmask.gbr
-GERBERS3 = $(NAME3)-art.fab.gbr $(NAME3)-art.plated-drill.cnc $(NAME3)-art.frontsilk.gbr $(NAME3)-art.front.gbr $(NAME3)-art.frontmask.gbr $(NAME3)-art.back.gbr  $(NAME3)-art.backmask.gbr
+GERBERS = oshpark/$(NAME)-art.fab oshpark/$(NAME)-art.xln oshpark/$(NAME)-art.ast oshpark/$(NAME)-art.gto oshpark/$(NAME)-art.gtp oshpark/$(NAME)-art.gtl oshpark/$(NAME)-art.gko oshpark/$(NAME)-art.gts oshpark/$(NAME)-art.gbp oshpark/$(NAME)-art.gbs oshpark/$(NAME)-art.gbl oshpark/$(NAME)-art.gbo oshpark/$(NAME)-art.asb
+GERBERS2 = oshpark2/$(NAME2)-opt-art.fab oshpark2/$(NAME2)-opt-art.xln oshpark2/$(NAME2)-opt-art.ast oshpark2/$(NAME2)-opt-art.gto oshpark2/$(NAME2)-opt-art.gtp oshpark2/$(NAME2)-opt-art.gtl oshpark2/$(NAME2)-opt-art.gko oshpark2/$(NAME2)-opt-art.gts oshpark2/$(NAME2)-opt-art.gbp oshpark2/$(NAME2)-opt-art.gbs oshpark2/$(NAME2)-opt-art.gbl oshpark2/$(NAME2)-opt-art.gbo oshpark2/$(NAME2)-opt-art.asb
+GERBERS3 = oshpark3/$(NAME3)-opt-art.fab oshpark3/$(NAME3)-opt-art.xln oshpark3/$(NAME3)-opt-art.ast oshpark2/$(NAME3)-opt-art.gto oshpark3/$(NAME3)-opt-art.gtp oshpark3/$(NAME3)-opt-art.gtl oshpark3/$(NAME3)-opt-art.gko oshpark3/$(NAME3)-opt-art.gts oshpark3/$(NAME3)-opt-art.gbp oshpark3/$(NAME3)-opt-art.gbs oshpark3/$(NAME3)-opt-art.gbl oshpark3/$(NAME3)-opt-art.gbo oshpark3/$(NAME3)-opt-art.asb
 
 
 #
