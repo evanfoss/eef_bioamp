@@ -125,7 +125,7 @@ U40 was selected for it's ability to operate at high gain with relatively low no
 
 The inverting integrator which acts as a low pass filter is built around U20. R20 and C20 set the time constant for the integration. R21 and the jumper over it are for adjusting this lower limit if the highpass filter adjustment option is installed. 
 
-U20 was selected for it's lower input bias current, low input offset voltage, and of course to drive a capacitive load.
+U20 was selected for it's lower input bias current, low input offset voltage, and of course to drive a capacitive load. C20's composition was selected for low dielectric absorbtion. The same reasoning was used for C40, and C41. Dielectric absorbtion in C20 would lead the integrator to drifting and in C40 or C41 it would lead to the input stage having issues with input bias voltage.
 
 |<a href="output.png"><img alt="Bioamp output stage schematic." src="output.png"></a>
 |:---------------
