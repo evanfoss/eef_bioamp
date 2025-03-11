@@ -270,7 +270,7 @@ Of the dozen or so units I made only a few were notably out of spec to the point
 
 2025.03.10 - Writing this documentation caused me to catch that I had listed the wrong composition for C40 & C41 in the BOM. Looking at that made me realize that the lockup issue was likely caused by those parts accumulating a charge. Normally the impedance to the refrence electrode would be on the order of 20K Ohms which should keep it discharged but I suspect over time charge is allowed to accumulate. I have a suggested correction.
 
-|<a href="photos/20250310-proposed change.png"><img alt="" src="photos/20250310-proposed change.png"></a>
+|<a href="photos/20250310-proposed\ change.png"><img alt="revised schematic" src="photos/20250310-proposed\ change.png"></a>
 |:---------------
 |ALT1: I am suggesting adding 2 more resistors before the input filter capacitors but after the inductors and changing the capacitors to PPS film (1.2nF) and the resistors 2M Ohm.
 
