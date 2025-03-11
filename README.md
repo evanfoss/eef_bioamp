@@ -171,7 +171,7 @@ Sch6 really is what it says.
 |:---------------
 |Sch7: Battery based power option
 
-Sch7 like Sch6 is exactly what it says.
+Sch7 like Sch6 is exactly what it says. The one complication is that as this is the "only device" on this power supply it has to be where the analog common and chassis ground are connected.
 
 ## Printed Circuit Board Layout
 
