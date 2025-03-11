@@ -298,6 +298,8 @@ Of the dozen or so units I made only a few were notably out of spec to the point
 
 2025.03.10 - Correction/Fix to bill of matterials (bom.txt) about C40, C41 composition. Now actually PPS film for reduced dielectric absorbtion.
 
+2025.03.11 - Added documentation in errata & fixed automatic gerber export
+
 ## Future
 
 * Migration off the old gsch2pcb-rnd script which is depreciated in modern releases of pcb-rnd
