@@ -127,6 +127,9 @@ Dual 9V Power Supply - Wire Harness
 1				Digikey					22AWG		Wire Green
 1				Digikey					22AWG		Wire White
 
-
+Spair Parts
+1	464900201		Digikey		CKN10315-ND	10-48 Nut		T101MHAVBE HDWR SW HEXNUT 10-48 BUSHING 
+1	465000201		Digikey		CKN10313-ND	10-48 Bushing		T101MHAVBE SPST Switch Locking Ring (anti-rotation)
+1	465200202		Digikey		CKN10314-ND	10-48 Lockwasher	T101MHAVBE HDWR SW LOCK WASHR 10-48 BUSHING 
 
 
